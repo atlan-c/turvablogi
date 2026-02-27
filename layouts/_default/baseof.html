@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
+    <nav><a href="/posts/">Postaukset</a></nav>
+  </header>
+  <main>{{ block "main" . }}{{ end }}</main>
+  <footer><small>© {{ now.Year }} {{ .Site.Params.author }}</small></footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "fi-FI"
+title = "Turvablogi"
+defaultContentLanguage = "fi"
+enableRobotsTXT = true
+
+[params]
+  description = "Turvallisuus edellä rakennettu staattinen blogi"
+  author = "Atlan"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false

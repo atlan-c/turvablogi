@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h2>Uusimmat postaukset</h2>
+<ul>
+{{ range first 10 (where .Site.RegularPages "Section" "posts") }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>{{ .Date.Format "2006-01-02" }}</small></li>
+{{ end }}
+</ul>
+{{ end }}
