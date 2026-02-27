@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://atlan-c.github.io/turvablogi/"
 languageCode = "fi-FI"
 title = "Turvablogi"
 defaultContentLanguage = "fi"
