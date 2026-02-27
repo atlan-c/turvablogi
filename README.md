@@ -65,3 +65,5 @@ Push `main`-haaraan käynnistää automaattisen deployn.
 1. GitHub-repon luonti / oikeudet
 2. Pages-julkaisun aktivointi
 3. (Valinnainen) Cloudflare-domainin DNS-valtuutus
+
+
