@@ -6,7 +6,7 @@
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
   <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ "style.css" | relURL }}">
 </head>
 <body>
   <header>
