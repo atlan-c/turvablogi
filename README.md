@@ -21,6 +21,19 @@ PowerShell:
 ./scripts/new-post.ps1 -Title "Oma otsikko"
 ```
 
+## Julkaisurutiini (suositus)
+
+1. Luo postaus:
+   ```powershell
+   ./scripts/new-post.ps1 -Title "Otsikko"
+   ```
+2. Julkaise yhdellä komennolla:
+   ```powershell
+   ./scripts/publish.ps1 -Message "Uusi postaus"
+   ```
+
+Push `main`-haaraan käynnistää automaattisen deployn.
+
 ## Deploy tuotantoon
 
 ### Vaihtoehto A: GitHub Pages (automaattinen)
@@ -43,6 +56,7 @@ PowerShell:
 
 ## Mitä minä voin ylläpitää
 - sisällön julkaisuputki
+- automaattinen post-deploy health check (varmistaa että sivu vastaa)
 - viikoittaiset health-checkit
 - riippuvuuksien päivitys PR-mallilla
 - turvallisuusasetusten jatkuva tarkistus
