@@ -40,7 +40,7 @@ Push `main`-haaraan käynnistää automaattisen deployn.
 1. Luo GitHub-repo tästä kansiosta
 2. Push `main`-haaraan
 3. GitHub: Settings → Pages → Source: GitHub Actions
-4. Workflow `deploy-github-pages.yml` julkaisee automaattisesti
+4. Workflow `hugo.yml` ("Deploy Hugo site to Pages") julkaisee automaattisesti
 
 ### Vaihtoehto B: Cloudflare Pages
 - Luo Pages-projekti ja linkitä repo

@@ -2,7 +2,7 @@ name: Post-deploy health check
 
 on:
   workflow_run:
-    workflows: ["Deploy Hugo to GitHub Pages", "Deploy Hugo site to Pages"]
+    workflows: ["Deploy Hugo site to Pages"]
     types: [completed]
 
 jobs:
