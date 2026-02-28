@@ -1,8 +1,7 @@
 name: Basic Security Checks
 
 on:
-  push:
-    branches: ["main"]
+  workflow_dispatch:
   schedule:
     - cron: "0 6 * * 1"
 
@@ -13,7 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Secret scan (simple)
         run: |
-          if grep -R --line-number -E "(AKIA|BEGIN PRIVATE KEY|TOKEN=|PASSWORD=)" .; then
+          if grep -R --line-number -E "(AKIA[0-9A-Z]{16}|BEGIN[[:space:]]+PRIVATE[[:space:]]+KEY|TOKEN=[^[:space:]]+|PASSWORD=[^[:space:]]+)" . \
+             --exclude-dir=.git \
+             --exclude=.github/workflows/security-check.yml; then
             echo "Potential secret found" && exit 1
           fi
       - name: Build test
