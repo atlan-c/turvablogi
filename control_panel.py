@@ -75,6 +75,8 @@ if st.button("Julkaise nyt"):
         st.error("Et ole main-haarassa. Vaihda ensin mainiin.")
     elif code == 4:
         st.error("Rebase epäonnistui. Tarkista mahdolliset konfliktit Gitissä.")
+    elif code == 5:
+        st.error("Laatutarkistus epäonnistui (esim. puuttuvat lähteet/toisto). Katso loki.")
     else:
         st.error("Julkaisu epäonnistui.")
     st.code(out)

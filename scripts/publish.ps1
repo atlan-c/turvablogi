@@ -20,6 +20,12 @@ if (-not $hasChanges) {
   exit 0
 }
 
+python tools/pre_publish_check.py --staged
+if ($LASTEXITCODE -ne 0) {
+  Write-Error "Pre-publish quality check failed."
+  exit 5
+}
+
 git commit -m $Message
 if ($LASTEXITCODE -ne 0) {
   Write-Error "Commit failed."
@@ -38,5 +44,6 @@ if ($LASTEXITCODE -ne 0) {
   exit 2
 }
 
+python tools/pre_publish_check.py --update-state | Out-Null
 Write-Host "Published to main. GitHub Actions will deploy automatically."
 exit 0

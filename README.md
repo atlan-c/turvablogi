@@ -47,9 +47,11 @@ Helppo moodi (vain `main`-haarassa):
 
 `publish.ps1` tekee nyt:
 - branch-tarkistuksen (pitää olla `main`)
+- pre-publish laatutarkistuksen (`tools/pre_publish_check.py --staged`)
 - commit
 - `git pull --rebase origin main`
 - push
+- päivittää editorial-tilan (`data/editorial_state.json`)
 
 ## Deploy tuotantoon
 
@@ -71,6 +73,16 @@ Helppo moodi (vain `main`-haarassa):
 - Dokumentaatio: `docs/watchlist.md`
 
 Tätä listaa voi käyttää postausaiheiden rotaation ja lähdevalintojen monipuolistamiseen.
+
+## Editorial state + laatuportti
+
+- Tiedosto `data/editorial_state.json` säilyttää viimeisimmän postauksen metatietoa (otsikkorakenne, intro-hash, lähdedomaanit).
+- Skripti `tools/pre_publish_check.py` tarkistaa ennen julkaisua mm.:
+  - frontmatter-kentät
+  - minimisisällön
+  - pakollisen `## Lähteet`-osion
+  - vähintään 2 lähde-URLia
+  - toiston eston (otsikkorakenne + aloituskappale)
 
 ## Turvallisuussuositukset
 - Ota GitHub-tilille 2FA
