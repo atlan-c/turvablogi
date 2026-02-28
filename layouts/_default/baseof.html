@@ -10,8 +10,7 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a></h1>
-    <nav><a href="{{ "/posts/" | relLangURL }}">Postaukset</a></nav>
+    <h1>Blog</h1>
   </header>
   <main>{{ block "main" . }}{{ end }}</main>
   <footer><small>© {{ now.Year }} {{ .Site.Params.author }}</small></footer>
