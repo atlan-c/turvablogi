@@ -1,0 +1,16 @@
+name,category,platform,focus_tags,why_follow
+Andrej Karpathy,AI-rakentaminen,X,"llm-basics;model-thinking;practical-ml",Selkeä käytännön tapa selittää LLM-ajattelua
+Sebastian Raschka,AI-rakentaminen,Substack/GitHub,"llm-tutorials;evaluation;fine-tuning",Konkreettisia oppaita ja benchmark-ajattelua
+Georgi Gerganov (llama.cpp),Local AI,GitHub,"llama.cpp;quantization;cpu-inference",Paikallisen inferenssin ydinkehitys
+Ollama (tiimi),Local AI,GitHub/Blog,"ollama;local-workflow;model-packaging",Helppo local AI -workflow
+vLLM (projekti),Inference,GitHub,"serving;inference-speed;memory-efficiency",Nopea palvelininferenssi
+NVIDIA Developer/Newsroom,AI-laitteisto,Blog/RSS,"gpu;cuda;tensor-core;ai-infra",Merkittävät GPU-uutiset ja infra-suunnat
+AMD ROCm,AI-laitteisto,GitHub/Blog,"rocm;amd-gpu;open-ecosystem",AMD AI -pinon kehitys käytännössä
+ServeTheHome (Patrick Kennedy),Rauta-analyysi,Site/YouTube,"server-builds;ai-hardware;homelab;tco",Realistinen rauta-analyysi ilman hypeä
+Level1Techs / Wendell,Rauta/Linux,YouTube/Forum,"workstation;linux-ai;pci-passthrough",Syvä tekninen näkökulma workstationeihin
+Jeff Geerling,Homelab,YouTube/Blog,"homelab;edge-ai;maker-hardware",Käytännölliset kotilabra-ratkaisut
+Troy Hunt,Tietoturva,Blog/X,"breach;credential-hygiene;security-practice",Selkeät turvallisuusopit käytännön tasolla
+Bruce Schneier,Tietoturva-ajattelu,Blog,"security-strategy;policy;ai-risk",Strateginen näkökulma riskeihin
+OWASP GenAI Security,AppSec,Docs/GitHub,"llm-security;prompt-injection;appsec",Ajantasaiset sovellusturvan käytännöt
+Google Project Zero,Haavoittuvuudet,Blog,"vuln-research;exploit-techniques",Tekninen haavoittuvuusanalyysi
+MSRC,Tietoturvapäivitykset,Blog,"patch-trends;security-updates;enterprise-risk",Korjaus- ja uhkatrendit

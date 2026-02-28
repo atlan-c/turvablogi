@@ -14,6 +14,22 @@ Tämä projekti on turvallisuus edellä rakennettu staattinen blogi:
    ```
 3. Avaa `http://localhost:1313`
 
+## Selkokielinen wrapperi (ohjauspaneeli)
+
+Aja projektin juuressa:
+
+```bash
+python -m streamlit run control_panel.py
+```
+
+Paneelissa on napit:
+- Luo postaus
+- Testaa build
+- Julkaise tuotantoon (helppo moodi)
+- Tarkista että live-sivu vastaa
+- Avaa Actions
+- Näytä seurattavat henkilöt ja aiheet
+
 ## Uusi postaus
 
 PowerShell:
@@ -23,16 +39,17 @@ PowerShell:
 
 ## Julkaisurutiini (suositus)
 
-1. Luo postaus:
-   ```powershell
-   ./scripts/new-post.ps1 -Title "Otsikko"
-   ```
-2. Julkaise yhdellä komennolla:
-   ```powershell
-   ./scripts/publish.ps1 -Message "Uusi postaus"
-   ```
+Helppo moodi (vain `main`-haarassa):
 
-Push `main`-haaraan käynnistää automaattisen deployn.
+```powershell
+./scripts/publish.ps1 -Message "Uusi postaus"
+```
+
+`publish.ps1` tekee nyt:
+- branch-tarkistuksen (pitää olla `main`)
+- commit
+- `git pull --rebase origin main`
+- push
 
 ## Deploy tuotantoon
 
@@ -48,6 +65,13 @@ Push `main`-haaraan käynnistää automaattisen deployn.
 - Output directory: `public`
 - `_headers` tiedosto lisää turvallisuusheaderit
 
+## Seurantalista (AI + rauta + tietoturva)
+
+- CSV: `data/people_watchlist.csv`
+- Dokumentaatio: `docs/watchlist.md`
+
+Tätä listaa voi käyttää postausaiheiden rotaation ja lähdevalintojen monipuolistamiseen.
+
 ## Turvallisuussuositukset
 - Ota GitHub-tilille 2FA
 - Käytä branch protectionia (`main`)
@@ -60,10 +84,3 @@ Push `main`-haaraan käynnistää automaattisen deployn.
 - viikoittaiset health-checkit
 - riippuvuuksien päivitys PR-mallilla
 - turvallisuusasetusten jatkuva tarkistus
-
-## Seuraavat 3 hyväksyntää sinulta
-1. GitHub-repon luonti / oikeudet
-2. Pages-julkaisun aktivointi
-3. (Valinnainen) Cloudflare-domainin DNS-valtuutus
-
-

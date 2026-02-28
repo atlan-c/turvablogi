@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import csv
 import shutil
 import subprocess
 from pathlib import Path
@@ -10,9 +11,11 @@ import streamlit as st
 ROOT = Path(__file__).parent
 SITE_URL = "https://atlan-c.github.io/turvablogi/"
 ACTIONS_URL = "https://github.com/atlan-c/turvablogi/actions"
+WATCHLIST_CSV = ROOT / "data" / "people_watchlist.csv"
 
 st.set_page_config(page_title="Turvablogi-ohjauspaneeli", layout="centered")
 st.title("Turvablogi – selkokielinen ohjauspaneeli")
+st.success("Tila: Helppo (PR-vaiheet piilotettu)")
 
 
 def run_cmd(cmd: list[str]):
@@ -28,6 +31,13 @@ def find_hugo() -> str:
     if winget_hugo.exists():
         return str(winget_hugo)
     return "hugo"
+
+
+def load_watchlist() -> list[dict]:
+    if not WATCHLIST_CSV.exists():
+        return []
+    with WATCHLIST_CSV.open("r", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
 
 
 st.subheader("1) Luo uusi postaus")
@@ -51,33 +61,23 @@ if st.button("Aja build (hugo --minify)"):
 
 st.subheader("3) Julkaise tuotantoon")
 publish_msg = st.text_input("Commit-viesti", value="Uusi postaus")
-mode = st.radio("Julkaisutapa", ["Suora push mainiin", "Suojattu tapa: branch + PR-linkki"], index=1)
+st.caption("Julkaisumoodi: Suora push mainiin")
 if st.button("Julkaise nyt"):
-    if mode == "Suora push mainiin":
-        code, out = run_cmd([
-            "powershell", "-ExecutionPolicy", "Bypass", "-File",
-            str(ROOT / "scripts" / "publish.ps1"), "-Message", publish_msg,
-        ])
-        if code == 0:
-            st.success("Julkaisu onnistui. GitHub Actions hoitaa deployn.")
-        elif code == 2:
-            st.error("Push estettiin (branch protection). Käytä branch + PR -tapaa.")
-        else:
-            st.error("Julkaisu epäonnistui.")
-        st.code(out)
+    code, out = run_cmd([
+        "powershell", "-ExecutionPolicy", "Bypass", "-File",
+        str(ROOT / "scripts" / "publish.ps1"), "-Message", publish_msg,
+    ])
+    if code == 0:
+        st.success("Julkaisu onnistui. GitHub Actions hoitaa deployn.")
+    elif code == 2:
+        st.error("Push estettiin tai epäonnistui.")
+    elif code == 3:
+        st.error("Et ole main-haarassa. Vaihda ensin mainiin.")
+    elif code == 4:
+        st.error("Rebase epäonnistui. Tarkista mahdolliset konfliktit Gitissä.")
     else:
-        code, out = run_cmd([
-            "powershell", "-ExecutionPolicy", "Bypass", "-File",
-            str(ROOT / "scripts" / "publish-pr.ps1"), "-Message", publish_msg,
-        ])
-        if code == 0:
-            st.success("Branch push onnistui. Avaa PR-linkki lokista.")
-            lines = [ln for ln in out.splitlines() if "Open PR URL:" in ln]
-            if lines:
-                st.link_button("Avaa PR", lines[-1].replace("Open PR URL:", "").strip())
-        else:
-            st.error("Branch/PR-julkaisu epäonnistui.")
-        st.code(out)
+        st.error("Julkaisu epäonnistui.")
+    st.code(out)
 
 st.subheader("4) Tarkista että sivu on live")
 col1, col2 = st.columns(2)
@@ -96,7 +96,21 @@ if st.button("Tarkista live-sivu"):
     except Exception as e:
         st.error(f"Tarkistus epäonnistui: {e}")
 
-st.subheader("5) Tilannekuva")
+st.subheader("5) Seurattavat henkilöt ja aiheet")
+watch = load_watchlist()
+if watch:
+    categories = sorted({r.get("category", "") for r in watch if r.get("category")})
+    selected = st.multiselect("Suodata kategoriat", categories, default=categories)
+    for row in watch:
+        if row.get("category") not in selected:
+            continue
+        st.markdown(f"**{row['name']}** — {row['category']}")
+        st.caption(f"Platform: {row['platform']} | Tagit: {row['focus_tags']}")
+        st.write(row["why_follow"])
+else:
+    st.info("Seurantalistaa ei löytynyt vielä.")
+
+st.subheader("6) Tilannekuva")
 if st.button("Näytä git status"):
     _, out = run_cmd(["git", "status", "-sb"])
     st.code(out)
