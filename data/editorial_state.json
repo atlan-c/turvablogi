@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-03-15-1015-paikallinen-llm-pitka-konteksti-kv-cache.md",
-  "last_title": "Paikallinen LLM pitkällä kontekstilla: milloin KV-cache kannattaa kvantisoida?",
-  "last_title_shape": "paikallinen llm pitkällä kontekstilla",
-  "last_intro_hash": "954699245ef66fd73fadd3cfa674a47ac69032b35a610879c8ad9744b82a5d14",
+  "last_post": "content/posts/2026-03-17-1015-kannattaako-24gt-vram-paikalliselle-llm.md",
+  "last_title": "Kannattaako 24 Gt VRAM paikalliselle LLM-harrastajalle vuonna 2026?",
+  "last_title_shape": "kannattaako gt vram paikalliselle",
+  "last_intro_hash": "8b29c3acb4edafecea92609ac6e65185dd10d526088180c22bc347659d5b4138",
   "last_sources_domains": [
     "docs.ollama.com",
     "github.com",
     "huggingface.co"
   ],
-  "updated_at": "2026-03-16T10:16:27+02:00"
+  "updated_at": "2026-03-16T10:16:46+02:00"
 }
