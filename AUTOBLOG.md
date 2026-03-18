@@ -26,7 +26,7 @@ Avoid:
    - include at least 2 source URLs
    - make it practical and readable, not hypey
 5. Run the repo checks:
-   - `python tools/pre_publish_check.py --staged` after staging the post
+   - `python3 tools/pre_publish_check.py --staged` after staging the post
    - if needed, run `hugo --minify` if Hugo exists
 6. If checks pass, commit and push to `main`.
 7. GitHub Actions will publish automatically.
@@ -60,7 +60,7 @@ Create/edit the post, then:
 
 ```bash
 git add content/posts/*.md
-python tools/pre_publish_check.py --staged
+python3 tools/pre_publish_check.py --staged
 ```
 
 If checks pass, also update editorial state and publish:
@@ -70,7 +70,7 @@ git add data/editorial_state.json || true
 git commit -m "Add Finnish AI blog update post"
 git pull --rebase origin main
 git push origin main
-python tools/pre_publish_check.py --update-state || true
+python3 tools/pre_publish_check.py --update-state || true
 ```
 
 If `git push` fails because credentials are missing, stop and report the failure in the session instead of looping.
