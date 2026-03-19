@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-03-17-1015-kannattaako-24gt-vram-paikalliselle-llm.md",
-  "last_title": "Kannattaako 24 Gt VRAM paikalliselle LLM-harrastajalle vuonna 2026?",
-  "last_title_shape": "kannattaako gt vram paikalliselle",
-  "last_intro_hash": "8b29c3acb4edafecea92609ac6e65185dd10d526088180c22bc347659d5b4138",
+  "last_post": "content/posts/2026-03-19-1015-kannattaako-kaytetty-rtx-3090-paikalliselle-llm-koneelle.md",
+  "last_title": "Kannattaako käytetty RTX 3090 vielä paikalliselle LLM-harrastajalle vuonna 2026?",
+  "last_title_shape": "kannattaako käytetty rtx vielä",
+  "last_intro_hash": "280ac37115ed6b31c1be817ad0def70bd1662eb37ea3fc53d1945354f17d0467",
   "last_sources_domains": [
     "docs.ollama.com",
     "github.com",
-    "huggingface.co"
+    "huggingface.co",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-03-16T10:16:46+02:00"
+  "updated_at": "2026-03-18T15:24:55+02:00"
 }
