@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-03-19-1015-kannattaako-kaytetty-rtx-3090-paikalliselle-llm-koneelle.md",
-  "last_title": "Kannattaako käytetty RTX 3090 vielä paikalliselle LLM-harrastajalle vuonna 2026?",
-  "last_title_shape": "kannattaako käytetty rtx vielä",
-  "last_intro_hash": "280ac37115ed6b31c1be817ad0def70bd1662eb37ea3fc53d1945354f17d0467",
+  "last_post": "content/posts/2026-03-20-1015-ai-rauta-paikallisessa-llm-koneessa-ssd-vs-vram.md",
+  "last_title": "AI-rauta kotilabrassa: nopea SSD ei yleensä nopeuta paikallista LLM:ää niin paljon kuin luulet",
+  "last_title_shape": "ai-rauta kotilabrassa nopea ssd",
+  "last_intro_hash": "51513df229fc1d21c41bf74f0f5359e02870abc82bc81acbd4db1382f358ade3",
   "last_sources_domains": [
     "docs.ollama.com",
-    "github.com",
-    "huggingface.co",
-    "www.nvidia.com"
+    "github.com"
   ],
-  "updated_at": "2026-03-18T15:24:55+02:00"
+  "updated_at": "2026-03-20T10:17:09+02:00"
 }
