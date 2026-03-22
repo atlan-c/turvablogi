@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-03-20-1015-ai-rauta-paikallisessa-llm-koneessa-ssd-vs-vram.md",
-  "last_title": "AI-rauta kotilabrassa: nopea SSD ei yleensä nopeuta paikallista LLM:ää niin paljon kuin luulet",
-  "last_title_shape": "ai-rauta kotilabrassa nopea ssd",
-  "last_intro_hash": "51513df229fc1d21c41bf74f0f5359e02870abc82bc81acbd4db1382f358ade3",
+  "last_post": "content/posts/2026-03-21-1015-paikallinen-llm-kaytannossa-mita-kvantisointi-oikeasti-tarkoittaa.md",
+  "last_title": "Paikallinen LLM käytännössä: mitä kvantisointi oikeasti tarkoittaa harrastajalle?",
+  "last_title_shape": "paikallinen llm käytännössä mitä",
+  "last_intro_hash": "7c16e291226982e5656f27b0a0370a6fac851f5d45e61071d66ab592afed6770",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "github.com",
+    "huggingface.co"
   ],
-  "updated_at": "2026-03-20T10:17:09+02:00"
+  "updated_at": "2026-03-21T10:16:49+02:00"
 }
