@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-03-21-1015-paikallinen-llm-kaytannossa-mita-kvantisointi-oikeasti-tarkoittaa.md",
-  "last_title": "Paikallinen LLM käytännössä: mitä kvantisointi oikeasti tarkoittaa harrastajalle?",
-  "last_title_shape": "paikallinen llm käytännössä mitä",
-  "last_intro_hash": "7c16e291226982e5656f27b0a0370a6fac851f5d45e61071d66ab592afed6770",
+  "last_post": "content/posts/2026-03-22-1015-mita-ecc-muisti-tarkoittaa-paikalliselle-llm-koneelle.md",
+  "last_title": "Mitä ECC-muisti tarkoittaa paikalliselle LLM-koneelle harrastajalle?",
+  "last_title_shape": "mitä ecc-muisti tarkoittaa paikalliselle",
+  "last_intro_hash": "1c3fc3d779533b9926e126144292c5b32460cc2e84d9c6edacdefff0d32b6ecc",
   "last_sources_domains": [
-    "github.com",
-    "huggingface.co"
+    "docs.nvidia.com",
+    "en.wikipedia.org",
+    "www.memtest86.com"
   ],
-  "updated_at": "2026-03-21T10:16:49+02:00"
+  "updated_at": "2026-03-22T10:16:44+02:00"
 }
