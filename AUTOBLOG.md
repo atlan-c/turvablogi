@@ -26,7 +26,8 @@ Avoid:
 3. Do lightweight web research for one narrow topic that is timely *or* evergreen-useful within the required family.
 4. Write one complete Finnish post as markdown in `content/posts/`.
 4. Requirements:
-   - frontmatter must include `title`, `date`, `draft: false`
+   - frontmatter must include `title`, `date`, `draft: false`, `topic_family`
+   - `topic_family` must be exactly `openclaw` or `llm-hardware`
    - body length should clearly exceed the repo minimum
    - include `## Lähteet`
    - include at least 2 source URLs

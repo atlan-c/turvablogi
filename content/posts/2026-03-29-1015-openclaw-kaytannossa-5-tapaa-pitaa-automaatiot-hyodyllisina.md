@@ -2,6 +2,7 @@
 title: "OpenClaw käytännössä: 5 tapaa pitää automaatiot hyödyllisinä"
 date: 2026-03-29T10:15:00+02:00
 draft: false
+topic_family: openclaw
 ---
 OpenClawin kanssa houkutus on sama kuin monessa muussakin agenttityökalussa: kun cronit, heartbeatit, sessiot ja työkalut ovat käsillä, kaikkea tekisi mieli automatisoida heti. Käytännössä paras käyttökokemus tulee kuitenkin yleensä päinvastaisesta suunnasta. **Kevyt, rajattu ja hyvin eroteltu käyttö toimii paremmin kuin “laitetaan kaikki päälle” -malli.**
 

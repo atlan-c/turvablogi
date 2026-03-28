@@ -87,11 +87,13 @@ def validate_sources(body: str) -> tuple[bool, str]:
 def validate_post(post: ParsedPost) -> list[str]:
     errors: list[str] = []
     fm = post.frontmatter
-    for key in ["title", "date", "draft"]:
+    for key in ["title", "date", "draft", "topic_family"]:
         if key not in fm:
             errors.append(f"Frontmatter-kenttä puuttuu: {key}")
     if fm.get("draft", "").lower() not in {"false", "0", "no"}:
         errors.append("draft pitää olla false")
+    if fm.get("topic_family", "") not in {"openclaw", "llm-hardware"}:
+        errors.append("topic_family pitää olla joko 'openclaw' tai 'llm-hardware'")
 
     if len(post.body) < 450:
         errors.append("Sisältö on liian lyhyt (min 450 merkkiä)")
@@ -103,7 +105,9 @@ def validate_post(post: ParsedPost) -> list[str]:
     state = load_state()
     cur_family = infer_topic_family(post)
     last_family = state.get("last_topic_family")
-    if last_family and cur_family == last_family:
+    last_post = state.get("last_post")
+    cur_relpath = str(post.path.relative_to(ROOT))
+    if last_family and cur_family == last_family and last_post != cur_relpath:
         errors.append("Aiheperhe toistaa edellisen postauksen; vuorottelun pitää vaihtua")
 
     # compare with recent posts to avoid repetition
@@ -139,6 +143,10 @@ def extract_sources_domains(body: str) -> list[str]:
 
 
 def infer_topic_family(post: ParsedPost) -> str:
+    explicit = post.frontmatter.get("topic_family", "").strip()
+    if explicit in {"openclaw", "llm-hardware"}:
+        return explicit
+
     text = " ".join(
         [
             post.path.name.lower(),
