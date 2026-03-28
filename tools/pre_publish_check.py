@@ -100,6 +100,12 @@ def validate_post(post: ParsedPost) -> list[str]:
     if not ok:
         errors.append(msg)
 
+    state = load_state()
+    cur_family = infer_topic_family(post)
+    last_family = state.get("last_topic_family")
+    if last_family and cur_family == last_family:
+        errors.append("Aiheperhe toistaa edellisen postauksen; vuorottelun pitää vaihtua")
+
     # compare with recent posts to avoid repetition
     cur_title_shape = title_shape(fm.get("title", ""))
     cur_intro = first_paragraph(post.body)
@@ -132,14 +138,40 @@ def extract_sources_domains(body: str) -> list[str]:
     return sorted(set(domains))
 
 
+def infer_topic_family(post: ParsedPost) -> str:
+    text = " ".join(
+        [
+            post.path.name.lower(),
+            post.frontmatter.get("title", "").lower(),
+            post.body.lower(),
+            " ".join(extract_sources_domains(post.body)),
+        ]
+    )
+    openclaw_markers = [
+        "openclaw",
+        "heartbeat",
+        "cron",
+        "session",
+        "topic/thread",
+        "docs.openclaw.ai",
+    ]
+    if any(marker in text for marker in openclaw_markers):
+        return "openclaw"
+    return "llm-hardware"
+
+
+def load_state() -> dict:
+    if not STATE_PATH.exists():
+        return {}
+    try:
+        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def update_state_from_post(post: ParsedPost):
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    state = {}
-    if STATE_PATH.exists():
-        try:
-            state = json.loads(STATE_PATH.read_text(encoding="utf-8"))
-        except Exception:
-            state = {}
+    state = load_state()
 
     intro = first_paragraph(post.body)
     state.update(
@@ -147,6 +179,7 @@ def update_state_from_post(post: ParsedPost):
             "last_post": str(post.path.relative_to(ROOT)),
             "last_title": post.frontmatter.get("title", ""),
             "last_title_shape": title_shape(post.frontmatter.get("title", "")),
+            "last_topic_family": infer_topic_family(post),
             "last_intro_hash": hashlib.sha256(intro.encode("utf-8", errors="ignore")).hexdigest() if intro else "",
             "last_sources_domains": extract_sources_domains(post.body),
             "updated_at": run_git(["log", "-1", "--format=%cI"]) or "",

@@ -19,9 +19,10 @@ Avoid:
 ## Daily workflow
 1. Check the latest recent posts in `content/posts/` so the new one is not repetitive.
 2. Determine which topic family is next and alternate strictly day by day:
-   - if the latest published post is about local LLMs / AI hardware, the next one must be about OpenClaw
-   - if the latest published post is about OpenClaw, the next one must be about local LLMs / AI hardware
-   - when in doubt, use the latest post's title, slug, body, and sources to infer the family conservatively
+   - prefer `data/editorial_state.json` and its `last_topic_family` field as the source of truth
+   - if `last_topic_family` is `llm-hardware`, the next post must be `openclaw`
+   - if `last_topic_family` is `openclaw`, the next post must be `llm-hardware`
+   - only if the field is missing, fall back to conservative inference from the latest post's title, slug, body, and sources
 3. Do lightweight web research for one narrow topic that is timely *or* evergreen-useful within the required family.
 4. Write one complete Finnish post as markdown in `content/posts/`.
 4. Requirements:
