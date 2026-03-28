@@ -1,6 +1,6 @@
 # Turvablogi autoblog runbook
 
-Goal: keep https://atlan-c.github.io/turvablogi/ alive with one practical Finnish post per day about local LLMs, home-lab AI hardware, and adjacent self-hosted workflows.
+Goal: keep https://atlan-c.github.io/turvablogi/ alive with one practical Finnish post per day. The blog now alternates between two topic families: (A) local LLMs / AI hardware and (B) OpenClaw practical usage, tuning, automation patterns, and self-hosted operating practices.
 
 ## Topic boundaries
 Write about things like:
@@ -9,6 +9,7 @@ Write about things like:
 - GPUs, VRAM, RAM, SSDs, power, thermals, used hardware, upgrade tradeoffs
 - home-lab AI security when directly relevant to local models or hardware
 - practical workflows for hobbyists and small self-hosters
+- OpenClaw practical use: heartbeat vs cron, sessions, delegation, topic/thread isolation, safe automation boundaries, tuning, maintenance, troubleshooting, and workflow design
 
 Avoid:
 - generic AI hype with no practical angle
@@ -17,8 +18,12 @@ Avoid:
 
 ## Daily workflow
 1. Check the latest recent posts in `content/posts/` so the new one is not repetitive.
-2. Do lightweight web research for one narrow topic that is timely *or* evergreen-useful.
-3. Write one complete Finnish post as markdown in `content/posts/`.
+2. Determine which topic family is next and alternate strictly day by day:
+   - if the latest published post is about local LLMs / AI hardware, the next one must be about OpenClaw
+   - if the latest published post is about OpenClaw, the next one must be about local LLMs / AI hardware
+   - when in doubt, use the latest post's title, slug, body, and sources to infer the family conservatively
+3. Do lightweight web research for one narrow topic that is timely *or* evergreen-useful within the required family.
+4. Write one complete Finnish post as markdown in `content/posts/`.
 4. Requirements:
    - frontmatter must include `title`, `date`, `draft: false`
    - body length should clearly exceed the repo minimum
@@ -35,10 +40,12 @@ Avoid:
 Prefer concrete titles such as:
 - `Paikallinen LLM käytännössä: ...`
 - `AI-rauta kotilabrassa: ...`
+- `OpenClaw käytännössä: ...`
 - `Mitä X tarkoittaa harrastajalle?`
 - `Kannattaako Y juuri nyt?`
 
 Avoid repeating the same title skeleton two days in a row.
+Avoid repeating the same topic family two days in a row.
 
 ## Quality bar
 The post should answer one practical question clearly.
