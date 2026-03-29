@@ -32,6 +32,7 @@ Avoid:
    - include `## Lähteet`
    - include at least 2 source URLs
    - make it practical and readable, not hypey
+   - do not publish two different posts on the same calendar day unless a human explicitly asks for a one-off exception
 5. Run the repo checks:
    - `python3 tools/pre_publish_check.py --staged` after staging the post
    - if needed, run `hugo --minify` if Hugo exists
@@ -88,4 +89,5 @@ If `git push` fails because credentials are missing, stop and report the failure
 - If research quality is weak that day, write an evergreen practical explainer instead of forcing "news".
 - If sources are too thin, skip publishing and report why.
 - Never mass-produce multiple posts in one run.
+- Never publish two separate posts for the same calendar day unless the human explicitly requests an exception.
 - One good post beats five thin ones.

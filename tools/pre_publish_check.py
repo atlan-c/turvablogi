@@ -75,6 +75,13 @@ def recent_posts(limit: int = 8) -> list[Path]:
     return arr[:limit]
 
 
+def post_date_day(post: ParsedPost) -> str:
+    raw = post.frontmatter.get("date", "").strip()
+    if not raw:
+        return ""
+    return raw.split("T", 1)[0].split(" ", 1)[0]
+
+
 def validate_sources(body: str) -> tuple[bool, str]:
     if "## Lähteet" not in body and "### Lähteet" not in body:
         return False, "Osio 'Lähteet' puuttuu"
@@ -109,6 +116,21 @@ def validate_post(post: ParsedPost) -> list[str]:
     cur_relpath = str(post.path.relative_to(ROOT))
     if last_family and cur_family == last_family and last_post != cur_relpath:
         errors.append("Aiheperhe toistaa edellisen postauksen; vuorottelun pitää vaihtua")
+
+    cur_day = post_date_day(post)
+    if cur_day:
+        for old_path in POSTS_DIR.glob("*.md"):
+            if old_path.resolve() == post.path.resolve():
+                continue
+            try:
+                old_post = parse_post(old_path)
+            except Exception:
+                continue
+            if post_date_day(old_post) == cur_day:
+                errors.append(
+                    f"Kalenteripäivälle {cur_day} on jo olemassa postaus ({old_path.name}); toinen saman päivän julkaisu vaatii erillisen poikkeuksen"
+                )
+                break
 
     # compare with recent posts to avoid repetition
     cur_title_shape = title_shape(fm.get("title", ""))
