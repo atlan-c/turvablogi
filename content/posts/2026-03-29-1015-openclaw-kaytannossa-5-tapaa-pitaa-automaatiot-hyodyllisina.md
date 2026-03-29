@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw käytännössä: 5 tapaa pitää automaatiot hyödyllisinä"
-date: 2026-03-29T10:15:00+02:00
+date: 2026-03-29T17:31:00+03:00
 draft: false
 topic_family: openclaw
 ---
