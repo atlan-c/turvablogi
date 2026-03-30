@@ -1,12 +1,14 @@
 {
-  "last_post": "content/posts/2026-03-29-1015-openclaw-kaytannossa-5-tapaa-pitaa-automaatiot-hyodyllisina.md",
-  "last_title": "OpenClaw käytännössä: 5 tapaa pitää automaatiot hyödyllisinä",
-  "last_title_shape": "openclaw käytännössä tapaa pitää",
-  "last_intro_hash": "0cf34159b00485a9e04ce623482b4c22960c2420ebd32ea22db629cfab994948",
+  "last_post": "content/posts/2026-03-30-1015-kannattaako-kaytetty-rtx-3090-viela-paikalliseen-llm-koneeseen.md",
+  "last_title": "Kannattaako käytetty RTX 3090 vielä paikalliseen LLM-koneeseen?",
+  "last_title_shape": "kannattaako käytetty rtx vielä",
+  "last_intro_hash": "c0c3614e0aa1c1a729af791aa4ef27b44a09f75527de04e466c3032da2fbcb1a",
   "last_sources_domains": [
-    "docs.openclaw.ai",
-    "github.com"
+    "github.com",
+    "www.nvidia.com",
+    "www.techpowerup.com",
+    "www.xda-developers.com"
   ],
-  "updated_at": "2026-03-29T10:16:31+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-03-29T17:33:08+03:00",
+  "last_topic_family": "llm-hardware"
 }
