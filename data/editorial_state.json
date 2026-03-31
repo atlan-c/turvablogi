@@ -1,14 +1,13 @@
 {
-  "last_post": "content/posts/2026-03-30-1015-kannattaako-kaytetty-rtx-3090-viela-paikalliseen-llm-koneeseen.md",
-  "last_title": "Kannattaako käytetty RTX 3090 vielä paikalliseen LLM-koneeseen?",
-  "last_title_shape": "kannattaako käytetty rtx vielä",
-  "last_intro_hash": "c0c3614e0aa1c1a729af791aa4ef27b44a09f75527de04e466c3032da2fbcb1a",
+  "last_post": "content/posts/2026-03-31-1015-openclaw-kotipalvelimessa-ssh-auki-vain-tarpeeseen-ja-hallintapinta-minimiin.md",
+  "last_title": "OpenClaw kotipalvelimessa: SSH auki vain tarpeeseen ja hallintapinta minimiin",
+  "last_title_shape": "openclaw kotipalvelimessa ssh auki",
+  "last_intro_hash": "eac3848e098236889543c2f6f14ad0beb17015483f399ea35dba7ae8ef543da8",
   "last_sources_domains": [
-    "github.com",
-    "www.nvidia.com",
-    "www.techpowerup.com",
-    "www.xda-developers.com"
+    "help.ubuntu.com",
+    "man.openbsd.org",
+    "www.cisa.gov"
   ],
-  "updated_at": "2026-03-29T17:33:08+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-03-31T13:43:28+03:00",
+  "last_topic_family": "openclaw"
 }
