@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-03-31-1015-openclaw-kotipalvelimessa-ssh-auki-vain-tarpeeseen-ja-hallintapinta-minimiin.md",
-  "last_title": "OpenClaw kotipalvelimessa: SSH auki vain tarpeeseen ja hallintapinta minimiin",
-  "last_title_shape": "openclaw kotipalvelimessa ssh auki",
-  "last_intro_hash": "eac3848e098236889543c2f6f14ad0beb17015483f399ea35dba7ae8ef543da8",
+  "last_post": "content/posts/2026-04-01-1015-ai-rauta-kotilabrassa-kannattaako-64-gigatavua-ramia-jos-gpussa-on-jo-24-gt-vramia.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako 64 gigatavua RAMia, jos GPU:ssa on jo 24 Gt VRAMia?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako gigatavua",
+  "last_intro_hash": "b061dc527580848eb6a8cf7093acbf4e7988ab92b49d879b600248eee10e9cf9",
   "last_sources_domains": [
-    "help.ubuntu.com",
-    "man.openbsd.org",
-    "www.cisa.gov"
+    "developer.nvidia.com",
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-03-31T13:43:28+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-03-31T13:45:06+03:00",
+  "last_topic_family": "llm-hardware"
 }
