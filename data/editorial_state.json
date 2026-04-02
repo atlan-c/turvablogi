@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-01-1015-ai-rauta-kotilabrassa-kannattaako-64-gigatavua-ramia-jos-gpussa-on-jo-24-gt-vramia.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako 64 gigatavua RAMia, jos GPU:ssa on jo 24 Gt VRAMia?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako gigatavua",
-  "last_intro_hash": "b061dc527580848eb6a8cf7093acbf4e7988ab92b49d879b600248eee10e9cf9",
+  "last_post": "content/posts/2026-04-02-1015-openclaw-kaytannossa-milloin-kannattaa-kayttaa-thread-bound-acp-sessiota.md",
+  "last_title": "OpenClaw käytännössä: milloin kannattaa käyttää thread-bound ACP-sessiota?",
+  "last_title_shape": "openclaw käytännössä milloin kannattaa",
+  "last_intro_hash": "368d6bb9695545f268e833e50e9feb2cef4728e40a89970950b5513fbf597da1",
   "last_sources_domains": [
-    "developer.nvidia.com",
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-03-31T13:45:06+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-02T10:18:10+03:00",
+  "last_topic_family": "openclaw"
 }
