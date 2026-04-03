@@ -1,11 +1,14 @@
 {
-  "last_post": "content/posts/2026-04-02-1015-openclaw-kaytannossa-milloin-kannattaa-kayttaa-thread-bound-acp-sessiota.md",
-  "last_title": "OpenClaw käytännössä: milloin kannattaa käyttää thread-bound ACP-sessiota?",
-  "last_title_shape": "openclaw käytännössä milloin kannattaa",
-  "last_intro_hash": "368d6bb9695545f268e833e50e9feb2cef4728e40a89970950b5513fbf597da1",
+  "last_post": "content/posts/2026-04-03-1015-tarvitaanko-pcie-50-ssd-paikalliseen-llm-koneeseen.md",
+  "last_title": "Tarvitaanko PCIe 5.0 SSD paikalliseen LLM-koneeseen?",
+  "last_title_shape": "tarvitaanko pcie ssd paikalliseen",
+  "last_intro_hash": "86c286f992383830759aace8f9c7d6281f88caa627963c7096a4b9a546944f75",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "americas.kioxia.com",
+    "apac.kioxia.com",
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-04-02T10:18:10+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-03T10:18:26+03:00",
+  "last_topic_family": "llm-hardware"
 }
