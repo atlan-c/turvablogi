@@ -1,14 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-03-1015-tarvitaanko-pcie-50-ssd-paikalliseen-llm-koneeseen.md",
-  "last_title": "Tarvitaanko PCIe 5.0 SSD paikalliseen LLM-koneeseen?",
-  "last_title_shape": "tarvitaanko pcie ssd paikalliseen",
-  "last_intro_hash": "86c286f992383830759aace8f9c7d6281f88caa627963c7096a4b9a546944f75",
+  "last_post": "content/posts/2026-04-04-1015-openclaw-kaytannossa-miksi-cron-ajot-kannattaa-ohjata-omaan-cron-health-topiciin.md",
+  "last_title": "OpenClaw käytännössä: miksi cron-ajot kannattaa ohjata omaan cron-health-topiciin?",
+  "last_title_shape": "openclaw käytännössä miksi cron-ajot",
+  "last_intro_hash": "dbee0766ac2604efed3db9f6c30fcbfd7cce4dc5ed673ee61f0fe2fe4b27a97f",
   "last_sources_domains": [
-    "americas.kioxia.com",
-    "apac.kioxia.com",
-    "docs.ollama.com",
+    "docs.openclaw.ai",
     "github.com"
   ],
-  "updated_at": "2026-04-03T10:18:26+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-03T10:18:47+03:00",
+  "last_topic_family": "openclaw"
 }
