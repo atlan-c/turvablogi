@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-04-04-1015-openclaw-kaytannossa-miksi-cron-ajot-kannattaa-ohjata-omaan-cron-health-topiciin.md",
-  "last_title": "OpenClaw käytännössä: miksi cron-ajot kannattaa ohjata omaan cron-health-topiciin?",
-  "last_title_shape": "openclaw käytännössä miksi cron-ajot",
-  "last_intro_hash": "dbee0766ac2604efed3db9f6c30fcbfd7cce4dc5ed673ee61f0fe2fe4b27a97f",
+  "last_post": "content/posts/2026-04-05-1015-paikallinen-llm-kaytannossa-milloin-pcie-x8-tai-x4-alkaa-haitata.md",
+  "last_title": "Paikallinen LLM käytännössä: milloin PCIe x8 tai x4 alkaa oikeasti haitata?",
+  "last_title_shape": "paikallinen llm käytännössä milloin",
+  "last_intro_hash": "5b284d3708878bc1e0eb91cc554c8e7f86d7c18ff4c9d92a2f113c4345d02899",
   "last_sources_domains": [
-    "docs.openclaw.ai",
+    "arxiv.org",
+    "docs.ollama.com",
     "github.com"
   ],
-  "updated_at": "2026-04-03T10:18:47+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-04T10:16:59+03:00",
+  "last_topic_family": "llm-hardware"
 }
