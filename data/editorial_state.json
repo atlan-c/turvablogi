@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-06-1015-openclaw-kaytannossa-milloin-heartbeat-riittaa-ja-milloin-cron-on-parempi.md",
-  "last_title": "OpenClaw käytännössä: milloin heartbeat riittää ja milloin cron on parempi?",
-  "last_title_shape": "openclaw käytännössä milloin heartbeat",
-  "last_intro_hash": "2b37c26a9597ee6997403e516e72201905a44283a414147fdecce4629a119fd5",
+  "last_post": "content/posts/2026-04-07-1015-ai-rauta-kotilabrassa-kannattaako-128-gigatavua-ramia-paikalliseen-llm-koneeseen.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako 128 gigatavua RAMia paikalliseen LLM-koneeseen?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako gigatavua",
+  "last_intro_hash": "944f7b411a85d48925d29386fd215ce3e4f24246a684ff8e1c43ae253277019b",
   "last_sources_domains": [
-    "docs.openclaw.ai",
+    "docs.ollama.com",
     "github.com"
   ],
-  "updated_at": "2026-04-05T10:17:12+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-07T10:18:15+03:00",
+  "last_topic_family": "llm-hardware"
 }
