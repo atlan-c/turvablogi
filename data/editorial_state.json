@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-07-1015-ai-rauta-kotilabrassa-kannattaako-128-gigatavua-ramia-paikalliseen-llm-koneeseen.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako 128 gigatavua RAMia paikalliseen LLM-koneeseen?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako gigatavua",
-  "last_intro_hash": "944f7b411a85d48925d29386fd215ce3e4f24246a684ff8e1c43ae253277019b",
+  "last_post": "content/posts/2026-04-08-1015-ala-pollaa-turhaan-nain-openclawin-sessions_yield-pitaa-taustatyon-siistina.md",
+  "last_title": "Älä pollaa turhaan: näin OpenClawin sessions_yield pitää taustatyön siistinä",
+  "last_title_shape": "älä pollaa turhaan näin",
+  "last_intro_hash": "c5613af76f91f98c5e8545b81df9f774995cba5221480651cb6f9e9f14707efc",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-07T10:18:15+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-07T10:18:31+03:00",
+  "last_topic_family": "openclaw"
 }
