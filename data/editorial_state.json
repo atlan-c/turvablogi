@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-08-1015-ala-pollaa-turhaan-nain-openclawin-sessions_yield-pitaa-taustatyon-siistina.md",
-  "last_title": "Älä pollaa turhaan: näin OpenClawin sessions_yield pitää taustatyön siistinä",
-  "last_title_shape": "älä pollaa turhaan näin",
-  "last_intro_hash": "c5613af76f91f98c5e8545b81df9f774995cba5221480651cb6f9e9f14707efc",
+  "last_post": "content/posts/2026-04-09-1015-ai-rauta-kotilabrassa-milloin-konteksti-on-liian-suuri-omalle-gpulle.md",
+  "last_title": "AI-rauta kotilabrassa: milloin konteksti on liian suuri omalle GPU:lle?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin konteksti",
+  "last_intro_hash": "454dac5cea90d845c0852a03efab5a833fda9a30f8b5ea9e9386dfb4d528c79c",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-04-07T10:18:31+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-08T15:07:02+03:00",
+  "last_topic_family": "llm-hardware"
 }
