@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-09-1015-ai-rauta-kotilabrassa-milloin-konteksti-on-liian-suuri-omalle-gpulle.md",
-  "last_title": "AI-rauta kotilabrassa: milloin konteksti on liian suuri omalle GPU:lle?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin konteksti",
-  "last_intro_hash": "454dac5cea90d845c0852a03efab5a833fda9a30f8b5ea9e9386dfb4d528c79c",
+  "last_post": "content/posts/2026-04-10-1015-openclaw-kaytannossa-mita-teet-kun-oauth-vanhenee-kesken-automaation.md",
+  "last_title": "OpenClaw käytännössä: mitä teet, kun OAuth vanhenee kesken automaation?",
+  "last_title_shape": "openclaw käytännössä mitä teet",
+  "last_intro_hash": "032e4539587ffe652116460e95e742f16156229a531ce7cbe6ac0c32d143423f",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-08T15:07:02+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-09T10:17:45+03:00",
+  "last_topic_family": "openclaw"
 }
