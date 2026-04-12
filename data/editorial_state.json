@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-11-1015-paikallinen-llm-kaytannossa-milloin-24-gigatavua-vramia-riittaa-viela-pitkaan-kontekstiin.md",
-  "last_title": "Paikallinen LLM käytännössä: milloin 24 gigatavua VRAMia riittää vielä pitkään kontekstiin?",
-  "last_title_shape": "paikallinen llm käytännössä milloin",
-  "last_intro_hash": "183339433c655fefeefe2c08d05d4213924dba513ffe57d0470bb4c8334afc0d",
+  "last_post": "content/posts/2026-04-12-1015-openclaw-kaytannossa-milloin-status-deep-riittaa-ja-milloin-kannattaa-ajaa-health-json.md",
+  "last_title": "OpenClaw käytännössä: milloin status --deep riittää ja milloin kannattaa ajaa health --json?",
+  "last_title_shape": "openclaw käytännössä milloin status",
+  "last_intro_hash": "2caef33c3f2b135c1ac35552f890de105bdb9a73a92ea15dae3db0551e96cdc5",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-10T10:17:14+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-11T10:16:20+03:00",
+  "last_topic_family": "openclaw"
 }
