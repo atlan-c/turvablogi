@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-12-1015-openclaw-kaytannossa-milloin-status-deep-riittaa-ja-milloin-kannattaa-ajaa-health-json.md",
-  "last_title": "OpenClaw käytännössä: milloin status --deep riittää ja milloin kannattaa ajaa health --json?",
-  "last_title_shape": "openclaw käytännössä milloin status",
-  "last_intro_hash": "2caef33c3f2b135c1ac35552f890de105bdb9a73a92ea15dae3db0551e96cdc5",
+  "last_post": "content/posts/2026-04-13-1015-ai-rauta-kotilabrassa-milloin-16-gigatavua-vramia-on-parempi-kuin-hitaasti-cpulle-valuva-24-gigatavua.md",
+  "last_title": "AI-rauta kotilabrassa: milloin 16 gigatavua VRAMia on parempi kuin hitaasti CPU:lle valuva 24 gigatavua?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin gigatavua",
+  "last_intro_hash": "8aee714332be3c26b979da5dd6b9415cb3e62bdea6b02a38e1a5510197970072",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-04-11T10:16:20+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-12T10:16:15+03:00",
+  "last_topic_family": "llm-hardware"
 }
