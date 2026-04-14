@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-13-1015-ai-rauta-kotilabrassa-milloin-16-gigatavua-vramia-on-parempi-kuin-hitaasti-cpulle-valuva-24-gigatavua.md",
-  "last_title": "AI-rauta kotilabrassa: milloin 16 gigatavua VRAMia on parempi kuin hitaasti CPU:lle valuva 24 gigatavua?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin gigatavua",
-  "last_intro_hash": "8aee714332be3c26b979da5dd6b9415cb3e62bdea6b02a38e1a5510197970072",
+  "last_post": "content/posts/2026-04-14-1015-openclaw-kaytannossa-miksi-cron-ajo-ei-korvaa-health-checkia.md",
+  "last_title": "OpenClaw käytännössä: miksi cron-ajo ei korvaa health-checkiä?",
+  "last_title_shape": "openclaw käytännössä miksi cron-ajo",
+  "last_intro_hash": "2bbc6fe7e998c8120546712e30304e404a524489c4ec249486f58bf7e4444ab9",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-12T10:16:15+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-13T14:23:48+03:00",
+  "last_topic_family": "openclaw"
 }
