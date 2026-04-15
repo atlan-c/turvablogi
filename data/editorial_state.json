@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-14-1015-openclaw-kaytannossa-miksi-cron-ajo-ei-korvaa-health-checkia.md",
-  "last_title": "OpenClaw käytännössä: miksi cron-ajo ei korvaa health-checkiä?",
-  "last_title_shape": "openclaw käytännössä miksi cron-ajo",
-  "last_intro_hash": "2bbc6fe7e998c8120546712e30304e404a524489c4ec249486f58bf7e4444ab9",
+  "last_post": "content/posts/2026-04-15-1015-ai-rauta-kotilabrassa-milloin-32k-konteksti-on-turha-luksus-ja-milloin-se-on-oikeasti-hyodyllinen.md",
+  "last_title": "AI-rauta kotilabrassa: milloin 32k konteksti on turha luksus ja milloin se on oikeasti hyödyllinen?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin k",
+  "last_intro_hash": "12950b3edb5db7e072d1a72c00fd311357fc4f81e63a55d55b3cdb737bea32b6",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-04-13T14:23:48+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-14T10:16:55+03:00",
+  "last_topic_family": "llm-hardware"
 }
