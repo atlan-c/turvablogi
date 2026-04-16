@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-15-1015-ai-rauta-kotilabrassa-milloin-32k-konteksti-on-turha-luksus-ja-milloin-se-on-oikeasti-hyodyllinen.md",
-  "last_title": "AI-rauta kotilabrassa: milloin 32k konteksti on turha luksus ja milloin se on oikeasti hyödyllinen?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin k",
-  "last_intro_hash": "12950b3edb5db7e072d1a72c00fd311357fc4f81e63a55d55b3cdb737bea32b6",
+  "last_post": "content/posts/2026-04-16-1015-openclaw-kaytannossa-miksi-session-cleanup-ei-korvaa-cron-lokien-hallintaa.md",
+  "last_title": "OpenClaw käytännössä: miksi session cleanup ei korvaa cron-lokien hallintaa?",
+  "last_title_shape": "openclaw käytännössä miksi session",
+  "last_intro_hash": "1a2d246c6c9116f0a77c78c869480d5c70b9ba8a25151cd0963bbcc25b353dc3",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-14T10:16:55+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-15T10:16:22+03:00",
+  "last_topic_family": "openclaw"
 }
