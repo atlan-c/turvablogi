@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-17-1015-ai-rauta-kotilabrassa-kannattaako-x3d-prosessori-paikalliseen-llm-kayttoon.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako X3D-prosessori paikalliseen LLM-käyttöön?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako xd-prosessori",
-  "last_intro_hash": "edbaa4cda46073920cf400a188463c9146bfa1651803ab425557f0816097096f",
+  "last_post": "content/posts/2026-04-18-1015-openclaw-kaytannossa-milloin-cron-job-kannattaa-sitoa-nykyiseen-sessioon.md",
+  "last_title": "OpenClaw käytännössä: milloin cron-job kannattaa sitoa nykyiseen sessioon?",
+  "last_title_shape": "openclaw käytännössä milloin cron-job",
+  "last_intro_hash": "a635361309b15af45c7cf947a50ea60693f8d6ec8a248cc9849a338ca6417fa0",
   "last_sources_domains": [
-    "en.wikipedia.org",
-    "www.amd.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-17T10:16:47+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-18T10:16:07+03:00",
+  "last_topic_family": "openclaw"
 }
