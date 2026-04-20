@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-18-1015-openclaw-kaytannossa-milloin-cron-job-kannattaa-sitoa-nykyiseen-sessioon.md",
-  "last_title": "OpenClaw käytännössä: milloin cron-job kannattaa sitoa nykyiseen sessioon?",
-  "last_title_shape": "openclaw käytännössä milloin cron-job",
-  "last_intro_hash": "a635361309b15af45c7cf947a50ea60693f8d6ec8a248cc9849a338ca6417fa0",
+  "last_post": "content/posts/2026-04-19-1015-paikallinen-llm-kaytannossa-milloin-koko-rag-on-turha-ja-pitka-prompti-riittaa.md",
+  "last_title": "Paikallinen LLM käytännössä: milloin koko RAG on turha ja pitkä prompti riittää?",
+  "last_title_shape": "paikallinen llm käytännössä milloin",
+  "last_intro_hash": "896a33bf7fb5f6829de9ddfc2b66534fd1e3447e05aa83d00e1f0e161af89df3",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "en.wikipedia.org",
+    "www.anthropic.com"
   ],
-  "updated_at": "2026-04-18T10:16:07+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-19T10:16:21+03:00",
+  "last_topic_family": "llm-hardware"
 }
