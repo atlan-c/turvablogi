@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-19-1015-paikallinen-llm-kaytannossa-milloin-koko-rag-on-turha-ja-pitka-prompti-riittaa.md",
-  "last_title": "Paikallinen LLM käytännössä: milloin koko RAG on turha ja pitkä prompti riittää?",
-  "last_title_shape": "paikallinen llm käytännössä milloin",
-  "last_intro_hash": "896a33bf7fb5f6829de9ddfc2b66534fd1e3447e05aa83d00e1f0e161af89df3",
+  "last_post": "content/posts/2026-04-20-1015-openclaw-kaytannossa-milloin-tausta-ajoon-riittaa-task-ja-milloin-tarvitset-task-flown.md",
+  "last_title": "OpenClaw käytännössä: milloin tausta-ajoon riittää task ja milloin tarvitset Task Flow'n?",
+  "last_title_shape": "openclaw käytännössä milloin tausta-ajoon",
+  "last_intro_hash": "9ee9f944608e83927dfd44eab83e91391f98fc2cd8a2bea42ac5ef019059ad67",
   "last_sources_domains": [
-    "en.wikipedia.org",
-    "www.anthropic.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-19T10:16:21+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-20T10:16:26+03:00",
+  "last_topic_family": "openclaw"
 }
