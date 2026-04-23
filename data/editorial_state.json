@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-04-20-1015-openclaw-kaytannossa-milloin-tausta-ajoon-riittaa-task-ja-milloin-tarvitset-task-flown.md",
-  "last_title": "OpenClaw käytännössä: milloin tausta-ajoon riittää task ja milloin tarvitset Task Flow'n?",
-  "last_title_shape": "openclaw käytännössä milloin tausta-ajoon",
-  "last_intro_hash": "9ee9f944608e83927dfd44eab83e91391f98fc2cd8a2bea42ac5ef019059ad67",
+  "last_post": "content/posts/2026-04-21-1015-ai-rauta-kotilabrassa-milloin-ecc-muisti-on-paikallisessa-llm-koneessa-oikeasti-perusteltu.md",
+  "last_title": "AI-rauta kotilabrassa: milloin ECC-muisti on paikallisessa LLM-koneessa oikeasti perusteltu?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin ecc-muisti",
+  "last_intro_hash": "665163ce85a4ca37ba19e3853ecf1f757bb4b138188143d2feaf2452d1eb7cc7",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.openclaw.ai",
+    "en.wikipedia.org"
   ],
-  "updated_at": "2026-04-20T10:16:26+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-21T10:16:16+03:00",
+  "last_topic_family": "llm-hardware"
 }
