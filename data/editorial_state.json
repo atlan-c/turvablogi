@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-23-1015-openclaw-kaytannossa-milloin-cron-ajo-riittaa-ja-milloin-kannattaa-katsoa-taskeja.md",
-  "last_title": "OpenClaw käytännössä: milloin cron-ajo riittää ja milloin kannattaa katsoa taskeja?",
-  "last_title_shape": "openclaw käytännössä milloin cron-ajo",
-  "last_intro_hash": "5fd52fa601a41152065991d763dce92627f0587e22cec3bb57d3cb7915c8cef2",
+  "last_post": "content/posts/2026-04-24-1015-ai-rauta-kotilabrassa-milloin-pcie-kaistat-alkavat-oikeasti-rajoittaa-paikallista-llm-konetta.md",
+  "last_title": "AI-rauta kotilabrassa: milloin PCIe-kaistat alkavat oikeasti rajoittaa paikallista LLM-konetta?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin pcie-kaistat",
+  "last_intro_hash": "735c4e5f0d5bf5aaaeb1f01074443a14ed603cf562eab4da6cccd1b9bceab4e9",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "en.wikipedia.org"
   ],
-  "updated_at": "2026-04-23T10:17:37+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-24T10:16:31+03:00",
+  "last_topic_family": "llm-hardware"
 }
