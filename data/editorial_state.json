@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-24-1015-ai-rauta-kotilabrassa-milloin-pcie-kaistat-alkavat-oikeasti-rajoittaa-paikallista-llm-konetta.md",
-  "last_title": "AI-rauta kotilabrassa: milloin PCIe-kaistat alkavat oikeasti rajoittaa paikallista LLM-konetta?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin pcie-kaistat",
-  "last_intro_hash": "735c4e5f0d5bf5aaaeb1f01074443a14ed603cf562eab4da6cccd1b9bceab4e9",
+  "last_post": "content/posts/2026-04-25-1015-openclaw-kaytannossa-milloin-standing-order-kannattaa-kirjoittaa-agents-md-hen.md",
+  "last_title": "OpenClaw käytännössä: milloin standing order kannattaa kirjoittaa AGENTS.md:hen?",
+  "last_title_shape": "openclaw käytännössä milloin standing",
+  "last_intro_hash": "6c3d64ee31ae6a84ee2396453a5367fcab5762fe5f265e373a6ed923cddc6efd",
   "last_sources_domains": [
-    "en.wikipedia.org"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-24T10:16:31+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-25T10:16:17+03:00",
+  "last_topic_family": "openclaw"
 }
