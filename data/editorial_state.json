@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-26-1015-ai-rauta-kotilabrassa-milloin-virtalahde-on-paikallisen-llm-koneen-hiljainen-pullonkaula.md",
-  "last_title": "AI-rauta kotilabrassa: milloin virtalähde on paikallisen LLM-koneen hiljainen pullonkaula?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin virtalähde",
-  "last_intro_hash": "fd8f841b4b77c13b0cf28c033e219d1de44446ba3bbed8a10f4d9ff8d0b632d6",
+  "last_post": "content/posts/2026-04-27-1015-openclaw-kaytannossa-milloin-recurring-workflow-tarvitsee-session-id-n-eika-isolated-ajoa.md",
+  "last_title": "OpenClaw käytännössä: milloin recurring workflow tarvitsee session:id:n eikä isolated-ajon?",
+  "last_title_shape": "openclaw käytännössä milloin recurring",
+  "last_intro_hash": "afbce9e459a4c7128bb1644920feecd97debb3f1ba7d1f210778f7e2aa1dca1e",
   "last_sources_domains": [
-    "en.wikipedia.org"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-26T10:16:24+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-27T10:16:24+03:00",
+  "last_topic_family": "openclaw"
 }
