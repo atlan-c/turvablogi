@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-27-1015-openclaw-kaytannossa-milloin-recurring-workflow-tarvitsee-session-id-n-eika-isolated-ajoa.md",
-  "last_title": "OpenClaw käytännössä: milloin recurring workflow tarvitsee session:id:n eikä isolated-ajon?",
-  "last_title_shape": "openclaw käytännössä milloin recurring",
-  "last_intro_hash": "afbce9e459a4c7128bb1644920feecd97debb3f1ba7d1f210778f7e2aa1dca1e",
+  "last_post": "content/posts/2026-04-28-1015-ai-rauta-kotilabrassa-milloin-jaahdytys-on-tarkeampi-paivitys-kuin-seuraava-prosessori.md",
+  "last_title": "AI-rauta kotilabrassa: milloin jäähdytys on tärkeämpi päivitys kuin seuraava prosessori?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin jäähdytys",
+  "last_intro_hash": "e3b807515bf80d0fb074c3e0e2bfb2a7fed94c5c01a604184f9faa1038bffce0",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "en.wikipedia.org"
   ],
-  "updated_at": "2026-04-27T10:16:24+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-04-28T10:17:14+03:00",
+  "last_topic_family": "llm-hardware"
 }
