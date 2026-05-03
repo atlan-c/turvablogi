@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-28-1015-ai-rauta-kotilabrassa-milloin-jaahdytys-on-tarkeampi-paivitys-kuin-seuraava-prosessori.md",
-  "last_title": "AI-rauta kotilabrassa: milloin jäähdytys on tärkeämpi päivitys kuin seuraava prosessori?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin jäähdytys",
-  "last_intro_hash": "e3b807515bf80d0fb074c3e0e2bfb2a7fed94c5c01a604184f9faa1038bffce0",
+  "last_post": "content/posts/2026-04-29-1015-openclaw-kaytannossa-milloin-cron-runin-ongelmaa-kannattaa-tutkia-tasks-listasta-eika-cron-runs-historiasta.md",
+  "last_title": "OpenClaw käytännössä: milloin cron-runin ongelmaa kannattaa tutkia tasks-listasta eikä cron runs -historiasta?",
+  "last_title_shape": "openclaw käytännössä milloin cron-runin",
+  "last_intro_hash": "fc6ee121abb0fc73b13bf9b702f08157ac66453d7f3b46a7d3d79a5966081a98",
   "last_sources_domains": [
-    "en.wikipedia.org"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-04-28T10:17:14+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-04-29T10:17:47+03:00",
+  "last_topic_family": "openclaw"
 }
