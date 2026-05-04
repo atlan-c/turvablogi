@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-04-29-1015-openclaw-kaytannossa-milloin-cron-runin-ongelmaa-kannattaa-tutkia-tasks-listasta-eika-cron-runs-historiasta.md",
-  "last_title": "OpenClaw käytännössä: milloin cron-runin ongelmaa kannattaa tutkia tasks-listasta eikä cron runs -historiasta?",
-  "last_title_shape": "openclaw käytännössä milloin cron-runin",
-  "last_intro_hash": "fc6ee121abb0fc73b13bf9b702f08157ac66453d7f3b46a7d3d79a5966081a98",
+  "last_post": "content/posts/2026-05-03-1953-ai-rauta-kotilabrassa-milloin-nopeampi-nvme-levy-ei-enaa-nopeuta-paikallista-llm-konetta.md",
+  "last_title": "AI-rauta kotilabrassa: milloin nopeampi NVMe-levy ei enää nopeuta paikallista LLM-konetta?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin nopeampi",
+  "last_intro_hash": "03c24080c731bcae20217c4adcb6e5a200145e3cd1e2d69357e3b6da501c7169",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "en.wikipedia.org"
   ],
-  "updated_at": "2026-04-29T10:17:47+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-03T19:54:51+03:00",
+  "last_topic_family": "llm-hardware"
 }
