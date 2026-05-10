@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-03-1953-ai-rauta-kotilabrassa-milloin-nopeampi-nvme-levy-ei-enaa-nopeuta-paikallista-llm-konetta.md",
-  "last_title": "AI-rauta kotilabrassa: milloin nopeampi NVMe-levy ei enää nopeuta paikallista LLM-konetta?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin nopeampi",
-  "last_intro_hash": "03c24080c731bcae20217c4adcb6e5a200145e3cd1e2d69357e3b6da501c7169",
+  "last_post": "content/posts/2026-05-10-1015-ai-rauta-kotilabrassa-milloin-kaytetty-datakeskus-gpu-muuttuu-halvasta-loydosta-kalliiksi-kompromissiksi.md",
+  "last_title": "AI-rauta kotilabrassa: milloin käytetty datakeskus-GPU muuttuu halvasta löydöstä kalliiksi kompromissiksi?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin käytetty",
+  "last_intro_hash": "458579bbd6268c54e1e58f13086f4c0523415e433e6c723e98b8cde99e64a3ba",
   "last_sources_domains": [
-    "en.wikipedia.org"
+    "docs.nvidia.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-05-03T19:54:51+03:00",
+  "updated_at": "2026-05-10T10:15:00+03:00",
   "last_topic_family": "llm-hardware"
 }
