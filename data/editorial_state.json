@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-05-11-2056-openclaw-kaytannossa-miksi-cron-ajo-nayttaa-vihrealta-vaikka-varsinainen-tyo-ei-kaynnistynyt.md",
-  "last_title": "OpenClaw käytännössä: miksi cron-ajo näyttää vihreältä vaikka varsinainen työ ei käynnistynyt?",
-  "last_title_shape": "openclaw käytännössä miksi cron",
-  "last_intro_hash": "8dab5f65abd5e7b60787691fb80f065ea0c75c714d9a61dea5e8468e2c62c452",
+  "last_post": "content/posts/2026-05-12-1015-paikallinen-llm-kaytannossa-miksi-8-gb-gpu-ja-paljon-ramia-ei-tunnu-24-gb-vramilta.md",
+  "last_title": "Paikallinen LLM käytännössä: miksi 8 Gt GPU ja paljon RAMia ei tunnu 24 Gt VRAMilta?",
+  "last_title_shape": "paikallinen llm käytännössä miksi",
+  "last_intro_hash": "6ff2e6a6a3643e61b812d829d78e6e28e223ecdfe92ea3ed70609b93fc28cd98",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.nvidia.com",
+    "en.wikipedia.org",
+    "github.com"
   ],
-  "updated_at": "2026-05-11T20:56:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-12T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
