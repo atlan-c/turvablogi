@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-05-12-1015-paikallinen-llm-kaytannossa-miksi-8-gb-gpu-ja-paljon-ramia-ei-tunnu-24-gb-vramilta.md",
-  "last_title": "Paikallinen LLM käytännössä: miksi 8 Gt GPU ja paljon RAMia ei tunnu 24 Gt VRAMilta?",
-  "last_title_shape": "paikallinen llm käytännössä miksi",
-  "last_intro_hash": "6ff2e6a6a3643e61b812d829d78e6e28e223ecdfe92ea3ed70609b93fc28cd98",
+  "last_post": "content/posts/2026-05-13-1015-openclaw-kaytannossa-milloin-puhdas-subagentti-on-parempi-kuin-forkattu-konteksti.md",
+  "last_title": "OpenClaw käytännössä: milloin puhdas subagentti on parempi kuin forkattu konteksti?",
+  "last_title_shape": "openclaw käytännössä milloin puhdas",
+  "last_intro_hash": "fc8e944c5a3ded531bbca341d824878fb35beb8583f9dd6b6f78905f180c4351",
   "last_sources_domains": [
-    "docs.nvidia.com",
-    "en.wikipedia.org",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-05-12T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-12T10:18:32+03:00",
+  "last_topic_family": "openclaw"
 }
