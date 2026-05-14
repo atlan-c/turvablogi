@@ -1,11 +1,14 @@
 {
-  "last_post": "content/posts/2026-05-13-1015-openclaw-kaytannossa-milloin-puhdas-subagentti-on-parempi-kuin-forkattu-konteksti.md",
-  "last_title": "OpenClaw käytännössä: milloin puhdas subagentti on parempi kuin forkattu konteksti?",
-  "last_title_shape": "openclaw käytännössä milloin puhdas",
-  "last_intro_hash": "fc8e944c5a3ded531bbca341d824878fb35beb8583f9dd6b6f78905f180c4351",
+  "last_post": "content/posts/2026-05-14-1015-kannattaako-ecc-muisti-paikalliseen-llm-koneeseen.md",
+  "last_title": "Kannattaako ECC-muisti paikalliseen LLM-koneeseen?",
+  "last_title_shape": "kannattaako ecc-muisti paikalliseen llm-koneeseen",
+  "last_intro_hash": "b31d35374b65904036d9de913bb1a2d10fe8b71357cf8059fb4a93bba587a039",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "en.wikipedia.org",
+    "research.google.com",
+    "www.intel.com",
+    "www.memtest86.com"
   ],
-  "updated_at": "2026-05-12T10:18:32+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-14T10:17:17+03:00",
+  "last_topic_family": "llm-hardware"
 }
