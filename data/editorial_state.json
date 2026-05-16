@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-05-15-1015-openclaw-kaytannossa-nain-jatkat-toisen-session-tyota-sotkematta-aktiivista-keskustelua.md",
-  "last_title": "OpenClaw käytännössä: näin jatkat toisen session työtä sotkematta aktiivista keskustelua",
-  "last_title_shape": "openclaw käytännössä näin jatkat",
-  "last_intro_hash": "c42ab7c958a30a664b8fecc965e00bcb01a07ea8b92fe6318b1db769ab04a438",
+  "last_post": "content/posts/2026-05-16-1015-paikallinen-llm-kaytannossa-miksi-kaksi-ram-kampaa-on-usein-halvin-oikea-paivitys-mini-pc-hen.md",
+  "last_title": "Kannattaako mini-PC:hen yksi 32 Gt RAM-kampa vai 2 x 16 Gt paikallista LLM:ää varten?",
+  "last_title_shape": "kannattaako mini-pchen yksi gt",
+  "last_intro_hash": "7fb4c043c796d9df5ec542fbd08935bc966e8976f08615e84db53bb37af1518f",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "edc.intel.com",
+    "johannesgaessler.github.io",
+    "www.intel.com"
   ],
-  "updated_at": "2026-05-14T10:17:35+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-15T10:17:08+03:00",
+  "last_topic_family": "llm-hardware"
 }
