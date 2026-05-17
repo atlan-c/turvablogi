@@ -1,13 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-16-1015-paikallinen-llm-kaytannossa-miksi-kaksi-ram-kampaa-on-usein-halvin-oikea-paivitys-mini-pc-hen.md",
-  "last_title": "Kannattaako mini-PC:hen yksi 32 Gt RAM-kampa vai 2 x 16 Gt paikallista LLM:ää varten?",
-  "last_title_shape": "kannattaako mini-pchen yksi gt",
-  "last_intro_hash": "7fb4c043c796d9df5ec542fbd08935bc966e8976f08615e84db53bb37af1518f",
+  "last_post": "content/posts/2026-05-17-1015-openclaw-kaytannossa-miksi-sessions-yield-on-parempi-kuin-pollaus-kun-odotat-subagentin-tulosta.md",
+  "last_title": "OpenClaw käytännössä: miksi `sessions_yield` on parempi kuin pollaus, kun odotat subagentin tulosta?",
+  "last_title_shape": "openclaw käytännössä miksi sessionsyield",
+  "last_intro_hash": "1cc27d46b931d4b7adf54e8420af4ae4b4d685f1e4bd6f1ec0d212738369a67a",
   "last_sources_domains": [
-    "edc.intel.com",
-    "johannesgaessler.github.io",
-    "www.intel.com"
+    "docs.openclaw.ai",
+    "github.com"
   ],
-  "updated_at": "2026-05-15T10:17:08+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-17T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
