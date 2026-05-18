@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-17-1015-openclaw-kaytannossa-miksi-sessions-yield-on-parempi-kuin-pollaus-kun-odotat-subagentin-tulosta.md",
-  "last_title": "OpenClaw käytännössä: miksi `sessions_yield` on parempi kuin pollaus, kun odotat subagentin tulosta?",
-  "last_title_shape": "openclaw käytännössä miksi sessionsyield",
-  "last_intro_hash": "1cc27d46b931d4b7adf54e8420af4ae4b4d685f1e4bd6f1ec0d212738369a67a",
+  "last_post": "content/posts/2026-05-18-1015-paikallinen-llm-kaytannossa-pitaako-gpu-n-olla-aina-pcie-x16-slotissa.md",
+  "last_title": "Paikallinen LLM käytännössä: pitääkö GPU:n olla aina PCIe x16 -slotissa?",
+  "last_title_shape": "paikallinen llm käytännössä pitääkö",
+  "last_intro_hash": "cc163df2317da0dc40cabed81a4a0ac7911b32ce471ee0e0f8bc3c856b7a3b59",
   "last_sources_domains": [
-    "docs.openclaw.ai",
-    "github.com"
+    "github.com",
+    "raw.githubusercontent.com"
   ],
-  "updated_at": "2026-05-17T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-18T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
