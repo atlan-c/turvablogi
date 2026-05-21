@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-05-20-1015-ai-rauta-kotilabrassa-pitaako-paikallisen-llm-koneen-ssd-levyn-olla-nopea-nvme-vai-riittaako-sata.md",
-  "last_title": "AI-rauta kotilabrassa: pitääkö paikallisen LLM-koneen SSD-levyn olla nopea NVMe vai riittääkö SATA?",
-  "last_title_shape": "ai-rauta kotilabrassa pitääkö paikallisen",
-  "last_intro_hash": "232c6e080a6d39888ebd542369964dd039cfe24d3c6731eb153a8ce102b32514",
+  "last_post": "content/posts/2026-05-21-1015-openclaw-kaytannossa-nain-tulkitset-isolated-cron-ajon-yhden-mallivaihdon.md",
+  "last_title": "OpenClaw käytännössä: näin tulkitset isolated cron -ajon yhden mallivaihdon",
+  "last_title_shape": "openclaw käytännössä näin tulkitset",
+  "last_intro_hash": "1ffaa10044e9ec70a7c9890e2839a6a474a7bc3a8d47c384814d990a4f2bfda6",
   "last_sources_domains": [
-    "raw.githubusercontent.com",
-    "www.runyard.dev"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-05-19T10:17:11+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-21T10:19:38+03:00",
+  "last_topic_family": "openclaw"
 }
