@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-05-21-1015-openclaw-kaytannossa-nain-tulkitset-isolated-cron-ajon-yhden-mallivaihdon.md",
-  "last_title": "OpenClaw käytännössä: näin tulkitset isolated cron -ajon yhden mallivaihdon",
-  "last_title_shape": "openclaw käytännössä näin tulkitset",
-  "last_intro_hash": "1ffaa10044e9ec70a7c9890e2839a6a474a7bc3a8d47c384814d990a4f2bfda6",
+  "last_post": "content/posts/2026-05-22-1015-paikallinen-llm-kaytannossa-kannattaako-konteksti-nostaa-heti-32k-hon.md",
+  "last_title": "Paikallinen LLM käytännössä: kannattaako konteksti nostaa heti 32K:hon?",
+  "last_title_shape": "paikallinen llm käytännössä kannattaako",
+  "last_intro_hash": "f0aa65d889147566391391661647fbd2208f5778c342a9e7b90188114c29d5dc",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com",
+    "huggingface.co"
   ],
-  "updated_at": "2026-05-21T10:19:38+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-22T10:18:08+03:00",
+  "last_topic_family": "llm-hardware"
 }
