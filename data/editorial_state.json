@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-05-22-1015-paikallinen-llm-kaytannossa-kannattaako-konteksti-nostaa-heti-32k-hon.md",
-  "last_title": "Paikallinen LLM käytännössä: kannattaako konteksti nostaa heti 32K:hon?",
-  "last_title_shape": "paikallinen llm käytännössä kannattaako",
-  "last_intro_hash": "f0aa65d889147566391391661647fbd2208f5778c342a9e7b90188114c29d5dc",
+  "last_post": "content/posts/2026-05-24-1015-openclaw-kaytannossa-milloin-inferred-commitment-on-parempi-kuin-tarkka-cron-muistutus.md",
+  "last_title": "OpenClaw käytännössä: milloin inferred commitment on parempi kuin tarkka cron-muistutus?",
+  "last_title_shape": "openclaw käytännössä milloin inferred",
+  "last_intro_hash": "b7c5c7b5b891e0f658bd187cb758a5e0519dd6a0b435de9ad9e526aa864503ab",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com",
-    "huggingface.co"
+    "docs.openclaw.ai"
   ],
   "updated_at": "2026-05-22T10:18:08+03:00",
-  "last_topic_family": "llm-hardware"
+  "last_topic_family": "openclaw"
 }
