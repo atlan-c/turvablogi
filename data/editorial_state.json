@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-24-1015-openclaw-kaytannossa-milloin-inferred-commitment-on-parempi-kuin-tarkka-cron-muistutus.md",
-  "last_title": "OpenClaw käytännössä: milloin inferred commitment on parempi kuin tarkka cron-muistutus?",
-  "last_title_shape": "openclaw käytännössä milloin inferred",
-  "last_intro_hash": "b7c5c7b5b891e0f658bd187cb758a5e0519dd6a0b435de9ad9e526aa864503ab",
+  "last_post": "content/posts/2026-05-25-1015-mita-kannattaa-paivittaa-ensin-paikalliseen-llm-koneeseen-vram-vai-ram.md",
+  "last_title": "Mitä kannattaa päivittää ensin paikalliseen LLM-koneeseen: VRAM vai RAM?",
+  "last_title_shape": "mitä kannattaa päivittää ensin",
+  "last_intro_hash": "07308894d245994baf5f02019d5d487106e4dd47d6ee339ee8d4aace59225cd1",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-05-22T10:18:08+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-24T10:18:01+03:00",
+  "last_topic_family": "llm-hardware"
 }
