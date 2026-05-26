@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-05-25-1015-mita-kannattaa-paivittaa-ensin-paikalliseen-llm-koneeseen-vram-vai-ram.md",
-  "last_title": "Mitä kannattaa päivittää ensin paikalliseen LLM-koneeseen: VRAM vai RAM?",
-  "last_title_shape": "mitä kannattaa päivittää ensin",
-  "last_intro_hash": "07308894d245994baf5f02019d5d487106e4dd47d6ee339ee8d4aace59225cd1",
+  "last_post": "content/posts/2026-05-26-1015-openclaw-kaytannossa-miten-triageat-monta-aktiivista-sessiota-ilman-raakatranskriptin-penkomista.md",
+  "last_title": "OpenClaw käytännössä: miten triageat monta aktiivista sessiota ilman raakatranskriptin penkomista?",
+  "last_title_shape": "openclaw käytännössä miten triageat",
+  "last_intro_hash": "847faba5fa2b2dac097f93a7697a233fefb164cda45fdb576208bea9c17adb18",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-05-24T10:18:01+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-26T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
