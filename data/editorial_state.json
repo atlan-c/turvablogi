@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-26-1015-openclaw-kaytannossa-miten-triageat-monta-aktiivista-sessiota-ilman-raakatranskriptin-penkomista.md",
-  "last_title": "OpenClaw käytännössä: miten triageat monta aktiivista sessiota ilman raakatranskriptin penkomista?",
-  "last_title_shape": "openclaw käytännössä miten triageat",
-  "last_intro_hash": "847faba5fa2b2dac097f93a7697a233fefb164cda45fdb576208bea9c17adb18",
+  "last_post": "content/posts/2026-05-27-1015-ai-rauta-kotilabrassa-kannattaako-yksi-iso-gpu-vai-kaksi-pienempaa-paikalliseen-llm-koneeseen.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako yksi iso GPU vai kaksi pienempää paikalliseen LLM-koneeseen?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako yksi",
+  "last_intro_hash": "f861687ff7a1633d1d88c6cfb5e70bd27d368eca94424f4874f6321ddae3d3ef",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-05-26T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-27T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
