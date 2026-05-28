@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-05-27-1015-ai-rauta-kotilabrassa-kannattaako-yksi-iso-gpu-vai-kaksi-pienempaa-paikalliseen-llm-koneeseen.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako yksi iso GPU vai kaksi pienempää paikalliseen LLM-koneeseen?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako yksi",
-  "last_intro_hash": "f861687ff7a1633d1d88c6cfb5e70bd27d368eca94424f4874f6321ddae3d3ef",
+  "last_post": "content/posts/2026-05-28-1015-openclaw-kaytannossa-mita-teet-kun-codex-oauth-vanhenee-kesken-cron-ajon.md",
+  "last_title": "OpenClaw käytännössä: mitä teet, kun Codex-OAuth vanhenee kesken cron-ajon?",
+  "last_title_shape": "openclaw käytännössä mitä teet",
+  "last_intro_hash": "3b9ce41b4548f4c656aace0140310dbda752694b7682e394f29bb123f6fd948e",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-05-27T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-28T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
