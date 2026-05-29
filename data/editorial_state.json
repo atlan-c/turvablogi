@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-28-1015-openclaw-kaytannossa-mita-teet-kun-codex-oauth-vanhenee-kesken-cron-ajon.md",
-  "last_title": "OpenClaw käytännössä: mitä teet, kun Codex-OAuth vanhenee kesken cron-ajon?",
-  "last_title_shape": "openclaw käytännössä mitä teet",
-  "last_intro_hash": "3b9ce41b4548f4c656aace0140310dbda752694b7682e394f29bb123f6fd948e",
+  "last_post": "content/posts/2026-05-29-1015-paikallinen-llm-kone-tarvitaanko-ecc-muistia-oikeasti.md",
+  "last_title": "Paikallinen LLM-kone: tarvitaanko ECC-muistia oikeasti?",
+  "last_title_shape": "paikallinen llm kone tarvitaanko ecc muistia",
+  "last_intro_hash": "7b867fa63040d392cd15456e79654c65871bc59b1e7b9687611e16199022c8ab",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "www.atpinc.com",
+    "www.phoronix.com"
   ],
-  "updated_at": "2026-05-28T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-29T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
