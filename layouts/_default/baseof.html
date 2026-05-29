@@ -98,7 +98,10 @@
       const query = (search?.value || '').trim().toLowerCase();
       cards.forEach((card) => {
         const haystack = `${card.dataset.title || ''} ${card.dataset.excerpt || ''} ${card.dataset.tags || ''} ${card.dataset.series || ''}`.toLowerCase();
-        const tags = (card.dataset.tags || '').split('|').filter(Boolean);
+        const tags = (card.dataset.tags || '')
+          .split('|')
+          .map((tag) => tag.trim().toLowerCase())
+          .filter(Boolean);
         const matchesQuery = !query || haystack.includes(query);
         const matchesTag = activeTag === 'all' || tags.includes(activeTag);
         card.hidden = !(matchesQuery && matchesTag);
@@ -113,7 +116,7 @@
       search?.addEventListener('input', updateFilters);
       tagButtons.forEach((button) => {
         button.addEventListener('click', () => {
-          activeTag = button.dataset.tagFilter || 'all';
+          activeTag = (button.dataset.tagFilter || 'all').toLowerCase();
           tagButtons.forEach((item) => item.setAttribute('aria-pressed', item === button ? 'true' : 'false'));
           updateFilters();
         });
