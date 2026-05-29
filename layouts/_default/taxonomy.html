@@ -1,0 +1,11 @@
+{{ define "main" }}
+<header class="page-intro">
+  <p class="post-date">{{ .Data.Plural | humanize }}</p>
+  <h1>{{ .Title }}</h1>
+</header>
+<div class="post-grid">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ partial "post_card.html" . }}
+  {{ end }}
+</div>
+{{ end }}

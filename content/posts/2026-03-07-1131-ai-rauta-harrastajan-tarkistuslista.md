@@ -1,9 +1,17 @@
 ---
 title: "AI-rauta 2026: harrastajan käytännön tarkistuslista ennen ostoa"
-date: 2026-03-07T11:31:00+02:00
+date: "2026-03-07T11:31:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Windows"
+  - "Linux"
 ---
-
 Jos paikallinen AI tuntuu hitaalta tai epävakaalta, ongelma on usein raudassa eikä promptissa. Ennen seuraavaa hankintaa käy läpi tämä lista.
 
 ## Tarkistuslista: mitä oikeasti kannattaa varmistaa

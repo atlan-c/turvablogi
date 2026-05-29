@@ -1,9 +1,15 @@
 ---
 title: "Vertailu: Ollama vs llama.cpp kotikoneella (lyhyt analyysi)"
-date: 2026-02-28T20:05:00+02:00
+date: "2026-02-28T20:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Hardware"
+  - "Troubleshooting"
 ---
-
 Kun haluat ajaa paikallista mallia ilman pilveä, valinta on usein käytännössä kahden välillä: Ollama tai llama.cpp. Molemmat toimivat, mutta ne palvelevat eri arkea.
 
 ## Missä Ollama on vahvoilla

@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: mitä teet, kun OAuth vanhenee kesken automaation?"
-date: 2026-04-10T10:15:00+03:00
+date: "2026-04-10T10:15:00+03:00"
 draft: false
-topic_family: openclaw
+topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Linux"
+  - "Security"
 ---
-
 Yksi ärsyttävimmistä automaation vioista on sellainen, jossa kone näyttää muuten terveeltä, mutta varsinainen työ pysähtyy silti. OpenClawissa tämä voi tapahtua esimerkiksi silloin, kun käytössä oleva OAuth-istunto vanhenee juuri ennen cron-ajoa tai kesken agenttityön.
 
 Tällaisessa tilanteessa tärkein käytännön kysymys ei ole "miten pakotan tämän yrittämään uudelleen heti", vaan "miten erotan auth-ongelman paikallisesta runtime-ongelmasta ilman että teen sotkua".

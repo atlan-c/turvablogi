@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin PCIe-kaistat alkavat oikeasti rajoittaa paikallista LLM-konetta?"
-date: 2026-04-24T10:15:00+03:00
+date: "2026-04-24T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM-konetta rakentaessa moni jumittuu tuijottamaan vain GPU:n nimeä ja VRAM-määrää. Se on ymmärrettävää, mutta samalla yksi käytännön pullonkaula jää helposti taka-alalle: PCIe-kaistat. Ne eivät yleensä ole ensimmäinen ongelma, mutta tietyssä pisteessä niistä tulee hyvin konkreettinen syy siihen, miksi laitteisto ei käyttäydy niin hyvin kuin speksitaulukko lupaisi.
 
 Lyhyt käytännön vastaus on tämä: yhden GPU:n harrastekoneessa PCIe-kaistat eivät yleensä ole ensimmäinen LLM-pullonkaula. Kun alat käyttää useita kortteja, NVMe-levyjä, lisäkortteja tai kapeammaksi pudotettuja slotteja, asia muuttuu nopeasti tärkeäksi.

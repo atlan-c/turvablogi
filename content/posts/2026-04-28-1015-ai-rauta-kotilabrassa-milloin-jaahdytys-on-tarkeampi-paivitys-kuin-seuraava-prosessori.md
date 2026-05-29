@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin jäähdytys on tärkeämpi päivitys kuin seuraava prosessori?"
-date: 2026-04-28T10:15:00+03:00
+date: "2026-04-28T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM-konetta rakentaessa seuraava päivityshaave on usein uusi prosessori. Se kuulostaa järkevältä, mutta käytännössä monessa koneessa parempi seuraava sijoitus olisi ensin jäähdytys. Jos lämpö karkaa, kellot laskevat, melu nousee ja koko koneen käytös muuttuu epävakaammaksi. Silloin kalliimpi CPU ei välttämättä tuo sitä hyötyä, jota odotit.
 
 Lyhyt käytännön sääntö on tämä: jos nykyinen kone throttlaa, puhaltaa jatkuvasti kovaa tai käy kuumana pitkissä ajoissa, jäähdytys voi olla tärkeämpi päivitys kuin seuraava prosessori.

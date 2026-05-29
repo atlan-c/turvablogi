@@ -1,8 +1,14 @@
 ---
 title: "OpenClaw käytännössä: miten erotat BUILDER- ja OPERATOR-työt ilman turhaa kitkaa?"
-date: 2026-03-10T10:15:00+02:00
+date: "2026-03-10T10:15:00+02:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
 ---
 Monessa OpenClaw-ympäristössä hyödyllisin jako ei ole tekninen vaan toiminnallinen: **rakennetaanko nyt jotakin uutta vai operoidaanko jo olemassa olevaa järjestelmää?** Tätä varten BUILDER- ja OPERATOR-ajattelu on käytännössä hyvä, koska se pakottaa kysymään, mikä tämän työn riskitaso ja tavoite oikeasti on.
 

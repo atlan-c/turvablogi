@@ -1,9 +1,15 @@
 ---
 title: "Kenttämuistiinpanot: mitä konteksti-ikkuna tarkoittaa aloittelijalle"
-date: 2026-03-01T08:05:00+02:00
+date: "2026-03-01T08:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Windows"
+  - "Hardware"
 ---
-
 Aamun testikierroksella sama ilmiö toistui: malli “unohti” alkupään ohjeet, kun keskustelu venyi. Syy ei yleensä ole taikuus vaan konteksti-ikkuna.
 
 ## Mitä se on, käytännössä?

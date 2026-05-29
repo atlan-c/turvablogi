@@ -1,0 +1,8 @@
+{{ $tags := .Params.tags }}
+{{ if $tags }}
+<div class="chip-row" aria-label="Tagit">
+  {{ range $tags }}
+    <a class="chip" href="{{ (printf "tags/%s/" (. | urlize)) | relLangURL }}">{{ . }}</a>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,9 +1,17 @@
 ---
 title: "AI-harrastajan laitteisto 2026: mihin eurot kannattaa laittaa"
-date: 2026-02-27T22:20:00+02:00
+date: "2026-02-27T22:20:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Automation"
 ---
-
 Kun tavoitteena on paikallinen AI-käyttö, ensimmäinen kysymys ei ole "mikä on tehokkain", vaan "mikä on järkevin omiin töihin".
 
 ## Prioriteettijärjestys

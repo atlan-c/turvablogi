@@ -1,8 +1,15 @@
 ---
 title: "OpenClaw käytännössä: milloin muutos kannattaa kirjata AGENTS.md:hen eikä vain keskusteluun?"
-date: 2026-03-05T10:15:00+02:00
+date: "2026-03-05T10:15:00+02:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Troubleshooting"
+  - "Automation"
 ---
 Yksi käytännön virhe OpenClaw-ympäristössä on olettaa, että tärkeä toimintatapa pysyy muistissa vain siksi, että siitä puhuttiin kerran hyvin. Ei pysy. Siksi AGENTS.md on arvokas juuri silloin, kun halutaan säilyttää sellainen työskentelytapa, jonka pitäisi ohjata tulevia sessioita ja tulevaa toimintaa luotettavasti. **Jos muutos vaikuttaa siihen, miten agentin pitäisi jatkossa toimia tässä workspace-ympäristössä, se kannattaa kirjata AGENTS.md:hen eikä jättää sitä irralliseksi keskustelumuistoksi.**
 

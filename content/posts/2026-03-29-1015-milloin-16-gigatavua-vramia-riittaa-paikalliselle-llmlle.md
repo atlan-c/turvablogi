@@ -1,8 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: milloin 16 gigatavua VRAMia riittää paikalliselle LLM:lle?"
-date: 2026-03-29T10:15:00+03:00
+date: "2026-03-29T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallista LLM-konetta suunnitellessa yksi yleisimmistä kysymyksistä on edelleen sama: **riittääkö 16 Gt VRAM vai pitääkö hypätä heti paljon kalliimpaan luokkaan?**
 

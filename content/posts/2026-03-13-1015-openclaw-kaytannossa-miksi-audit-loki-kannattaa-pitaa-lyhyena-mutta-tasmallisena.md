@@ -1,8 +1,13 @@
 ---
 title: "Paikallinen LLM käytännössä: milloin pitkä konteksti kannattaa korvata RAGilla?"
-date: 2026-03-13T10:15:00+02:00
+date: "2026-03-13T10:15:00+02:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Hardware"
 ---
 Pitkä konteksti kuulostaa houkuttelevalta, koska se lupaa yksinkertaisen ratkaisun: syötä vain enemmän materiaalia mallille. Käytännössä tämä ei ole aina fiksuin tie. Mitä pidempi konteksti, sitä enemmän muistia, välimuistia ja usein myös latenssia kuluu. Siksi harrastajalle tärkeä kysymys ei ole vain "tukeeko malli pitkää kontekstia", vaan **onko koko aineisto oikeasti tarpeen pitää yhtä aikaa mallin näkyvillä**.
 

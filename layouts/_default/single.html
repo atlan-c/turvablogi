@@ -1,7 +1,16 @@
 {{ define "main" }}
-<article>
-  <h2>{{ .Title }}</h2>
-  <p><small>{{ .Date.Format "2006-01-02 15:04" }}</small></p>
-  {{ .Content }}
+<article class="post-single">
+  <header class="post-header">
+    <p class="post-date">{{ .Date.Format "2006-01-02" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ partial "series_box.html" . }}
+    {{ partial "taxonomy_chips.html" . }}
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
 </article>
+{{ if eq .Section "posts" }}
+  {{ partial "related_posts.html" . }}
+{{ end }}
 {{ end }}

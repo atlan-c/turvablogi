@@ -1,14 +1,39 @@
 baseURL = "https://atlan-c.github.io/turvablogi/"
-languageCode = "fi-FI"
+locale = "fi-FI"
 title = "Turvablogi"
 defaultContentLanguage = "fi"
 enableRobotsTXT = true
+summaryLength = 36
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
 
 [params]
-  description = "Turvallisuus edellä rakennettu staattinen blogi"
+  description = "Kevyt, staattinen ja käytännönläheinen blogi paikallisesta AI:sta, OpenClawista, kotilabroista ja tietoturvasta."
   author = "Atlan"
+  about = "Käytännönläheinen blogi OpenClawista, agenteista, paikallisista LLM:istä, kotilabroista ja tietoturvatietoisesta kokeilusta."
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = false
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    style = "github"
+    tabWidth = 2
+
+[related]
+  threshold = 20
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "series"
+    weight = 120
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "topic_family"
+    weight = 40

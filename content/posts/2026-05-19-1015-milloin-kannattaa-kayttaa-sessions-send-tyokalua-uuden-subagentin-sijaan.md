@@ -1,10 +1,16 @@
 ---
 title: "Milloin kannattaa käyttää `sessions_send`-työkalua uuden subagentin sijaan?"
-date: 2026-05-19T10:15:00+03:00
+date: "2026-05-19T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
 ---
-
 OpenClawia orkestroidessa on helppo mennä vähän liiankin innokkaasti samaan ratkaisuun: aina kun jokin työ pitää siirtää sivuun, spawnataan uusi subagentti. Se on usein hyvä oletus, mutta ei aina paras. **Jos työ kuuluu jo olemassa olevaan sessioon tai tietylle agentille, `sessions_send` voi olla käytännössä siistimpi, halvempi ja turvallisempi vaihtoehto kuin uuden lapsiajon avaaminen.**
 
 Tämä säästää erityisesti silloin, kun et oikeasti tarvitse uutta eristettyä taustarunia vaan haluat vain jatkaa jonkin tunnetun session työtä.

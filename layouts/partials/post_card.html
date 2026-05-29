@@ -1,0 +1,9 @@
+{{ $tags := .Params.tags | default (slice) }}
+{{ $series := .Params.series | default (slice) }}
+<article class="post-card" data-post-card data-title="{{ .Title }}" data-tags="{{ delimit $tags "|" }}" data-series="{{ delimit $series "|" }}" data-excerpt="{{ .Summary | plainify | htmlUnescape | truncate 240 }}">
+  <p class="post-date">{{ .Date.Format "2006-01-02" }}</p>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with index $series 0 }}<p class="post-series">Sarja: <a href="{{ (printf "series/%s/" (. | urlize)) | relLangURL }}">{{ . }}</a></p>{{ end }}
+  <p>{{ .Summary | plainify | htmlUnescape | truncate 240 }}</p>
+  {{ partial "taxonomy_chips.html" . }}
+</article>

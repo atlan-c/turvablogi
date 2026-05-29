@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin cron-runin ongelmaa kannattaa tutkia tasks-listasta eikä cron runs -historiasta?"
-date: 2026-04-29T10:15:00+03:00
+date: "2026-04-29T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun OpenClawin ajastettu työ alkaa käyttäytyä oudosti, ensimmäinen vaisto on usein avata `openclaw cron runs` ja katsoa historiaa. Se on hyvä alku, mutta ei aina oikea ensimmäinen työkalu. Käytännössä kannattaa erottaa kaksi eri kysymystä: haluatko nähdä mitä scheduler teki vai haluatko nähdä mitä irrotettu työ oikeasti tekee juuri nyt.
 
 Lyhyt sääntö on tämä: käytä `cron runs` silloin, kun tutkit ajastuksen historiaa ja lopputulosta. Käytä `tasks list` silloin, kun epäilet että itse taustatyö on jumissa, vielä käynnissä tai muuten käyttäytyy oudosti irrallaan cronista.

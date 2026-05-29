@@ -1,10 +1,16 @@
 ---
 title: "Paikallinen LLM käytännössä: milloin koko RAG on turha ja pitkä prompti riittää?"
-date: 2026-04-19T10:15:00+03:00
+date: "2026-04-19T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
+  - "Hardware"
 ---
-
 Paikallisia malleja rakentaessa yksi yleinen harha on tämä: heti kun puhutaan omista dokumenteista, pitää rakentaa täysi RAG-pino. Käytännössä näin ei aina ole. Jos aineisto on riittävän pieni, selkeä ja usein käytetty, pitkä prompti voi olla yksinkertaisempi, halvempi ja luotettavampi ratkaisu kuin erillinen chunkkaus, embedding-haku ja rerankkaus.
 
 Tämä on hyvä uutinen erityisesti kotilabroihin, joissa tavoite ei ole rakentaa näyttävää arkkitehtuuria vaan saada hyödyllinen paikallinen assistentti toimimaan mahdollisimman vähällä liikkuvien osien määrällä.

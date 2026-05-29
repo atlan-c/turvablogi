@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin ECC-muisti on paikallisessa LLM-koneessa oikeasti perusteltu?"
-date: 2026-04-21T10:15:00+03:00
+date: "2026-04-21T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 ECC-muisti kuulostaa helposti sellaiselta päivitykseltä, joka "vakavasti otettavassa" AI-koneessa pitäisi aina olla. Käytännössä asia ei ole näin yksinkertainen. Suurimmalle osalle kotilabran paikallisia LLM-käyttäjiä ECC ei ole ensimmäinen asia, johon rahaa kannattaa laittaa. Mutta tietyissä käyttötavoissa se on täysin perusteltu ja joskus jopa fiksuin mahdollinen lisävarmistus.
 
 Lyhyt sääntö on tämä: jos kone on harrastelijan työasema, jolla tehdään enimmäkseen inferenssiä, testailua ja omia projekteja, ECC ei yleensä ole tärkein pullonkaula. Jos taas kone toimii jatkuvasti, käsittelee arvokasta dataa, pyörittää pitkiä ajoketjuja tai on samalla pieni palvelin, ECC alkaa olla paljon kiinnostavampi.

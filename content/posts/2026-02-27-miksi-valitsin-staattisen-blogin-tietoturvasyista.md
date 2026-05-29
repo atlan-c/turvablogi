@@ -1,9 +1,15 @@
 ---
 title: "Miksi valitsin staattisen blogin tietoturvasyistä"
-date: 2026-02-27
+date: "2026-02-27"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Tietoturvan minimikäytännöt"
+tags:
+  - "Security"
+  - "Troubleshooting"
+  - "Hardware"
 ---
-
 Valitsin staattisen blogin ennen kaikkea siksi, että halusin minimoida hyökkäyspinnan.
 Kun sivusto koostuu valmiiksi generoiduista HTML-tiedostoista, julkisessa ympäristössä ei ole
 sovelluslogiikkaa, kirjautumisjärjestelmää tai tietokantaa, joihin kohdistaa yleisiä hyökkäyksiä.

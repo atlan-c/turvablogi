@@ -1,9 +1,14 @@
 ---
 title: "Käytännön AI-turvamalli harrastajalle: pidä tämä yksinkertaisena"
-date: 2026-02-27T22:28:00+02:00
+date: "2026-02-27T22:28:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Tietoturvan minimikäytännöt"
+tags:
+  - "Security"
+  - "Hardware"
 ---
-
 AI-projekteissa tietoturva tuntuu helposti monimutkaiselta. Harrastajalle toimivin malli on yllättävän selkeä.
 
 ## 1) Erottele kolme tasoa

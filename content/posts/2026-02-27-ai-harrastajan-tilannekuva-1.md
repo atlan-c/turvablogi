@@ -1,9 +1,15 @@
 ---
 title: "AI-harrastajan tilannekuva #1: mitä kannattaa seurata juuri nyt"
-date: 2026-02-27T22:12:00+02:00
+date: "2026-02-27T22:12:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Tietoturvan minimikäytännöt"
+tags:
+  - "Local LLM"
+  - "Security"
+  - "Hardware"
 ---
-
 Tämä on ensimmäinen tunnin välein julkaistava tilannekuva. Fokus on käytännössä: mitä tekoälyharrastajan kannattaa oikeasti tehdä seuraavien viikkojen aikana.
 
 ## 1) Mallit kehittyvät, mutta käyttötapa ratkaisee

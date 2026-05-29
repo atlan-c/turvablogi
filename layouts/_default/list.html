@@ -1,8 +1,11 @@
 {{ define "main" }}
-<h2>{{ .Title }}</h2>
-<ul>
-{{ range .Pages }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>{{ .Date.Format "2006-01-02 15:04" }}</small></li>
-{{ end }}
-</ul>
+<header class="page-intro">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+</header>
+<div class="post-grid">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ partial "post_card.html" . }}
+  {{ end }}
+</div>
 {{ end }}

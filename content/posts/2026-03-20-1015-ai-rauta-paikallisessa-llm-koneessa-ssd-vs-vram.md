@@ -1,7 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: nopea SSD ei yleensä nopeuta paikallista LLM:ää niin paljon kuin luulet"
-date: 2026-03-20T10:15:00+02:00
+date: "2026-03-20T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Kun paikallinen LLM tuntuu hitaalta, ensimmäinen ostosimpulssi voi olla “laitetaan nopeampi NVMe”. Se on ymmärrettävä ajatus, koska mallit ovat isoja tiedostoja ja niiden lataus näyttää levyoperaatiolta. Käytännössä nopea SSD auttaa eniten silloin, kun malli ladataan muistiin, vaihdetaan mallia usein tai palvelu joutuu käynnistämään mallin vähän väliä uudestaan. Varsinainen tokenien generointi ei kuitenkaan tavallisesti ole SSD:n vaan VRAMin, järjestelmämuistin, muistiväylän ja laskentatehon varassa.
 

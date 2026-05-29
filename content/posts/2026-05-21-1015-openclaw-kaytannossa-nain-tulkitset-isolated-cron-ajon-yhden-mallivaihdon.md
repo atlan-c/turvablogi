@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: näin tulkitset isolated cron -ajon yhden mallivaihdon"
-date: 2026-05-21T10:15:00+03:00
+date: "2026-05-21T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Security"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Jos isolated cron -ajo näyttää joskus vaihtaneen mallia kesken kaiken tai tehneen yhden ylimääräiseltä näyttävän yrityksen, ensimmäinen reaktio on usein väärä: moni epäilee heti tupla-ajastusta, race conditionia tai sitä, että sama jobi laukesi kahdesti. **Käytännössä yksi mallinvaihto kesken isolated cron -ajon tarkoittaa paljon useammin normaalia live model switch -polkua kuin rikkinäistä ajastusta.**
 
 Tämä on hyödyllinen ero ymmärtää, koska oikea diagnoosi säästää paljon turhaa säätöä. Jos luulet ongelman olevan schedulerissä, alat helposti penkoa vääriä asioita. Jos taas tunnistat mallinvaihdon hallituksi retryksi, osaat katsoa heti oikeaa paikkaa: mikä malli valittiin, oliko auth-profiili vaihtunut ja mitä run history sekä task-loki näyttävät.

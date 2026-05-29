@@ -1,7 +1,15 @@
 ---
 title: "Paikallinen LLM käytännössä: mitä kvantisointi oikeasti tarkoittaa harrastajalle?"
-date: 2026-03-21T10:15:00+02:00
+date: "2026-03-21T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
 ---
 Kun paikallisista malleista puhutaan, kvantisointi kuulostaa helposti taikatemppulta: sama malli, pienempi koko ja ehkä vielä lähes sama käytännön hyöty. Perusidea on kuitenkin yksinkertainen. Mallin painot tallennetaan matalammalla tarkkuudella, jotta muistia kuluu vähemmän ja inferenssi voi olla kevyempää ajaa. Harrastajalle tämä on ennen kaikkea tapa sovittaa malli omaan rautaan ilman että jokainen kokeilu vaatii uutta GPU:ta.
 

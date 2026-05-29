@@ -1,9 +1,16 @@
 ---
 title: "Kannattaako 24 Gt VRAM paikalliselle LLM-harrastajalle vuonna 2026?"
-date: 2026-03-17T10:15:00+02:00
+date: "2026-03-17T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
 ---
-
 24 gigatavua VRAMia on tällä hetkellä monelle harrastajalle se houkuttelevin raja: käytettyjä 3090-kortteja löytyy edelleen, uudemmissa korteissa muistimäärä ei aina kasva samassa suhteessa kuin hinta, ja juuri 24 Gt kuulostaa paperilla siltä pisteeltä, jossa "oikeat" paikalliset mallit alkavat onnistua. Käytännössä kysymys ei kuitenkaan ole vain siitä, mahtuuko malli käynnistymään, vaan siitä, **mahtuuko se kokonaan GPU:lle, millä kvantisoinnilla, ja mitä tapahtuu kun konteksti pitenee**.
 
 Lyhyt vastaus: 24 Gt VRAM on edelleen erittäin käyttökelpoinen määrä paikalliseen LLM-käyttöön, mutta se on paras erityisesti 7B–14B-luokan malleille ja osalle keskikokoisista malleista kvantisoituina. Jos tavoite on ajaa 70B-luokan mallia mukavasti, 24 Gt ei ole enää "huoleton" taso vaan kompromissi, jossa offload, kvantisointi ja realistinen konteksti ratkaisevat paljon.

@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: kannattaako X3D-prosessori paikalliseen LLM-käyttöön?"
-date: 2026-04-17T10:15:00+03:00
+date: "2026-04-17T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Moni harrastaja pohtii nyt samaa kysymystä: jos koneeseen päivittää tehokkaan pöytäprosessorin, onko AMD:n X3D-malli hyvä valinta myös paikallisiin LLM-ajoihin vai vain peleihin? Lyhyt vastaus on, että useimmissa paikallisen LLM:n käyttötavoissa X3D ei ole paras hintansa arvoinen prioriteetti. Se ei yleensä ole huono, mutta rahat kannattaa tavallisesti laittaa ensin GPU:hun, RAM-muistiin, SSD:hen ja hiljaiseen jäähdytykseen.
 
 Tämä johtuu siitä, että paikallisen mallin pullonkaula ei useimmiten ole sama kuin peleissä. Peleissä iso lisävälimuisti voi auttaa paljon, koska työkuorma hyötyy pienestä viiveestä ja toistuvasta datasta. LLM-ajossa ratkaisevampaa on usein jokin näistä:

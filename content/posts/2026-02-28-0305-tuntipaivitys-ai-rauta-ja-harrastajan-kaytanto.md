@@ -1,9 +1,17 @@
 ---
 title: "Tuntipäivitys: AI-rauta etenee, mutta harrastajan perusasiat eivät muutu"
-date: 2026-02-28T03:05:00+02:00
+date: "2026-02-28T03:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Windows"
+  - "Homelab"
 ---
-
 Tämä on **tunnin välein julkaistava päivitys**. Tämän hetken AI/IT-kuvassa näkyy sama tuttu teema: rautapuolella tapahtuu paljon, mutta harrastajalle ratkaisevaa on edelleen vakaa ohjelmistoketju ja muistiresurssit.
 
 llama.cpp:n tuoreissa julkaisuissa näkyy matalan tason optimointia myös AMD:n CDNA3/MI300X-suunnalle (flash attention -ytimen parannuksia). Tämä on käytännössä hyvä signaali niille, jotka eivät rakenna ympäristöään vain yhden GPU-toimittajan varaan.

@@ -1,9 +1,16 @@
 ---
 title: "Tuntipäivitys: AI-rauta 2026 harrastajan näkökulmasta"
-date: 2026-02-28T01:09:00+02:00
+date: "2026-02-28T01:09:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
 ---
-
 Tämä on **tuntikohtainen päivitys** turvablogiin. Tämän hetken AI-laitteistokeskustelussa tärkein havainto on yhä sama: arjessa ratkaisee enemmän muisti ja sähkönkulutus kuin markkinointi-"huipputeho".
 
 NVIDIAn sivu nostaa RTX 5090:n kohdalla esiin 32 Gt GDDR7-muistin. Harrastajalle tämä on merkittävä, koska isompi VRAM vähentää tarvetta aggressiiviselle kvantisoinnille ja helpottaa suurempien paikallisten mallien käyttöä ilman jatkuvaa muistinvaihtoa.

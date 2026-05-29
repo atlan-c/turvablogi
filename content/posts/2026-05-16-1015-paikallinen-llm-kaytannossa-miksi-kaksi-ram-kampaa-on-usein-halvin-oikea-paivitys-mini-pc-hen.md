@@ -1,10 +1,17 @@
 ---
 title: "Kannattaako mini-PC:hen yksi 32 Gt RAM-kampa vai 2 x 16 Gt paikallista LLM:ää varten?"
-date: 2026-05-16T10:15:00+03:00
+date: "2026-05-16T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Moni yrittää parantaa pientä paikallista LLM-konetta ensimmäiseksi vaihtamalla mallia, säätämällä kvantisointia tai haaveilemalla isommasta GPU:sta. Yllättävän usein halvin oikea parannus on paljon arkisempi: yksi muistipalikka lisää, jotta kone siirtyy yksikanavaisesta muistista kaksikanavaiseen. Erityisesti mini-PC:issä, iGPU-koneissa ja CPU-painotteisessa `llama.cpp`-ajossa tämä voi tuntua enemmän kuin mikään pieni prosessoripäivitys.
 
 Lyhyt käytännön sääntö on tämä: **jos paikallinen LLM-koneesi käyttää järjestelmämuistia mallin tai grafiikan työmuistina, varmista ensin että muisti toimii kahdella kanavalla ennen kuin käytät rahaa hienompiin optimointeihin**.

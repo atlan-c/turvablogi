@@ -1,8 +1,15 @@
 ---
 title: "OpenClaw käytännössä: miksi julkaisuajo kannattaa ajaa runbookina eikä muistista?"
-date: 2026-03-16T10:15:00+02:00
+date: "2026-03-16T10:15:00+02:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
 Julkaisutyö näyttää paperilla helpolta niin kauan kuin kaikki menee normaalisti. Sitten tulee yksi poikkeus, puuttuva tarkistus, unohtunut tilapäivitys tai credential-virhe, ja yhtäkkiä huomaa, että muistista ajettu prosessi ei ollutkaan kovin luotettava. Siksi pidän julkaisuissa runbook-ajattelusta: **sama peruspolku ajetaan joka kerta samassa järjestyksessä, ja poikkeamat havaitaan ennen kuin ne päätyvät tuotantoon**.
 

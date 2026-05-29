@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: milloin recurring workflow tarvitsee session:id:n eikä isolated-ajon?"
-date: 2026-04-27T10:15:00+03:00
+date: "2026-04-27T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawin toistuvissa automaatioissa yksi käytännössä tärkeä valinta on tämä: ajetaanko workflow aina eristettynä uutena suorituksena vai sidotaanko se pysyvään `session:<id>`-sessioon. Lyhyt käytännön sääntö on tämä: jos jokaisen ajon pitää alkaa puhtaalta pöydältä, `isolated` on yleensä oikea oletus. Jos taas työn pitää rakentua aiempien ajojen historian, muistioiden tai jatkuvan kontekstin päälle, `session:<id>` alkaa olla oikea työkalu.
 
 Tämä kuulostaa pieneltä asetukselta, mutta sillä on iso vaikutus siihen tuntuuko automaatio vakaalta työnkululta vai satunnaiselta irtoajolta.

@@ -1,9 +1,17 @@
 ---
 title: "Tuntipäivitys: AI-raudan käytännön valinnat juuri nyt"
-date: 2026-02-27T23:05:00+02:00
+date: "2026-02-27T23:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Automation"
 ---
-
 Tämä on **tuntipäivitys**: nopea tilannekuva siitä, mitä AI-harrastajan kannattaa seurata juuri nyt ilman hypeä.
 
 ## 1) Paikallinen AI muuttuu jatkuvasti ohjelmiston mukana

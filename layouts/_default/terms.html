@@ -1,0 +1,14 @@
+{{ define "main" }}
+<header class="page-intro">
+  <h1>{{ .Title }}</h1>
+  <p>Kevyt taksonomia auttaa löytämään samasta aiheesta kirjoitetut jutut ilman raskasta hakua.</p>
+</header>
+<div class="taxonomy-list">
+  {{ range .Data.Terms.Alphabetical }}
+    <a class="taxonomy-card" href="{{ .Page.RelPermalink }}">
+      <strong>{{ .Page.Title }}</strong>
+      <span>{{ .Count }} postausta</span>
+    </a>
+  {{ end }}
+</div>
+{{ end }}

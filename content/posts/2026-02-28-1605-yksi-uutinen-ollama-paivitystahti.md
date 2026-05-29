@@ -1,9 +1,16 @@
 ---
 title: "Yksi uutinen: Ollaman nopea päivitystahti — yleiset virheet ja nopeat korjaukset"
-date: 2026-02-28T16:05:00+02:00
+date: "2026-02-28T16:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Uutinen lyhyesti: Ollaman julkaisuissa on nähty tiheä korjaustahti. Harrastajalle tämä on hyvä asia, mutta vain jos päivitykset tehdään hallitusti.
 
 ## Mitä uutinen käytännössä tarkoittaa?

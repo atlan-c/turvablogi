@@ -1,8 +1,16 @@
 ---
 title: "Tarvitaanko PCIe 5.0 SSD paikalliseen LLM-koneeseen?"
-date: 2026-04-03T10:15:00+03:00
+date: "2026-04-03T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallista LLM-konetta rakentaessa huomio menee yleensä ensin GPU:hun, sitten VRAMiin ja ehkä vasta sen jälkeen tallennustilaan. Silti juuri SSD on osa, josta moni kysyy nyt saman asian: **kannattaako paikalliseen AI-koneeseen ostaa kallis PCIe 5.0 NVMe-levy, vai riittääkö tavallinen PCIe 4.0 oikein hyvin?**
 

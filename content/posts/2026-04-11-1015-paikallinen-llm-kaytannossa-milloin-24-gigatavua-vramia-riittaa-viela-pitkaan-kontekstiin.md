@@ -1,10 +1,17 @@
 ---
 title: "Paikallinen LLM käytännössä: milloin 24 gigatavua VRAMia riittää vielä pitkään kontekstiin?"
-date: 2026-04-11T10:15:00+03:00
+date: "2026-04-11T10:15:00+03:00"
 draft: false
-topic_family: llm-hardware
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 24 gigatavua VRAMia on harrastajan paikallisessa LLM-koneessa vähän kuin vanha luottotyökalu: ei enää automaattisesti huippuluokkaa, mutta silti monessa oikeassa käytössä yllättävän järkevä. Ongelmia alkaa tulla vasta silloin, kun samassa paketissa halutaan sekä isohko malli että pitkä konteksti ilman kompromisseja.
 
 Siksi oikea kysymys ei yleensä ole "onko 24 gigaa vielä tarpeeksi", vaan "mihin asti 24 gigaa riittää ennen kuin pitkä konteksti alkaa syödä liikaa suorituskykyä tai mallivalintaa".

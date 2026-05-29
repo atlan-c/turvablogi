@@ -1,10 +1,17 @@
 ---
 title: "Paikallinen LLM käytännössä: miksi 8 Gt GPU ja paljon RAMia ei tunnu 24 Gt VRAMilta?"
-date: 2026-05-12T10:15:00+03:00
+date: "2026-05-12T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Moni yrittää venyttää paikallista LLM-konetta näin: koneessa on 8 Gt näytönohjainta, mutta keskusmuistia on paljon, joten ehkä iso malli saadaan jotenkin juoksemaan lähes saman tuntuisesti kuin oikeasti isossa VRAMissa. Tämä toimii osittain, mutta vain osittain. Käytännössä suuri RAM auttaa enemmän siinä, että ajo ylipäätään onnistuu, kuin siinä että kokemus tuntuisi samalta kuin 24 Gt VRAMin koneessa.
 
 Lyhyt käytännön sääntö on tämä: jos malli tai sen työdata mahtuu kunnolla GPU:n omaan muistiin, saat yleensä paljon tasaisemman ja nopeamman ajon. Jos taas joudut jatkuvasti nojaamaan järjestelmämuistiin, voit saada mallin käyntiin, mutta nopeus, latenssi ja ennustettavuus alkavat kärsiä.

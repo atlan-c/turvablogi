@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi topic-eristys vähentää virheitä pitkissä työketjuissa?"
-date: 2026-03-08T10:15:00+02:00
+date: "2026-03-08T10:15:00+02:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
 Topic-eristys kuulostaa helposti prosessipuheelta, mutta käytännössä se on yksi helpoimmista tavoista vähentää virheitä. Kun sama keskustelu yrittää olla yhtä aikaa ideointipaikka, ajoloki, dokumentaation työtila ja satunnainen tukikanava, agentti joutuu jatkuvasti arvaamaan, mikä osa historiasta on vielä relevanttia. Juuri tässä syntyvät monet turhat väärintulkinnat.
 

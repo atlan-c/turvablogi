@@ -1,10 +1,17 @@
 ---
 title: "Paikallinen LLM-kone: tarvitaanko ECC-muistia oikeasti?"
-date: 2026-05-29T10:15:00+03:00
+date: "2026-05-29T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Automation"
 ---
-
 Kun paikallista LLM-konetta suunnittelee vähän vakavammin, vastaan tulee nopeasti kysymys ECC-muistista. **Useimmille harrastajille ECC ei ole pakollinen ostos, mutta se voi olla erittäin järkevä, jos kone pyörii paljon, käyttää paljon RAM-muistia tai toimii muutenkin enemmän työasemana kuin lelukoneena.** Tärkeintä on ymmärtää, mitä ECC oikeasti ratkaisee: se ei tee mallista nopeampaa, vaan vähentää muistivirheiden riskiä.
 
 Lyhyt käytännön vastaus on tämä:

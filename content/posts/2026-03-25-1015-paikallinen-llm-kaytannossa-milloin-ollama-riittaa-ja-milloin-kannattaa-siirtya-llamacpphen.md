@@ -1,7 +1,15 @@
 ---
 title: "Paikallinen LLM käytännössä: milloin Ollama riittää ja milloin kannattaa siirtyä llama.cpp:hen?"
-date: 2026-03-25T10:15:00+02:00
+date: "2026-03-25T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
 ---
 Paikallisia LLM:iä kokeileva harrastaja törmää nopeasti kahteen nimeen: **Ollama** ja **llama.cpp**. Molemmat ovat hyödyllisiä, mutta ne eivät ratkaise ihan samaa ongelmaa. Käytännössä Ollama on usein helpoin tapa päästä nopeasti alkuun, kun taas llama.cpp alkaa kiinnostaa enemmän silloin, kun haluat ymmärtää suorituskykyä, säätää ajoa tarkemmin tai puristaa koneestasi enemmän irti.
 

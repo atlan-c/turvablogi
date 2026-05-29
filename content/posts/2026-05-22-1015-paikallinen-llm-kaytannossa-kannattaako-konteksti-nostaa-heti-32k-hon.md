@@ -1,10 +1,16 @@
 ---
 title: "Paikallinen LLM käytännössä: kannattaako konteksti nostaa heti 32K:hon?"
-date: 2026-05-22T10:15:00+03:00
+date: "2026-05-22T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM:ää viritellessä yksi yleisimmistä "no laitetaan tämäkin isoksi" -asetuksista on konteksti-ikkuna. Moni nostaa sen heti 16K:hon, 32K:hon tai vielä pidemmälle, koska pidempi konteksti kuulostaa automaattisesti paremmalta. Käytännössä näin ei aina ole. **Useimmille harrastajille fiksu oletus on pitää konteksti aluksi maltillisena ja nostaa sitä vasta, kun oma käyttö oikeasti tarvitsee sitä, koska pidempi konteksti syö muistia ja voi lisätä hitautta yllättävän paljon jo ennen kuin mallin painot vaihtuvat isommiksi.**
 
 Tämä ei tarkoita, että pitkä konteksti olisi huono asia. Se tarkoittaa vain sitä, että se ei ole ilmainen.

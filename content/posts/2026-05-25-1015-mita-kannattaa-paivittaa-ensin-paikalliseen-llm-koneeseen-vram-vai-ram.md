@@ -1,10 +1,17 @@
 ---
 title: "Mitä kannattaa päivittää ensin paikalliseen LLM-koneeseen: VRAM vai RAM?"
-date: 2026-05-25T10:15:00+03:00
+date: "2026-05-25T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Kun paikallinen LLM tuntuu tahmealta, ensimmäinen ostohalu kohdistuu helposti väärään paikkaan. Joku lisää tavallista RAM-muistia, vaikka pullonkaula on oikeasti näytönohjaimen muistissa. Toinen taas haaveilee uudesta GPU:sta, vaikka ajaa mallia käytännössä enimmäkseen CPU:n puolella. **Useimmille harrastajille oikea nyrkkisääntö on tämä: jos haluat mallin mahtuvan ja pysyvän mahdollisimman pitkälle GPU:lla, päivitä ensin VRAMia. Jos taas ajat tarkoituksella CPU:lla tai osittain CPU/GPU-hybridinä, RAM ratkaisee sen, pysyykö kone käyttökelpoisena ja mahtuuko malli ylipäänsä muistiin.**
 
 Tämä kuulostaa itsestään selvältä, mutta käytännössä moni sekoittaa kaksi eri kysymystä:

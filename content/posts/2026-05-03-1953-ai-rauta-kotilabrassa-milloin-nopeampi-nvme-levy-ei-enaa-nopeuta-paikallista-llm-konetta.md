@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin nopeampi NVMe-levy ei enää nopeuta paikallista LLM-konetta?"
-date: 2026-05-03T19:53:23+03:00
+date: "2026-05-03T19:53:23+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM-konetta rakentaessa NVMe-levy tuntuu usein helpolta päivitykseltä. Numeroita on helppo verrata, paketissa luvataan valtavia gigatavuja sekunnissa ja päivitys kuulostaa modernilta. Käytännössä nopeampi NVMe ei kuitenkaan aina nopeuta itse LLM-arkea juuri siinä kohdassa, jossa käyttäjä sen huomaa.
 
 Lyhyt käytännön sääntö on tämä: nopeampi NVMe auttaa paljon silloin, kun nykyinen levy on selvä pullonkaula mallien latauksessa, datan siirrossa tai RAG-aineiston käsittelyssä. Jos taas varsinainen työ hidastuu VRAMin, RAMin, CPU:n tai GPU:n vuoksi, pelkkä levy päivittyy mutta kokemus ei juuri muutu.

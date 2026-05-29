@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: milloin puhdas subagentti on parempi kuin forkattu konteksti?"
-date: 2026-05-13T10:15:00+03:00
+date: "2026-05-13T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Troubleshooting"
+  - "Automation"
 ---
-
 OpenClawissa pieni mutta käytännössä tärkeä valinta on tämä: käynnistätkö subagentin puhtaana vai kopioitko sille nykyisen keskustelun `context: "fork"` -tilassa. Oletus on syystäkin puhdas `isolated`. Se pitää tokenikulun alempana, vähentää sivupolkujen sotkua ja pakottaa kirjoittamaan tehtävänannon niin, että lapsisessio voi oikeasti toimia itsenäisesti.
 
 Lyhyt sääntö on tämä: **aloita aina `isolated`-ajattelusta ja nosta subagentti `fork`-tilaan vasta silloin, kun työ todella tarvitsee vanhan transcriptin sisältöä**. Jos tämän säännön unohtaa, delegointi alkaa nopeasti näyttää kätevältä mutta muuttuu kalliiksi, hitaaksi ja vaikeammin toistettavaksi.

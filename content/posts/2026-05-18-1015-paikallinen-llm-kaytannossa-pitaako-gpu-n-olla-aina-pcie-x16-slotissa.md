@@ -1,10 +1,17 @@
 ---
 title: "Paikallinen LLM käytännössä: pitääkö GPU:n olla aina PCIe x16 -slotissa?"
-date: 2026-05-18T10:15:00+03:00
+date: "2026-05-18T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Moni paikallista LLM-konetta kasaava jumittuu samaan huoleen heti emolevyä valitessa: jos vapaa paikka on vain PCIe x8 tai pahimmillaan sähköisesti x4, tappaako se koko projektin? Lyhyt käytännön vastaus on tämä: **yhdellä GPU:lla ajettava paikallinen LLM ei yleensä tarvitse täyttä x16-kaistaa tokenien generointiin, mutta liian kapea väylä alkaa silti näkyä mallin latauksessa, promptin syötössä ja kaikissa CPU:n ja GPU:n välisissä hybridikuvioissa**.
 
 Toisin sanoen: älä maksa turhaan x16-paniikista, mutta älä myöskään kuvittele, että kaikki slotit ovat käytännössä samanarvoisia.

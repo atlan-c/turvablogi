@@ -1,9 +1,17 @@
 ---
 title: "AI-rauta kotikäyttöön: tarkistuslista ennen kuin ostat"
-date: 2026-03-01T12:05:00+02:00
+date: "2026-03-01T12:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Jos rakennat paikallista AI-ympäristöä kotona, kallein virhe on ostaa väärä pullonkaula. Käy tämä lista läpi ennen tilausta.
 
 ## Tarkistuslista

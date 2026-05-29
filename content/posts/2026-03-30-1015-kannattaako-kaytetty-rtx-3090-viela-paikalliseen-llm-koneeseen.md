@@ -1,8 +1,16 @@
 ---
 title: "Kannattaako käytetty RTX 3090 vielä paikalliseen LLM-koneeseen?"
-date: 2026-03-30T10:15:00+03:00
+date: "2026-03-30T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
 Paikallista LLM-konetta rakentaessa yksi houkuttelevimmista oikopoluista on edelleen käytetty **RTX 3090**. Syy on helppo ymmärtää: kortissa on 24 Gt VRAMia, CUDA-tuki on kypsä ja käytettyjen markkinassa hinta on usein paljon alempi kuin uudemmissa 24–32 Gt korteissa. Mutta kannattaako se oikeasti vielä vuonna 2026, vai onko kyse vain vanhan suosikin nostalgiasta?
 

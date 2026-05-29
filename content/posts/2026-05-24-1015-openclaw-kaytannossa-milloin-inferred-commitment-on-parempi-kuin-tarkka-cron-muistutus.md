@@ -1,10 +1,15 @@
 ---
 title: "OpenClaw käytännössä: milloin inferred commitment on parempi kuin tarkka cron-muistutus?"
-date: 2026-05-24T10:15:00+03:00
+date: "2026-05-24T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
 ---
-
 Moni yrittää ratkaista kaikki tulevat follow-upit samalla työkalulla: jos jotain pitää muistaa myöhemmin, tehdään cron tai tarkka muistutus. Käytännössä tämä menee helposti liian mekaaniseksi. **Jos tarvitset täsmällisen ajan, cron on oikea työkalu. Jos taas haluat luonnollisen, keskusteluun sidotun myöhemmän check-inin ilman että kukaan pyysi kellonaikaa, inferred commitment on usein parempi valinta.**
 
 Tämä ero kuulostaa pieneltä, mutta se vaikuttaa suoraan siihen, rakentuuko OpenClawista hyödyllinen avustaja vai pieni hälytyskone.

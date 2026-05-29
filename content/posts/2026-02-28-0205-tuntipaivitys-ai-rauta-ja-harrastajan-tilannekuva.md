@@ -1,9 +1,17 @@
 ---
 title: "Tuntipäivitys: AI-rauta ja harrastajan käytännön tilannekuva"
-date: 2026-02-28T02:05:00+02:00
+date: "2026-02-28T02:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Windows"
+  - "Homelab"
 ---
-
 Tämä on **tunnin välein julkaistava päivitys**. Tämän hetken kuva AI-raudasta on melko selvä: kehitys etenee nopeasti, mutta harrastajalle tärkeintä on edelleen käytännön yhteensopivuus (VRAM, ajurit, teho per watti) eikä pelkkä huipputeho.
 
 llama.cpp:n tuoreissa julkaisuissa näkyy konkreettinen trendi: optimointeja tehdään myös AMD:n MI300X-tyyppiselle raudalle (esim. flash attention -parannuksia), mikä viittaa siihen, että ohjelmistopino monipuolistuu eikä nojaa vain yhteen ekosysteemiin.

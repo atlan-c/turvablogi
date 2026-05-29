@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin multi-step-automaatio kannattaa nostaa Task Flow'hun eikä pitää yksittäisinä taskeina?"
-date: 2026-05-04T10:15:00+03:00
+date: "2026-05-04T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawissa on helppo saada yksi taustatyö toimimaan. Vaikeampi kysymys tulee vähän myöhemmin: missä kohtaa useista peräkkäisistä vaiheista koostuva automaatio ei enää kuulu irrallisten taskien varaan, vaan kannattaa nostaa Task Flow -tasolle. Tämä raja ei ole vain tekninen yksityiskohta, vaan vaikuttaa suoraan siihen miten hyvin työnkulku kestää katkoja, jatkuu myöhemmin ja pysyy ymmärrettävänä.
 
 Lyhyt käytännön sääntö on tämä: jos työ on yksi irrotettu suoritus, plain task riittää. Jos työ koostuu useista riippuvista vaiheista, tarvitsee durable progress -tilaa tai pitää selvitä restartista siististi, Task Flow alkaa olla oikea työkalu.

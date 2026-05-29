@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin status --deep riittää ja milloin kannattaa ajaa health --json?"
-date: 2026-04-12T10:15:00+03:00
+date: "2026-04-12T10:15:00+03:00"
 draft: false
-topic_family: openclaw
+topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun OpenClawissa jokin tuntuu oudolta, ensimmäinen ongelma ei usein ole itse vika vaan se, että käytössä on monta melkein samanlaista diagnostiikkakomentoa. `openclaw status`, `openclaw status --deep`, `openclaw health`, `openclaw health --json` ja `openclaw gateway status` näyttävät paperilla läheisiltä, mutta ne vastaavat vähän eri kysymyksiin.
 
 Käytännössä yleisin valinta on kahden komennon välillä: `status --deep` vai `health --json`.

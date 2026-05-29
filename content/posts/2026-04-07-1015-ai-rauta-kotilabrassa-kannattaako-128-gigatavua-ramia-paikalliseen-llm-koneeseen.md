@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: kannattaako 128 gigatavua RAMia paikalliseen LLM-koneeseen?"
-date: 2026-04-07T10:15:00+03:00
+date: "2026-04-07T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Automation"
 ---
-
 128 gigatavua RAMia kuulostaa helposti siltä, että kyse on vain ylibudjetoidusta harrastekoneesta. Käytännössä näin ei aina ole. Monelle paikallisia malleja ajavalle 64 gigatavua riittää pitkälle, mutta tietyissä työkuormissa 128 gigatavua ei ole enää ylellisyyttä vaan tapa välttää jatkuva kompromissikierre.
 
 Tärkeä kysymys ei siis ole vain "mahtuuko malli käyntiin", vaan mitä muuta koneen pitää tehdä samaan aikaan. Jos ajat osan mallista CPU:lla, pidät suuria dokumenttiaineistoja muistissa, käytät pitkää kontekstia tai ajat useampaa palvelua rinnakkain, järjestelmämuistin merkitys kasvaa nopeasti.

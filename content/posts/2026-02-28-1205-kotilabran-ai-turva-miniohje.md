@@ -1,9 +1,17 @@
 ---
 title: "Kotilabran AI-turva: 20 minuutin minimiohje"
-date: 2026-02-28T12:05:00+02:00
+date: "2026-02-28T12:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Tietoturvan minimikäytännöt"
+tags:
+  - "Local LLM"
+  - "Security"
+  - "Homelab"
+  - "Automation"
+  - "Hardware"
 ---
-
 Jos ajat AI-malleja kotona, tärkein tavoite on rajata vahinko yhteen koneeseen ja yhteen käyttäjään. Tämä miniohje tekee sen ilman raskasta enterprise-viritystä.
 
 ## 1) Rajaa verkko ensin

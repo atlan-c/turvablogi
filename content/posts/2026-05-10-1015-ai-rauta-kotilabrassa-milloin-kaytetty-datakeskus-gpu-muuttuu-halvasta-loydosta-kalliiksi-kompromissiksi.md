@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin käytetty datakeskus-GPU muuttuu halvasta löydöstä kalliiksi kompromissiksi?"
-date: 2026-05-10T10:15:00+03:00
+date: "2026-05-10T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Käytetty datakeskus-GPU näyttää paikallisen LLM-harrastajan silmissä usein täydelliseltä oikotieltä. Hintaan voi saada paljon VRAMia, kortti on alun perin tehty AI-kuormille ja speksit näyttävät paperilla houkuttelevilta. Käytännössä halpa löytö voi kuitenkin muuttua nopeasti kalliiksi kompromissiksi, jos kortti olettaa aivan erilaisen kotelon, ilmankierron ja virtaympäristön kuin tavallinen kotilabra.
 
 Lyhyt käytännön sääntö on tämä: käytetty datakeskus-GPU on houkutteleva ostos vain silloin, kun koko muu kone pystyy tukemaan sitä. Jos joudut samalla ratkaisemaan jäähdytyksen, virtaliittimet, melun, fyysisen tilan ja ajurituen uusiksi, halpa kortti ei ole enää oikeasti halpa.

@@ -43,12 +43,27 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     if not m:
         raise ValueError("Frontmatter puuttuu tai on virheellinen (--- ... ---)")
     raw, body = m.group(1), m.group(2).strip()
-    fm: dict[str, str] = {}
-    for line in raw.splitlines():
-        if ":" not in line:
+    lines = raw.splitlines()
+    fm: dict[str, object] = {}
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if not line.strip() or ":" not in line:
+            i += 1
             continue
-        k, v = line.split(":", 1)
-        fm[k.strip()] = v.strip().strip('"')
+        key, value = line.split(":", 1)
+        key = key.strip()
+        value = value.strip()
+        if value == "":
+            items: list[str] = []
+            i += 1
+            while i < len(lines) and lines[i].startswith("  - "):
+                items.append(lines[i][4:].strip().strip('"'))
+                i += 1
+            fm[key] = items
+            continue
+        fm[key] = value.strip().strip('"')
+        i += 1
     return fm, body
 
 
@@ -76,7 +91,7 @@ def recent_posts(limit: int = 8) -> list[Path]:
 
 
 def post_date_day(post: ParsedPost) -> str:
-    raw = post.frontmatter.get("date", "").strip()
+    raw = str(post.frontmatter.get("date", "")).strip()
     if not raw:
         return ""
     return raw.split("T", 1)[0].split(" ", 1)[0]
@@ -91,16 +106,37 @@ def validate_sources(body: str) -> tuple[bool, str]:
     return True, ""
 
 
+def is_draft(post: ParsedPost) -> bool:
+    return str(post.frontmatter.get("draft", "")).lower() in {"true", "1", "yes"}
+
+
 def validate_post(post: ParsedPost) -> list[str]:
     errors: list[str] = []
     fm = post.frontmatter
     for key in ["title", "date", "draft", "topic_family"]:
         if key not in fm:
             errors.append(f"Frontmatter-kenttä puuttuu: {key}")
-    if fm.get("draft", "").lower() not in {"false", "0", "no"}:
-        errors.append("draft pitää olla false")
-    if fm.get("topic_family", "") not in {"openclaw", "llm-hardware"}:
+
+    draft_value = str(fm.get("draft", "")).lower()
+    if draft_value not in {"true", "false", "0", "1", "no", "yes"}:
+        errors.append("draft pitää olla true tai false")
+
+    if str(fm.get("topic_family", "")) not in {"openclaw", "llm-hardware"}:
         errors.append("topic_family pitää olla joko 'openclaw' tai 'llm-hardware'")
+
+    tags = fm.get("tags")
+    if tags:
+        if not isinstance(tags, list):
+            errors.append("tags pitää olla YAML-lista")
+        elif not (2 <= len(tags) <= 5):
+            errors.append("tageja pitää olla 2-5")
+
+    series = fm.get("series")
+    if series and not isinstance(series, list):
+        errors.append("series pitää olla YAML-lista")
+
+    if is_draft(post):
+        return errors
 
     if len(post.body) < 450:
         errors.append("Sisältö on liian lyhyt (min 450 merkkiä)")
@@ -126,14 +162,13 @@ def validate_post(post: ParsedPost) -> list[str]:
                 old_post = parse_post(old_path)
             except Exception:
                 continue
-            if post_date_day(old_post) == cur_day:
+            if post_date_day(old_post) == cur_day and not is_draft(old_post):
                 errors.append(
                     f"Kalenteripäivälle {cur_day} on jo olemassa postaus ({old_path.name}); toinen saman päivän julkaisu vaatii erillisen poikkeuksen"
                 )
                 break
 
-    # compare with recent posts to avoid repetition
-    cur_title_shape = title_shape(fm.get("title", ""))
+    cur_title_shape = title_shape(str(fm.get("title", "")))
     cur_intro = first_paragraph(post.body)
     for old in recent_posts(limit=6):
         if old.resolve() == post.path.resolve():
@@ -142,7 +177,9 @@ def validate_post(post: ParsedPost) -> list[str]:
             op = parse_post(old)
         except Exception:
             continue
-        if title_shape(op.frontmatter.get("title", "")) == cur_title_shape and cur_title_shape:
+        if is_draft(op):
+            continue
+        if title_shape(str(op.frontmatter.get("title", ""))) == cur_title_shape and cur_title_shape:
             errors.append("Otsikkorakenne toistaa liian tarkasti viimeaikaisen postauksen")
             break
         old_intro = first_paragraph(op.body)
@@ -165,14 +202,14 @@ def extract_sources_domains(body: str) -> list[str]:
 
 
 def infer_topic_family(post: ParsedPost) -> str:
-    explicit = post.frontmatter.get("topic_family", "").strip()
+    explicit = str(post.frontmatter.get("topic_family", "")).strip()
     if explicit in {"openclaw", "llm-hardware"}:
         return explicit
 
     text = " ".join(
         [
             post.path.name.lower(),
-            post.frontmatter.get("title", "").lower(),
+            str(post.frontmatter.get("title", "")).lower(),
             post.body.lower(),
             " ".join(extract_sources_domains(post.body)),
         ]
@@ -208,7 +245,7 @@ def update_state_from_post(post: ParsedPost):
         {
             "last_post": str(post.path.relative_to(ROOT)),
             "last_title": post.frontmatter.get("title", ""),
-            "last_title_shape": title_shape(post.frontmatter.get("title", "")),
+            "last_title_shape": title_shape(str(post.frontmatter.get("title", ""))),
             "last_topic_family": infer_topic_family(post),
             "last_intro_hash": hashlib.sha256(intro.encode("utf-8", errors="ignore")).hexdigest() if intro else "",
             "last_sources_domains": extract_sources_domains(post.body),

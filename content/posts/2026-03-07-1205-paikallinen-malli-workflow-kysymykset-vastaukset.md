@@ -1,9 +1,17 @@
 ---
 title: "Paikallinen malli arjessa: 6 kysymystä, jotka säästävät tunteja"
-date: 2026-03-07T12:05:00+02:00
+date: "2026-03-07T12:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun paikallinen malli tuntuu "melkein toimivalta", ongelma on yleensä workflowssa, ei yhdessä asetuksessa. Tässä nopea Q&A-runko, jolla saat arjen käyttöön vakautta.
 
 ## Q&A: toimiva local-model workflow

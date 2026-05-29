@@ -1,7 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: kannattaako DDR5-6000 paikalliseen LLM-ajoon?"
-date: 2026-03-28T10:15:00+02:00
+date: "2026-03-28T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Kun paikallista LLM-konetta suunnitellaan, huomio menee lähes aina ensimmäisenä GPU:hun ja VRAMiin. Se on yleensä oikea lähtökohta, mutta CPU-painotteisessa ajossa moni jättää yhden käytännön kysymyksen liian vähälle huomiolle: **kannattaako nopeammasta DDR5-muistista oikeasti maksaa?**
 

@@ -1,9 +1,16 @@
 ---
 title: "Mitä RAG tarkoittaa käytännössä? Aloittelijan kenttämuistiinpanot"
-date: 2026-03-04T20:07:00+02:00
+date: "2026-03-04T20:07:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Troubleshooting"
+  - "Hardware"
 ---
-
 RAG tulee vastaan lähes jokaisessa AI-keskustelussa, mutta käytännössä idea on yksinkertainen: malli hakee ensin tietoa omista dokumenteista ja vastaa vasta sitten.
 
 ## Kenttämuistiinpanot: näin RAG näkyy arjessa

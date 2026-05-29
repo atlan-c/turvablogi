@@ -1,8 +1,16 @@
 ---
 title: "Paikallinen LLM käytännössä: kannattaako Q4 vai Q5, kun VRAM on tiukka?"
-date: 2026-03-09T10:15:00+02:00
+date: "2026-03-09T10:15:00+02:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
 Kun paikallinen malli ei meinaa mahtua GPU:lle, monen ensimmäinen ajatus on pudottaa kvantisointia mahdollisimman alas ja toivoa parasta. Käytännössä järkevin kysymys ei yleensä ole "mikä on pienin mahdollinen tiedosto", vaan **mikä kvantisointitaso antaa vielä siedettävän laadun ilman että joudut jatkuvaan CPU-offloadiin**. Tästä syystä Q4 ja Q5 ovat harrastajalle usein ne oikeat vertailukohdat.
 

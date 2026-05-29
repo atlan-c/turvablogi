@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: pitääkö paikallisen LLM-koneen SSD-levyn olla nopea NVMe vai riittääkö SATA?"
-date: 2026-05-20T10:15:00+03:00
+date: "2026-05-20T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM-konetta rakentaessa rahaa palaa helposti väärään paikkaan. Yksi yleinen kysymys on, pitääkö mallikoneeseen ostaa mahdollisimman nopea NVMe-levy, vai riittääkö tavallinen SATA-SSD. Käytännön vastaus on yllättävän rauhallinen: **SATA-SSD riittää monelle aivan hyvin, jos ajat yhtä tai muutamaa mallia ilman jatkuvaa kylmäkäynnistystä. Nopea NVMe tuntuu eniten silloin, kun lataat isoja malleja usein uudelleen, vaihdat niitä paljon tai elät muuten levyn ja RAMin välisen liikenteen varassa.**
 
 Toisin sanoen levy vaikuttaa ennen kaikkea siihen, kuinka nopeasti pääset "malli levyltä käyttöön" -vaiheen läpi. Se ei yleensä ole ensimmäinen asia, joka määrää varsinaisen tokennopeuden.

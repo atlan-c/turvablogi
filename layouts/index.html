@@ -1,8 +1,35 @@
 {{ define "main" }}
-<h2>Uusimmat postaukset</h2>
-<ul>
-{{ range (where .Site.RegularPages "Section" "posts") }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>{{ .Date.Format "2006-01-02 15:04" }}</small></li>
-{{ end }}
-</ul>
+<section class="page-intro">
+  <h2>Uusimmat ja hyödyllisimmät käytännönmuistiinpanot</h2>
+  {{ with .Content }}{{ . }}{{ end }}
+</section>
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $tagTaxonomy := .Site.Taxonomies.tags.Alphabetical }}
+<section class="filter-panel" aria-label="Postausten suodatus">
+  <label class="search-label" for="post-search">Suodata otsikon, sarjan tai tagin mukaan</label>
+  <input id="post-search" type="search" placeholder="Esim. OpenClaw, GPU, PowerShell..." data-post-search>
+  <div class="filter-tags">
+    <button type="button" class="filter-chip" data-tag-filter="all" aria-pressed="true">Kaikki</button>
+    {{ range $tagTaxonomy }}
+      <button type="button" class="filter-chip" data-tag-filter="{{ .Term }}" aria-pressed="false">{{ .Term }} <span>{{ .Count }}</span></button>
+    {{ end }}
+  </div>
+</section>
+
+<section class="archive-list">
+  {{ range $posts.GroupByDate "2006-01" }}
+    <section class="archive-group" data-post-group>
+      <div class="archive-heading">
+        <h2>{{ (index .Pages 0).Date.Format "01/2006" }}</h2>
+        <p>{{ len .Pages }} postausta</p>
+      </div>
+      <div class="post-grid">
+        {{ range .Pages }}
+          {{ partial "post_card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</section>
 {{ end }}

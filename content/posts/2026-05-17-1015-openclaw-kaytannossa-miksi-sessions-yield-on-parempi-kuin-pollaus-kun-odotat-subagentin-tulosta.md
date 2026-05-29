@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi `sessions_yield` on parempi kuin pollaus, kun odotat subagentin tulosta?"
-date: 2026-05-17T10:15:00+03:00
+date: "2026-05-17T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Troubleshooting"
+  - "Automation"
 ---
-
 Moni tekee OpenClawissa saman virheen heti kun ensimmäinen taustalla ajettava subagentti alkaa tuntua hyödylliseltä: spawnataan lapsi ja sitten jäädään kyselemään silmukassa joko `subagents`- tai `sessions_list`-työkalulla, joko se jo valmistui. Se toimii joskus, mutta on useimmiten huono oletus. **Käytännössä oikea oletus on tämä: jos tarvitset vain lapsen valmistumisen, spawnin jälkeen kannattaa lopettaa oma vuoro `sessions_yield`-kutsulla eikä rakentaa pollaussilmukkaa.**
 
 Tämä on sekä halvempi että selkeämpi tapa orkestroida työtä. OpenClawin subagenttidokumentaatio sanoo tämän aika suoraan: valmistuminen on push-pohjainen, ja agentin pitäisi antaa tuloksen tulla seuraavana näkyvänä viestinä sen sijaan että se kyselee tilaa loopissa. Samasta syystä myös session tools -dokumentaatio kuvaa `sessions_yield`-työkalun nimenomaan vuoron päättämisenä, jotta seuraava viesti voi olla odotettu follow-up-tapahtuma.

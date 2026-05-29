@@ -1,8 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: kannattaako 64 gigatavua RAMia, jos GPU:ssa on jo 24 Gt VRAMia?"
-date: 2026-04-01T10:15:00+03:00
+date: "2026-04-01T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallista LLM-konetta rakentaessa huomio menee lähes aina ensin GPU:hun. Se on ymmärrettävää, koska juuri **VRAM** ratkaisee usein ensimmäisenä sen, mahtuuko malli mukavasti näytönohjaimelle vai ei. Siksi moni kysyy vasta myöhemmin toisen tärkeän kysymyksen: **jos koneessa on jo esimerkiksi 24 Gt VRAMia, onko 64 Gt järjestelmämuisti oikeasti hyödyllinen vai riittääkö 32 Gt RAM edelleen hyvin?**
 

@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: kannattaako yksi iso GPU vai kaksi pienempää paikalliseen LLM-koneeseen?"
-date: 2026-05-27T10:15:00+03:00
+date: "2026-05-27T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallista LLM-konetta suunnitellessa kahden näytönohjaimen idea näyttää paperilla houkuttelevalta: samalla rahalla voi joskus saada enemmän yhteenlaskettua VRAMia kuin yhdellä isolla kortilla. **Useimmille harrastajille ja kotilabran rakentajille käytännöllisempi valinta on silti yksi mahdollisimman iso GPU, ei kaksi pienempää.** Kaksi korttia alkaa kannattaa vasta silloin, kun tiedät jo valmiiksi käyttäväsi ohjelmistoa, joka oikeasti osaa jakaa mallin usealle GPU:lle, ja hyväksyt lisääntyvän säädön, virrankulutuksen ja yhteensopivuusriskin.
 
 Tärkein syy on yksinkertainen: kaksi GPU:ta ei automaattisesti käyttäydy kuin yksi isompi GPU. Se riippuu täysin siitä, miten käyttämäsi inference-ohjelma jakaa mallin, KV-cachen ja GPU:iden välisen liikenteen.

@@ -1,10 +1,16 @@
 ---
 title: "Älä pollaa turhaan: näin OpenClawin sessions_yield pitää taustatyön siistinä"
-date: 2026-04-08T10:15:00+03:00
+date: "2026-04-08T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Yksi yllättävän käytännöllinen OpenClaw-taito on tämä: **pitkää taustatyötä ei kannata seurata jatkuvalla kyselyloopilla, jos oikea lopetusmalli on jo olemassa**. Kun agentti spawn-aa alitehtävän ja jää itse toistuvasti tarkistamaan valmistuiko se, lopputulos on usein turhaa melua, hankalampi audit trail ja tarpeeton kuormitus. Siksi `sessions_yield` on monessa tilanteessa pieni mutta tärkeä työkalu.
 
 Käytännön idea on yksinkertainen. Kun olet käynnistänyt subagentin tai muun työn, jonka valmistumista odotat, voit päättää nykyisen vuoron hallitusti ja antaa seuraavan viestin olla juuri se valmistumisilmoitus tai jatkotulos, jota odotat. Tämä on eri asia kuin se, että agentti jäisi rakentelemaan poll-looppeja vain siksi, että "jotain täytyy tehdä odottaessa".

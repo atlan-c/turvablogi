@@ -1,9 +1,17 @@
 ---
 title: "Paikallinen malli arjessa: 6 käytännön kysymystä"
-date: 2026-02-28T09:46:00+02:00
+date: "2026-02-28T09:46:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Paikallisen mallin saa kyllä käyntiin nopeasti, mutta hyöty syntyy vasta toistettavasta työnkulusta. Tässä tiivis Q&A-muoto, jolla saat asetukset kuntoon ilman turhaa säätöä.
 
 ## 1) Millä yhdistelmällä kannattaa aloittaa?

@@ -1,9 +1,17 @@
 ---
 title: "Kannattaako käytetty RTX 3090 vielä paikalliselle LLM-harrastajalle vuonna 2026?"
-date: 2026-03-19T10:15:00+02:00
+date: "2026-03-19T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Jos paikallista LLM-konetta rakentava harrastaja kysyy vuonna 2026, mikä käytetty näytönohjain kiinnostaa edelleen eniten, **RTX 3090 nousee yhä hyvin nopeasti listalle**. Syy ei ole mystinen: NVIDIA:n omien speksien mukaan kortissa on **24 Gt GDDR6X-muistia**, 384-bittinen muistiväylä ja PCIe Gen 4 -tuki. Juuri tuo 24 gigatavun VRAM on se kohta, joka tekee 3090:stä edelleen käytännöllisen AI-rautakortin eikä vain vanhan lippulaivan.
 
 Lyhyt vastaus on tämä: **käytetty RTX 3090 voi olla edelleen erittäin järkevä ostos paikalliseen LLM-koneeseen, jos saat sen hyvään hintaan ja hyväksyt tehonkulutuksen, lämmön ja käytetyn raudan riskit**. Se ei ole automaattisesti paras ostos kaikille, mutta 24 Gt VRAMia on edelleen vaikea korvata halvalla.

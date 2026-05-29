@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: miksi cron-ajo ei korvaa health-checkiä?"
-date: 2026-04-14T10:15:00+03:00
+date: "2026-04-14T10:15:00+03:00"
 draft: false
-topic_family: openclaw
+topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Hardware"
+  - "Security"
+  - "Automation"
 ---
-
 Kun automaatio alkaa toimia, on houkuttelevaa ajatella, että onnistunut cron-ajo todistaa myös koko järjestelmän terveyden. Käytännössä näin ei ole. Cron kertoo vain, että tietty tehtävä käynnistyi ja eteni tietyssä tilanteessa. Health-check taas kertoo, miltä gatewayn ja ympäristön tila näyttää yleisemmin juuri nyt.
 
 Tämä ero on tärkeä etenkin OpenClawissa, jossa sama ympäristö voi olla yhtä aikaa osittain kunnossa ja osittain rikki. Esimerkiksi yksi cron-ajo voi onnistua, vaikka jokin channel olisi pois käytöstä, joku auth-polku olisi vanhenemassa tai diagnostiikassa olisi jo näkyviä varoituksia.

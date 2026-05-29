@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin 32k konteksti on turha luksus ja milloin se on oikeasti hyödyllinen?"
-date: 2026-04-15T10:15:00+03:00
+date: "2026-04-15T10:15:00+03:00"
 draft: false
-topic_family: llm-hardware
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Pitkä konteksti kuulostaa paperilla melkein aina hyvältä idealta. Jos 4k on vähän, eikö 32k ole automaattisesti paljon parempi? Käytännössä vastaus on usein yllättävän arkinen: joskus kyllä, mutta monessa kotilabrassa 32k on enemmän muistia syövä mukavuuslisä kuin todellinen hyöty.
 
 Siksi oikea kysymys ei ole "voinko ajaa 32k kontekstia", vaan "ratkaiseeko 32k oikeasti ongelman, jota minulla on".

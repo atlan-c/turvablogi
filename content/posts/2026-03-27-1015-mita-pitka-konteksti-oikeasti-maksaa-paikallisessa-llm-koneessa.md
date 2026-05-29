@@ -1,7 +1,15 @@
 ---
 title: "Mitä pitkä konteksti oikeasti maksaa paikallisessa LLM-koneessa?"
-date: 2026-03-27T10:15:00+02:00
+date: "2026-03-27T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
 ---
 Paikallista LLM:ää rakentaessa moni katsoo ensin vain mallin kokoa levyllä. Se on ymmärrettävää, koska GGUF-tiedoston koko näyttää konkreettiselta rajalta: jos tiedosto on 5–8 gigaa, ehkä se mahtuu 12–16 Gt VRAMille. Käytännössä tämä on kuitenkin vasta puolet tarinasta. Toinen puoli on **konteksti**, ja juuri siinä moni aloittelija arvioi raudan tarpeen pieleen.
 

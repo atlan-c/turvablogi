@@ -1,9 +1,17 @@
 ---
 title: "Hidas paikallinen LLM? Tarkista nämä 4 pullonkaulaa ennen uutta GPU-ostoa"
-date: 2026-03-14T17:29:00+02:00
+date: "2026-03-14T17:29:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun paikallinen malli tuntuu tahmealta, ensimmäinen reaktio on usein sama: "tarvitsen isomman näytönohjaimen". Se on joskus totta, mutta yllättävän usein ongelma on workflowssa, asetuksissa tai siinä, ettei kone oikeasti käytä GPU:ta niin kuin luulet. Harrastajalle tämä on hyvä uutinen, koska ensimmäinen nopeutus tulee usein ilman uutta rautaa.
 
 Tärkein käytännön kysymys on tämä: **onko malli kokonaan GPU:lla, osittain GPU:lla vai käytännössä CPU:lla?** Ollaman `ollama ps` näyttää tämän suoraan `Processor`-sarakkeessa. Jos siellä näkyy `100% CPU`, hidas vaste ei ole mysteeri vaan odotettava seuraus. Jos taas malli on vain osittain GPU:lla, VRAM on jo pullonkaula ja suorituskyky voi vaihdella paljon mallin koon, kvantisoinnin ja konteksti-ikkunan mukaan.

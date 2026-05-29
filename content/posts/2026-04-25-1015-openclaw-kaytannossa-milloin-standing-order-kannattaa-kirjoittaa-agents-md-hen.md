@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin standing order kannattaa kirjoittaa AGENTS.md:hen?"
-date: 2026-04-25T10:15:00+03:00
+date: "2026-04-25T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawin automaatiossa yksi pieni mutta tärkeä suunnittelukysymys on tämä: milloin jokin toistuva työ kannattaa nostaa standing orderiksi suoraan `AGENTS.md`:hen, eikä vain jättää yksittäisen cron-jobin prompttiin. Lyhyt käytännön vastaus on tämä: jos kyse on pysyvästä toimintatavasta tai ohjelmasta, kirjoita se standing orderiksi. Jos kyse on vain yhdestä ajastetusta suorituksesta, cron-prompti riittää usein yksinään.
 
 Tämä ero on hyödyllinen, koska muuten tärkeä työn logiikka jää hajalleen eri cron-riveihin, eikä agentilla ole kunnollista pysyvää muistia siitä, mikä on lupa, mikä tavoite ja milloin pitää eskaloida.

@@ -1,0 +1,23 @@
+{{ $related := slice }}
+{{ range first 8 (.Site.RegularPages.Related .) }}
+  {{ if and (ne .RelPermalink $.RelPermalink) (eq .Section "posts") }}
+    {{ $related = $related | append . }}
+  {{ end }}
+{{ end }}
+{{ if lt (len $related) 2 }}
+  {{ range where .Site.RegularPages "Section" "posts" }}
+    {{ if and (ne .RelPermalink $.RelPermalink) (lt (len $related) 4) }}
+      {{ $related = $related | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if gt (len $related) 0 }}
+<section class="related-posts">
+  <h2>Liittyvät postaukset</h2>
+  <div class="related-grid">
+    {{ range first 4 $related }}
+      {{ partial "post_card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

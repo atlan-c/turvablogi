@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin cron-job kannattaa sitoa nykyiseen sessioon?"
-date: 2026-04-18T10:15:00+03:00
+date: "2026-04-18T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
 ---
-
 OpenClawin cronissa on yksi pieni mutta käytännössä tärkeä valinta, jonka moni ohittaa alussa: ajetaanko työ main-sessiona, eristettynä ajona vai sidotaanko se nykyiseen sessioon. Oma nyrkkisääntöni on yksinkertainen: jos tehtävä hyötyy oikeasti aiemmasta kontekstista, `--session current` tai nimetty sessio voi olla erinomainen. Jos taas haluat ennustettavan, siistin ja helposti rajattavan automaation, eristetty ajo on yleensä parempi oletus.
 
 Tämä ero kuulostaa pieneltä, mutta näkyy nopeasti arjessa. Sama muistutus tai automaatio voi joko tuntua fiksulta jatkumolta tai muuttua sekavaksi, jos sessiovalinta on väärä.

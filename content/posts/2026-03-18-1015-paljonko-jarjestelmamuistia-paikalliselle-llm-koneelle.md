@@ -1,9 +1,16 @@
 ---
 title: "Paljonko järjestelmämuistia paikalliselle LLM-koneelle oikeasti kannattaa varata?"
-date: 2026-03-18T10:15:00+02:00
+date: "2026-03-18T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
 ---
-
 Paikallisia malleja rakentaessa huomio menee melkein aina GPU:hun ja VRAMiin. Se on ymmärrettävää, koska juuri ne ratkaisevat usein sen, mahtuuko malli kokonaan näytönohjaimelle ja miten nopeasti generointi kulkee. Mutta harrastajalla tulee nopeasti vastaan toinen kysymys: **paljonko tavallista RAM-muistia koneessa pitäisi oikeasti olla?**
 
 Lyhyt vastaus on tämä: jos rakennat paikallista LLM-konetta vuonna 2026, **32 Gt on käyttökelpoinen minimi, 64 Gt on monelle oikea mukavuusluokka, ja 128 Gt kannattaa vasta silloin kun ajat tarkoituksella isoja malleja osittain CPU:lla, pitkiä konteksteja tai useita raskaita prosesseja rinnakkain**.

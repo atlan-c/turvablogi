@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin konteksti on liian suuri omalle GPU:lle?"
-date: 2026-04-09T10:15:00+03:00
+date: "2026-04-09T10:15:00+03:00"
 draft: false
-topic_family: llm-hardware
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Moni paikallista LLM:ää ajava harrastaja ajattelee ensin mallin kokoa, mutta käytännössä myös konteksti syö muistia nopeasti. Siksi arkinen kysymys ei ole vain "mahtuuko tämä 14B-malli koneelleni", vaan myös "mahtuuko tämä malli vielä silloin, kun pyydän siltä 32k tai 64k kontekstia".
 
 Lyhyt vastaus on tämä: konteksti on liian suuri omalle GPU:lle siinä vaiheessa, kun mallin ajo alkaa valua CPU:n puolelle tai vaste romahtaa niin paljon, ettei asetuksesta saa enää oikeaa hyötyä. Käytännössä tämä näkyy hitaana tokennopeutena, epävakaana käyttökokemuksena tai siinä, että joudut tinkimään liikaa joko mallin koosta tai kvantisoinnista vain pitkän kontekstin takia.

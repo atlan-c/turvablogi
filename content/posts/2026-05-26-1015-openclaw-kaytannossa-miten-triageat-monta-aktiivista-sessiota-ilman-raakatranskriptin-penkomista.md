@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: miten triageat monta aktiivista sessiota ilman raakatranskriptin penkomista?"
-date: 2026-05-26T10:15:00+03:00
+date: "2026-05-26T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun OpenClawia käyttää vähänkin aktiivisemmin, sessioita alkaa syntyä nopeasti: pääkeskustelu, cron-ajot, pari subagenttia ja ehkä muutama rinnakkainen aihekanava. Tässä kohtaa moni tekee saman virheen: **yrittää hahmottaa tilanteen avaamalla raakatranskriptin liian aikaisin.** Käytännössä turvallisempi ja nopeampi tapa on lähes aina tämä järjestys: ensin `sessions_list`, sitten tarvittaessa rajattu `sessions_history`, ja vasta viimeisenä levyltä luettava täysi transkripti, jos oikeasti tarvitset byte-tarkan jäljen.
 
 Tämä kuulostaa pieneltä työnkulkuvalinnalta, mutta sillä on iso vaikutus sekä nopeuteen että siihen, kuinka paljon turhaa kontekstia vedät mukaasi.

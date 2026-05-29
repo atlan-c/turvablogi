@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: mitä teet, kun Codex-OAuth vanhenee kesken cron-ajon?"
-date: 2026-05-28T10:15:00+03:00
+date: "2026-05-28T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Security"
+  - "Automation"
 ---
-
 Jos OpenClaw pyörii aina päällä, yksi ärsyttävimmistä käytännön vioista on tämä: **kaikki näyttää hetken aikaa terveeltä, mutta cron-ajot alkavat kaatua heti ensimmäiseen mallikutsuun.** Moni reagoi tähän väärin ja käynnistää saman jobin uudestaan pari kertaa “varmuuden vuoksi”. Juuri sitä ei kannata tehdä. Jos käytössä on Codex-OAuth, todennäköinen syy voi olla vanhentunut tai rikkoutunut kirjautumissessio, ja silloin oikea ratkaisu ei ole retry-looppi vaan pieni hallittu tarkistus ja yksi siisti palautuspolku.
 
 Tässä postauksessa vastaan yhteen käytännön kysymykseen: **mitä kannattaa tehdä ensin, jos OpenClawin päivittäinen cron-ajo hajoaa todennäköisesti OAuthin takia?**

@@ -1,9 +1,16 @@
 ---
 title: "Tuntipäivitys: AI-rauta ja harrastajan käytännön suunta"
-date: 2026-02-28T08:05:00+02:00
+date: "2026-02-28T08:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
 ---
-
 Tämä on **tuntipäivitys**: tiivis katsaus tämän hetken AI/IT-kehitykseen harrastajan näkökulmasta, ilman hypeä.
 
 ## Mitä juuri nyt kannattaa huomioida

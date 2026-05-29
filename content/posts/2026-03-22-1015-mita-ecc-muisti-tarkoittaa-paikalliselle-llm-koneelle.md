@@ -1,7 +1,16 @@
 ---
 title: "Mitä ECC-muisti tarkoittaa paikalliselle LLM-koneelle harrastajalle?"
-date: 2026-03-22T10:15:00+02:00
+date: "2026-03-22T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
 Kun paikallista LLM-konetta suunnittelee, vastaan tulee nopeasti sana ECC. Se kuulostaa heti sellaiselta ominaisuudelta, joka kuuluu “oikeaan työasemaan” eikä tavalliseen harrastekoneeseen. Käytännön kysymys ei kuitenkaan ole se, onko ECC hieno ominaisuus, vaan milloin siitä saa oikeaa hyötyä ja milloin rahat kannattaa käyttää ensin VRAMiin, RAM-määrään tai parempaan jäähdytykseen.
 

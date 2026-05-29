@@ -1,7 +1,16 @@
 ---
 title: "Mitä muistikanavat tarkoittavat CPU-painotteisessa paikallisessa LLM-ajossa?"
-date: 2026-03-24T10:15:00+02:00
+date: "2026-03-24T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
 Paikallista LLM-konetta suunnitteleva harrastaja katsoo usein ensimmäiseksi prosessorin mallinimeä: montako ydintä, mikä sukupolvi ja paljonko kellotaajuutta. Se on ymmärrettävää, mutta CPU-painotteisessa ajossa **muistijärjestelmä ratkaisee yllättävän paljon**. Jos malli ei mahdu GPU:lle tai käytät sitä kokonaan CPU:n ja RAMin varassa, kaksikanavainen muisti voi tuntua käytännössä tärkeämmältä kuin pieni päivitys hieman uudempaan prosessoriin.
 

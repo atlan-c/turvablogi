@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi session cleanup ei korvaa cron-lokien hallintaa?"
-date: 2026-04-16T10:15:00+03:00
+date: "2026-04-16T10:15:00+03:00"
 draft: false
-topic_family: openclaw
+topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 Kun OpenClawissa alkaa ylläpitää järjestelmää vähän aktiivisemmin, on helppo olettaa, että yksi siivouskomento hoitaa kaiken. `openclaw sessions cleanup` kuulostaa juuri sellaiselta komennolta, joka laittaisi koko jälkimaailman järjestykseen. Käytännössä näin ei kuitenkaan ole.
 
 Tärkeä ero on tämä: session cleanup huoltaa keskustelusession tallennetta, mutta cron-ajojen historiat ja run-logit ovat eri asia, eri paikassa ja eri hallintamallin takana.

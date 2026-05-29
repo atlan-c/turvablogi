@@ -1,9 +1,17 @@
 ---
 title: "Paikallinen LLM pitkällä kontekstilla: milloin KV-cache kannattaa kvantisoida?"
-date: 2026-03-15T10:15:00+02:00
+date: "2026-03-15T10:15:00+02:00"
 draft: false
+topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
 ---
-
 Moni harrastaja huomaa saman vasta käytännössä: 7B tai 14B -malli voi tuntua aivan kelvolliselta lyhyissä tehtävissä, mutta muuttuu raskaaksi heti kun keskustelu pitenee tai mukaan tuodaan paljon dokumentteja. Syy ei ole aina itse mallin painoissa, vaan siinä muistissa, jota **KV-cache** syö generoinnin aikana. Jos pitkä konteksti aiheuttaa OOM-virheitä tai pakottaa ajamaan mallia osittain CPU:lla, KV-cachen kvantisointi voi olla fiksumpi ensiaskel kuin uusi GPU.
 
 ## Mikä KV-cache oikeastaan on?

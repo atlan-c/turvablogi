@@ -1,8 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: milloin CPU-muistikaista ratkaisee enemmän kuin GPU:n huipputeho?"
-date: 2026-03-11T10:15:00+02:00
+date: "2026-03-11T10:15:00+02:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallista LLM-konetta suunnitellessa huomio menee helposti vain GPU:hun. Se on ymmärrettävää, koska VRAM ja laskentateho ratkaisevat paljon. Silti on tilanteita, joissa **CPU-puolen muistikaista tuntuu enemmän kuin GPU:n paperilla näyttävä huipputeho**. Tämä korostuu etenkin silloin, kun malli ei mahdu siististi kokonaan VRAMiin, osa laskennasta tai välimuistista valuu järjestelmämuistiin ja ajo muuttuu hybridiksi.
 

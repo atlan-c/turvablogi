@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin heartbeat riittää ja milloin cron on parempi?"
-date: 2026-04-06T10:15:00+03:00
+date: "2026-04-06T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
 Heartbeat ja cron kuulostavat helposti lähes samalta asialta, koska molemmilla voidaan tehdä toistuvia tarkistuksia. Käytännössä ero on kuitenkin tärkeä. **Heartbeat sopii joustavaan tilannetajuun, cron taas täsmälliseen yksittäiseen ajoon.** Jos tämän eron ymmärtää, automaatioista tulee vähemmän meluisia ja paljon helpommin ylläpidettäviä.
 

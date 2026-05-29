@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi cron-ajo näyttää vihreältä vaikka varsinainen työ ei käynnistynyt?"
-date: 2026-05-11T20:56:00+03:00
+date: "2026-05-11T20:56:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClaw-cron voi hämätä juuri silloin, kun automaation pitäisi tuntua luotettavalta. Jos daily-job näkyy onnistuneena, on helppo olettaa että koko workflow todella ajettiin loppuun. Käytännössä näin ei aina ole. Erityisesti `main`-sessioon kohdistettu cron voi onnistua vain siinä mielessä, että Gateway sai järjestelmäeventin jonoon. Se ei vielä yksin todista, että varsinainen pitkä työ oikeasti ehti käynnistyä, käyttää työkaluja ja tuottaa lopputuloksen.
 
 Lyhyt käytännön sääntö on tämä: jos cronin tehtävä on vain muistuttaa tai herättää olemassa oleva sessio, `main` on hyvä valinta. Jos taas haluat yhden rajatun työn varmasti käyntiin omana ajonaan, pelkkä vihreä cron-rivi ei riitä todistukseksi — silloin kannattaa ajatella ajotapaa ja tarkistuspolkua tarkemmin.

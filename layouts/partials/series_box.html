@@ -1,0 +1,7 @@
+{{ with .Params.series }}
+  {{ $series := index . 0 }}
+  <aside class="series-box">
+    <p class="series-label">Artikkelisarja</p>
+    <p><a href="{{ (printf "series/%s/" ($series | urlize)) | relLangURL }}">{{ $series }}</a></p>
+  </aside>
+{{ end }}

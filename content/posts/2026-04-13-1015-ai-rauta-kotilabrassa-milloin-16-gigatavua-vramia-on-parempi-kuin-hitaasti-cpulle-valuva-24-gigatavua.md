@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin 16 gigatavua VRAMia on parempi kuin hitaasti CPU:lle valuva 24 gigatavua?"
-date: 2026-04-13T10:15:00+03:00
+date: "2026-04-13T10:15:00+03:00"
 draft: false
-topic_family: llm-hardware
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Paikallisia LLM-koneita vertaillessa isompi VRAM-luku näyttää helposti automaattiselta voitolta. Käytännössä asia ei ole ihan niin yksinkertainen. Jos 24 gigatavun kortilla ajetaan mallia tai kontekstia niin aggressiivisesti, että työ alkaa valua CPU:n puolelle ja vaste muuttuu tahmeaksi, hyvin tasapainotettu 16 gigatavun GPU voi olla oikeassa käytössä parempi valinta.
 
 Tämä kuulostaa ensin oudolta, koska paperilla 24 GB on tietenkin enemmän kuin 16 GB. Mutta harrastajakoneessa ratkaisevaa ei ole pelkkä muistimäärä, vaan se, pysyykö työnkulku siististi GPU:lla ilman että malli, konteksti ja säikeistys alkavat taistella toisiaan vastaan.

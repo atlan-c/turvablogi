@@ -1,7 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: milloin Apple Silicon on järkevä paikalliselle LLM:lle?"
-date: 2026-03-26T10:15:00+02:00
+date: "2026-03-26T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallisia LLM:iä harkitseva törmää nopeasti kahteen hyvin erilaiseen ostopolkuun. Ensimmäinen on perinteinen: pöytäkone, erillinen NVIDIA-GPU ja mahdollisimman paljon VRAMia. Toinen on Apple Silicon: hiljainen Mac, paljon yhtenäismuistia ja Metal-kiihdytys. Molemmilla pääsee oikeasti käyttöön, mutta ne eivät ole järkeviä samoille ihmisille tai samoihin tavoitteisiin.
 

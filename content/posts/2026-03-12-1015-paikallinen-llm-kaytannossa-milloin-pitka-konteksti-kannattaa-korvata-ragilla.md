@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi audit-loki kannattaa pitää lyhyenä mutta täsmällisenä?"
-date: 2026-03-12T10:15:00+02:00
+date: "2026-03-12T10:15:00+02:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
 Kun automaatioita alkaa olla useampia, tulee helposti tunne, että kaikki kannattaa kirjata mahdollisimman perusteellisesti. Ongelma on siinä, että liian pitkä audit-loki muuttuu nopeasti samaksi kuin ei lokia ollenkaan: tieto kyllä on tallessa, mutta sitä ei käytännössä löydä enää kukaan oikealla hetkellä. Siksi pidän parempana mallia, jossa **audit-loki on lyhyt, rakenteinen ja täsmällinen**.
 

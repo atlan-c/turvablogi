@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw kotipalvelimessa: SSH auki vain tarpeeseen ja hallintapinta minimiin"
-date: 2026-03-31T10:15:00+03:00
+date: "2026-03-31T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Linux"
+  - "Security"
+  - "Homelab"
 ---
 OpenClawia kotipalvelimessa ajava törmää nopeasti samaan käytännön kysymykseen kuin muussakin itsehostauksessa: **pitääkö SSH avata internetiin varmuuden vuoksi, vai pitäisikö hallintapinta rajata minimiin heti alusta asti?** Moni lähtee liikkeelle ajatuksesta, että turvallisuus syntyy riittävän vahvasta salasanasta tai portin vaihtamisesta pois numerosta 22. Käytännössä OpenClaw-koneen järkevä minimitaso on paljon arkisempi: salli vain se mitä oikeasti tarvitset, estä loput oletuksena ja nojaa avainpohjaiseen kirjautumiseen.
 

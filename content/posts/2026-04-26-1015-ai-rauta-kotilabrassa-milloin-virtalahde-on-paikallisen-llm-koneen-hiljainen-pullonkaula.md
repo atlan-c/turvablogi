@@ -1,10 +1,17 @@
 ---
 title: "AI-rauta kotilabrassa: milloin virtalähde on paikallisen LLM-koneen hiljainen pullonkaula?"
-date: 2026-04-26T10:15:00+03:00
+date: "2026-04-26T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
-
 Virtalähde on yksi niistä komponenteista, joita paikallista LLM-konetta rakentaessa aliarvioidaan jatkuvasti. Moni valitsee ensin GPU:n, RAMin ja levyt, ja ottaa PSU:n vasta lopuksi "jotain riittävää" -mentaliteetilla. Se toimii joskus, mutta juuri AI-koneissa virtalähde on yllättävän usein hiljainen pullonkaula, joka ei näy benchmarkissa vaan käytöksenä: satunnaisena epävakautena, meluna, kuumuutena tai huonona päivitettävyytensä.
 
 Lyhyt käytännön sääntö on tämä: jos rakennat paikallista LLM-konetta yhdelläkin tehokkaalla GPU:lla, virtalähde ei ole paikka jossa kannattaa säästää viimeiseen asti. Sen ei tarvitse olla ylellinen, mutta sen pitää olla oikeasti sopiva kuormalle.

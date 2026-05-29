@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin cron-ajo riittää ja milloin kannattaa katsoa taskeja?"
-date: 2026-04-23T10:15:00+03:00
+date: "2026-04-23T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawin automaatiossa yksi yllättävän yleinen sekaannus on tämä: cron ja taskit näyttävät liittyvän samaan asiaan, mutta niitä ei käytetä samaan kysymykseen vastaamiseen. Hyvä käytännön sääntö on yksinkertainen. Jos haluat tietää milloin jokin työ pitäisi ajaa, katso cronia. Jos haluat tietää mitä taustalla oikeasti tapahtui, katso taskeja.
 
 Tämä ero kannattaa ymmärtää varhain, koska muuten vikatilanteissa tulee helposti katsottua väärää pintaa ja tehtyä vääriä johtopäätöksiä.

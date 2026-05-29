@@ -1,9 +1,15 @@
 ---
 title: "Paikallinen mallityönkulku: 6 kysymystä, joilla pääset heti käyttöön"
-date: 2026-03-01T16:05:00+02:00
+date: "2026-03-01T16:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "Hardware"
+  - "Troubleshooting"
 ---
-
 Usein ongelma ei ole malli, vaan työnkulku. Alla kuusi käytännön kysymystä ja suorat vastaukset, joilla paikallinen ajo pysyy nopeana ja hallittuna.
 
 ## Kysymys 1: Missä malli kannattaa ajaa?

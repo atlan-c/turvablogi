@@ -1,9 +1,16 @@
 ---
 title: "Tuntipäivitys: AI-rauta ja kotilabran rutiinit"
-date: 2026-02-28T09:05:00+02:00
+date: "2026-02-28T09:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
 ---
-
 Tämä on **tuntipäivitys**: lyhyt, käytännönläheinen katsaus ajankohtaisiin AI/IT-teemoihin harrastajan näkökulmasta ilman hypeä.
 
 ## Mitä kannattaa huomioida juuri nyt

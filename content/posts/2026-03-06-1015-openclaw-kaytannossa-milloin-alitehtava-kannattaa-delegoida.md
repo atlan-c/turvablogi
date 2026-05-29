@@ -1,8 +1,16 @@
 ---
 title: "AI-rauta kotilabrassa: milloin 12 gigatavua VRAMia loppuu oikeasti kesken?"
-date: 2026-03-06T10:15:00+02:00
+date: "2026-03-06T10:15:00+02:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 12 gigatavua VRAMia kuulostaa paperilla ihan kelvolliselta lähtötasolta paikallisille malleille, ja monessa harrastelabrassa se onkin järkevä kompromissi hinnan, virrankulutuksen ja saatavuuden välillä. Ongelma on vain siinä, että **12 Gt riittää hyvin eri tavalla eri käyttöihin**. Jos ajat kompaktia kvantisoitua mallia, pidät kontekstin maltillisena ja hyväksyt sen, ettei jokaista uutta mallia voi testata samana iltana, 12 Gt voi olla täysin käyttökelpoinen. Jos taas haet pidempää kontekstia, isompaa mallia tai väljää pelivaraa, raja tulee vastaan nopeasti.
 

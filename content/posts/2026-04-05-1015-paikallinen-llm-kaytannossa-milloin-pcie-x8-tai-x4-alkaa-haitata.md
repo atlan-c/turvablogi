@@ -1,8 +1,16 @@
 ---
 title: "Paikallinen LLM käytännössä: milloin PCIe x8 tai x4 alkaa oikeasti haitata?"
-date: 2026-04-05T10:15:00+03:00
+date: "2026-04-05T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
 Paikallista LLM-konetta rakentaessa moni käyttää käytettyä rautaa, riser-kortteja, toista PCIe-slottia tai emolevyä, jossa kaikki slotit eivät kulje täydellä x16-kaistalla. Siksi vastaan tulee nopeasti käytännön kysymys: **haittaako PCIe x8 tai jopa x4 paikallista LLM-ajoa oikeasti, vai onko tämä lähinnä paperilla iso mutta arjessa pieni ongelma?**
 

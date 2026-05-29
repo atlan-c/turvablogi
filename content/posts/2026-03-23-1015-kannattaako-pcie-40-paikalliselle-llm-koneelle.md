@@ -1,7 +1,16 @@
 ---
 title: "Kannattaako PCIe 4.0 paikalliselle LLM-koneelle, jos GPU toimii vain x4- tai x8-nopeudella?"
-date: 2026-03-23T10:15:00+02:00
+date: "2026-03-23T10:15:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Hardware"
+  - "Homelab"
+  - "Troubleshooting"
 ---
 Paikallista LLM-konetta rakentaessa huomio menee helposti VRAMiin, mallikokoon ja kvantisointiin. Samaan aikaan moni harrastaja miettii, pilaako hidas PCIe-yhteys koko projektin: entä jos näytönohjain toimii vain x8-nopeudella, vanhemmalla PCIe 3.0 -alustalla tai pahimmillaan x4-adapterin kautta? Käytännön vastaus on lohdullinen: **täysin VRAMiin mahtuvassa ajossa PCIe ei yleensä ole ensimmäinen pullonkaula, mutta osittaisessa offloadissa, eGPU-ratkaisuissa ja mallia jatkuvasti siirtelevissä työnkuluissa se alkaa näkyä nopeasti**.
 

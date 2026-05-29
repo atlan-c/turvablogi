@@ -1,10 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin tausta-ajoon riittää task ja milloin tarvitset Task Flow'n?"
-date: 2026-04-20T10:15:00+03:00
+date: "2026-04-20T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawissa on helppo sekoittaa kaksi eri asiaa toisiinsa: background taskit ja Task Flow. Ne liittyvät samaan maailmaan, mutta eivät ratkaise samaa ongelmaa. Lyhyt käytännön sääntö on tämä: jos sinulla on yksi irrallinen taustatyö, tavallinen task riittää. Jos taas työ koostuu useasta vaiheesta, joiden eteneminen pitää säilyttää kestävästi myös restarttien yli, Task Flow alkaa olla oikea työkalu.
 
 Tämä jako kannattaa sisäistää aikaisin, koska muuten automaatiosta tulee helposti joko liian raskas tai liian hutera.

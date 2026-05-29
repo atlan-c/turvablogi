@@ -1,10 +1,16 @@
 ---
 title: "Kannattaako ECC-muisti paikalliseen LLM-koneeseen?"
-date: 2026-05-14T10:15:00+03:00
+date: "2026-05-14T10:15:00+03:00"
 draft: false
 topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Local LLM"
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 Moni paikallista LLM-konetta rakentava osuu samaan kysymykseen heti, kun koneeseen alkaa tulla paljon muistia ja pitkää ajoa: riittääkö tavallinen desktop-RAM, vai pitäisikö maksaa lisää ECC-muistista? Lyhyt vastaus on tämä: **kaikille ECC ei ole pakollinen, mutta aina päällä olevaan, paljon muistia käyttävään tai työn kannalta tärkeään LLM-koneeseen se on usein järkevä vakuutus**.
 
 ECC:n arvo ei yleensä näy benchmarkissa. Se näkyy siinä, että satunnainen muistivirhe ei hiljaisesti sotke dataa, kaada prosessia tai jätä sinua arvailemaan, oliko outo tulos mallin, ohjelmiston vai raudan syy.

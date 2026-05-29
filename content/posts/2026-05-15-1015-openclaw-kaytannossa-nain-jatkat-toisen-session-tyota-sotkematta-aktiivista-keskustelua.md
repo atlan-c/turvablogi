@@ -1,10 +1,17 @@
 ---
 title: "OpenClaw käytännössä: näin jatkat toisen session työtä sotkematta aktiivista keskustelua"
-date: 2026-05-15T10:15:00+03:00
+date: "2026-05-15T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Automation"
+  - "Troubleshooting"
 ---
-
 OpenClawissa tulee nopeasti vastaan käytännön tilanne: yksi työ jäi kesken toisessa sessiossa, subagentti teki taustalla jotain hyödyllistä tai vanhassa cron-ajossa on jälki, johon pitäisi tarttua. Silloin kiusaus on suuri vain jatkaa samasta ihmisthreadista vähän sinne päin. Se toimii joskus, mutta usein samalla sotkee näkyvän keskustelun, rikkoo eristyksen tai hukkaa sen, mistä työ oikeasti piti jatkua.
 
 Lyhyt sääntö on tämä: **katso ensin missä sessiossa työ oikeasti elää, lue siitä vain tarpeellinen konteksti ja viesti takaisin oikeaa reittiä pitkin**. Älä käytä aktiivista ihmisthreadia yleisenä ohjauspaneelina kaikkeen.

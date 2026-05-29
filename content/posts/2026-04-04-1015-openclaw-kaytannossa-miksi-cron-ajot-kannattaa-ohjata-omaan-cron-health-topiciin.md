@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw käytännössä: miksi cron-ajot kannattaa ohjata omaan cron-health-topiciin?"
-date: 2026-04-04T10:15:00+03:00
+date: "2026-04-04T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Security"
+  - "Automation"
 ---
 OpenClawin kanssa yksi käytännön virhe toistuu yllättävän usein: **ajastetut työt kyllä toimivat, mutta niiden tulokset valuvat samaan paikkaan kuin kaikki muukin keskustelu**. Aluksi tämä näyttää harmittomalta. Vasta myöhemmin huomaa, että pääkeskustelussa on sekaisin muistutuksia, ylläpitohälyjä, julkaisuajojen tuloksia, satunnaista tutkimusta ja oikeita ihmisen pyyntöjä.
 

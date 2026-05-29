@@ -1,9 +1,15 @@
 ---
 title: "Yksi uutinen, monta harha-askelta: EU AI Act harrastajan näkökulmasta"
-date: 2026-03-03T19:10:00+02:00
+date: "2026-03-03T19:10:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "AI-kotilabra"
+tags:
+  - "Hardware"
+  - "Troubleshooting"
+  - "Homelab"
 ---
-
 EU:n AI Actin voimaantulo on uutinen, joka vaikuttaa myös harrastajiin epäsuorasti. Laki ei tarkoita, että kotilabi loppuu, mutta se muuttaa sitä, miten palveluja ja sisältöä kannattaa julkaista.
 
 ## Yhden uutisen ydin

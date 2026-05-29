@@ -1,9 +1,16 @@
 ---
 title: "Paikallinen malli vs pilvi-API: lyhyt analyysi harrastajan arkeen"
-date: 2026-03-03T20:05:00+02:00
+date: "2026-03-03T20:05:00+02:00"
 draft: false
+topic_family: "llm-hardware"
+series:
+  - "Paikalliset LLM:t"
+tags:
+  - "Local LLM"
+  - "GPU"
+  - "Troubleshooting"
+  - "Hardware"
 ---
-
 Kun AI-projekti siirtyy kokeilusta oikeaan käyttöön, valinta on usein tämä: ajatko mallia omalla koneella vai kutsutko pilvi-APIa. Molemmat toimivat, mutta eri tilanteissa.
 
 ## Lyhyt analyysi: A vs B

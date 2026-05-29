@@ -1,8 +1,16 @@
 ---
 title: "OpenClaw käytännössä: milloin kannattaa käyttää thread-bound ACP-sessiota?"
-date: 2026-04-02T10:15:00+03:00
+date: "2026-04-02T10:15:00+03:00"
 draft: false
 topic_family: "openclaw"
+series:
+  - "OpenClaw käytännössä"
+tags:
+  - "OpenClaw"
+  - "Agents"
+  - "Local LLM"
+  - "Troubleshooting"
+  - "Automation"
 ---
 OpenClawin kanssa vastaan tulee nopeasti käytännön valinta, joka ei ensi silmäyksellä näytä kovin tärkeältä: **ajanko tämä työn tavallisena taustadelegointina vai sidonko sen omaan pysyvämpään threadiin ACP-sessiona?**
 
