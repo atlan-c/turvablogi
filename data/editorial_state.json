@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-05-29-1015-paikallinen-llm-kone-tarvitaanko-ecc-muistia-oikeasti.md",
-  "last_title": "Paikallinen LLM-kone: tarvitaanko ECC-muistia oikeasti?",
-  "last_title_shape": "paikallinen llm kone tarvitaanko ecc muistia",
-  "last_intro_hash": "7b867fa63040d392cd15456e79654c65871bc59b1e7b9687611e16199022c8ab",
+  "last_post": "content/posts/2026-05-30-1015-openclaw-kaytannossa-kannattaako-paikallinen-ollama-laittaa-omaksi-agentiksi.md",
+  "last_title": "OpenClaw käytännössä: kannattaako paikallinen Ollama laittaa omaksi agentiksi?",
+  "last_title_shape": "openclaw käytännössä kannattaako paikallinen",
+  "last_intro_hash": "b00ca7b321a042a0acec75d58439ba4ca1d7a2f5fdf9a839ffb2c0f5e03fa423",
   "last_sources_domains": [
-    "www.atpinc.com",
-    "www.phoronix.com"
+    "docs.ollama.com",
+    "docs.openclaw.ai",
+    "github.com"
   ],
-  "updated_at": "2026-05-29T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-30T10:16:17+03:00",
+  "last_topic_family": "openclaw"
 }
