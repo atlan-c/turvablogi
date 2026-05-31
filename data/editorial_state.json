@@ -1,13 +1,14 @@
 {
-  "last_post": "content/posts/2026-05-30-1015-openclaw-kaytannossa-kannattaako-paikallinen-ollama-laittaa-omaksi-agentiksi.md",
-  "last_title": "OpenClaw käytännössä: kannattaako paikallinen Ollama laittaa omaksi agentiksi?",
-  "last_title_shape": "openclaw käytännössä kannattaako paikallinen",
-  "last_intro_hash": "b00ca7b321a042a0acec75d58439ba4ca1d7a2f5fdf9a839ffb2c0f5e03fa423",
+  "last_post": "content/posts/2026-05-31-1015-mita-radeon-rx-7900-xtx-tarkoittaa-harrastajalle-paikallisessa-llm-ajossa.md",
+  "last_title": "Mitä Radeon RX 7900 XTX tarkoittaa harrastajalle paikallisessa LLM-ajossa?",
+  "last_title_shape": "mitä radeon rx xtx",
+  "last_intro_hash": "dd99a7c8306e8811a6ae34ebea523cdc1a3f8e5832060944b8c90698774b01cc",
   "last_sources_domains": [
     "docs.ollama.com",
-    "docs.openclaw.ai",
-    "github.com"
+    "github.com",
+    "rocm.docs.amd.com",
+    "www.amd.com"
   ],
-  "updated_at": "2026-05-30T10:16:17+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-05-30T10:19:06+03:00",
+  "last_topic_family": "llm-hardware"
 }
