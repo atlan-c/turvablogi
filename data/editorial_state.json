@@ -1,14 +1,12 @@
 {
-  "last_post": "content/posts/2026-05-31-1015-mita-radeon-rx-7900-xtx-tarkoittaa-harrastajalle-paikallisessa-llm-ajossa.md",
-  "last_title": "Mitä Radeon RX 7900 XTX tarkoittaa harrastajalle paikallisessa LLM-ajossa?",
-  "last_title_shape": "mitä radeon rx xtx",
-  "last_intro_hash": "dd99a7c8306e8811a6ae34ebea523cdc1a3f8e5832060944b8c90698774b01cc",
+  "last_post": "content/posts/2026-06-01-1015-paikallinen-llm-openclawissa-kolme-testia-ennen-kuin-syytat-mallia.md",
+  "last_title": "Paikallinen LLM OpenClawissa: kolme testiä ennen kuin syytät mallia",
+  "last_title_shape": "paikallinen llm openclawissa kolme",
+  "last_intro_hash": "1c77b920b011f11f2fb5cabc4b7b0ce3260c0ae562f4501edda6540a8256bc7d",
   "last_sources_domains": [
     "docs.ollama.com",
-    "github.com",
-    "rocm.docs.amd.com",
-    "www.amd.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-05-30T10:19:06+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-05-31T10:18:16+03:00",
+  "last_topic_family": "openclaw"
 }
