@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-01-1015-paikallinen-llm-openclawissa-kolme-testia-ennen-kuin-syytat-mallia.md",
-  "last_title": "Paikallinen LLM OpenClawissa: kolme testiä ennen kuin syytät mallia",
-  "last_title_shape": "paikallinen llm openclawissa kolme",
-  "last_intro_hash": "1c77b920b011f11f2fb5cabc4b7b0ce3260c0ae562f4501edda6540a8256bc7d",
+  "last_post": "content/posts/2026-06-02-1015-ai-rauta-kotilabrassa-kannattaako-naytto-jattaa-intel-arc-korttiin-jos-paikallinen-llm-kone-on-paalla-247.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako näyttö jättää Intel Arc -korttiin, jos paikallinen LLM-kone on päällä 24/7?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako näyttö",
+  "last_intro_hash": "17b53ca518bd4a6383135f597cb9561513673275d8476c7dc3ccd6bcf427ba09",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "docs.openclaw.ai"
+    "www.intel.com"
   ],
-  "updated_at": "2026-05-31T10:18:16+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-01T10:18:56+03:00",
+  "last_topic_family": "llm-hardware"
 }
