@@ -1,14 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-03-1015-kun-openclaw-cron-nayttaa-skipped-nain-luet-paikallisen-providerin-preflightin.md",
-  "last_title": "Kun OpenClaw-cron näyttää `skipped`: näin luet paikallisen providerin preflightin",
-  "last_title_shape": "kun openclaw-cron näyttää skipped",
-  "last_intro_hash": "29daf9c278c74ae49d2007a12fc10a1a1377d3bb25e0a654c7e4a3cdda096fe2",
+  "last_post": "content/posts/2026-06-04-1015-miksi-ollama-ps-nayttaa-cpu-gpu-jakoa-ja-mita-se-tarkoittaa-paikallisessa-llm-koneessa.md",
+  "last_title": "Miksi `ollama ps` näyttää `CPU/GPU`-jakoa, ja mitä se tarkoittaa paikallisessa LLM-koneessa?",
+  "last_title_shape": "miksi ollama ps näyttää",
+  "last_intro_hash": "83d0893a4b07b9f3e13449977955da79ac1c81ab60ec80a92713425c08306778",
   "last_sources_domains": [
     "127.0.0.1:11434",
-    "127.0.0.1:1234",
-    "docs.ollama.com",
-    "docs.openclaw.ai"
+    "docs.ollama.com"
   ],
-  "updated_at": "2026-06-02T10:20:40+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-03T10:20:33+03:00",
+  "last_topic_family": "llm-hardware"
 }
