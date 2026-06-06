@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-05-1015-openclaw-kaytannossa-milloin-asia-kuuluu-heartbeat-md-hen-ja-milloin-omaksi-cron-jobiksi.md",
-  "last_title": "OpenClaw käytännössä: milloin asia kuuluu `HEARTBEAT.md`:hen ja milloin omaksi cron-jobiksi?",
-  "last_title_shape": "openclaw käytännössä milloin asia",
-  "last_intro_hash": "a1ce5b3ecc1bb1892c90732cac8438258104570e7349f2d4f0596f7698a3451c",
+  "last_post": "content/posts/2026-06-06-1015-ai-rauta-kotilabrassa-milloin-64-gt-ram-kannattaa-paivittaa-ennen-uutta-gpu-ta.md",
+  "last_title": "AI-rauta kotilabrassa: milloin 64 Gt RAM kannattaa päivittää ennen uutta GPU:ta?",
+  "last_title_shape": "rauta kotilabrassa milloin gt",
+  "last_intro_hash": "9867ee41c1bcea82615954747b080c2d24c5aadd47ad454e5d2e4ef356c953fc",
   "last_sources_domains": [
-    "docs.openclaw.ai",
-    "open-claw.bot"
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-06-04T10:18:32+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-06T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
