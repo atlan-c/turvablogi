@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-06-1015-ai-rauta-kotilabrassa-milloin-64-gt-ram-kannattaa-paivittaa-ennen-uutta-gpu-ta.md",
-  "last_title": "AI-rauta kotilabrassa: milloin 64 Gt RAM kannattaa päivittää ennen uutta GPU:ta?",
-  "last_title_shape": "rauta kotilabrassa milloin gt",
-  "last_intro_hash": "9867ee41c1bcea82615954747b080c2d24c5aadd47ad454e5d2e4ef356c953fc",
+  "last_post": "content/posts/2026-06-07-1015-openclaw-kaytannossa-milloin-localmodellean-kannattaa-ottaa-kayttoon.md",
+  "last_title": "OpenClaw käytännössä: milloin `localModelLean` kannattaa ottaa käyttöön?",
+  "last_title_shape": "openclaw käytännössä milloin localmodellean",
+  "last_intro_hash": "8a8ec5ed95f2ddb6de4d45fc2396522284da6aee331de4fcd63bd58f9e907b4b",
   "last_sources_domains": [
     "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-06T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-07T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
