@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-06-07-1015-openclaw-kaytannossa-milloin-localmodellean-kannattaa-ottaa-kayttoon.md",
-  "last_title": "OpenClaw käytännössä: milloin `localModelLean` kannattaa ottaa käyttöön?",
-  "last_title_shape": "openclaw käytännössä milloin localmodellean",
-  "last_intro_hash": "8a8ec5ed95f2ddb6de4d45fc2396522284da6aee331de4fcd63bd58f9e907b4b",
+  "last_post": "content/posts/2026-06-08-1015-kannattaako-pcie-5-sta-maksaa-jos-paikallinen-llm-mahtuu-yhdelle-gpu-lle.md",
+  "last_title": "Kannattaako PCIe 5.0:sta maksaa, jos paikallinen LLM mahtuu yhdelle GPU:lle?",
+  "last_title_shape": "kannattaako pcie sta maksaa",
+  "last_intro_hash": "ca64d420ee9c60f9d97daacfa4aa320c60b7fdc82f4b006c7188aae1491595bc",
   "last_sources_domains": [
     "docs.ollama.com",
-    "docs.openclaw.ai"
+    "docscontent.nvidia.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-06-07T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-08T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
