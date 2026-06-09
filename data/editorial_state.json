@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-08-1015-kannattaako-pcie-5-sta-maksaa-jos-paikallinen-llm-mahtuu-yhdelle-gpu-lle.md",
-  "last_title": "Kannattaako PCIe 5.0:sta maksaa, jos paikallinen LLM mahtuu yhdelle GPU:lle?",
-  "last_title_shape": "kannattaako pcie sta maksaa",
-  "last_intro_hash": "ca64d420ee9c60f9d97daacfa4aa320c60b7fdc82f4b006c7188aae1491595bc",
+  "last_post": "content/posts/2026-06-09-1015-subagentti-openclawissa-valitse-isolated-ala-fork-jos-et-tarvitse-koko-kontekstia.md",
+  "last_title": "Subagentti OpenClawissa: valitse `isolated`, älä `fork`, jos et tarvitse koko kontekstia",
+  "last_title_shape": "subagentti openclawissa valitse isolated",
+  "last_intro_hash": "8c3731f72d2c7a0a97ee66eb2cf51391173f8b7de87f4bb560d807ea6861a17d",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "docscontent.nvidia.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-08T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-08T10:19:39+03:00",
+  "last_topic_family": "openclaw"
 }
