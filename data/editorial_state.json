@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-06-09-1015-subagentti-openclawissa-valitse-isolated-ala-fork-jos-et-tarvitse-koko-kontekstia.md",
-  "last_title": "Subagentti OpenClawissa: valitse `isolated`, älä `fork`, jos et tarvitse koko kontekstia",
-  "last_title_shape": "subagentti openclawissa valitse isolated",
-  "last_intro_hash": "8c3731f72d2c7a0a97ee66eb2cf51391173f8b7de87f4bb560d807ea6861a17d",
+  "last_post": "content/posts/2026-06-10-1015-ai-rauta-kotilabrassa-nopeuttaako-nvme-paikallista-llm-aa-vai-vain-mallin-kaynnistysta.md",
+  "last_title": "AI-rauta kotilabrassa: nopeuttaako NVMe paikallista LLM:ää vai vain mallin käynnistystä?",
+  "last_title_shape": "ai-rauta kotilabrassa nopeuttaako nvme",
+  "last_intro_hash": "6cb772835164c8a8fcc0981ab315966147d86272a139e13b6bd8944df6f12a4e",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "github.com",
+    "nvmexpress.org"
   ],
-  "updated_at": "2026-06-08T10:19:39+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-09T10:18:51+03:00",
+  "last_topic_family": "llm-hardware"
 }
