@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-10-1015-ai-rauta-kotilabrassa-nopeuttaako-nvme-paikallista-llm-aa-vai-vain-mallin-kaynnistysta.md",
-  "last_title": "AI-rauta kotilabrassa: nopeuttaako NVMe paikallista LLM:ää vai vain mallin käynnistystä?",
-  "last_title_shape": "ai-rauta kotilabrassa nopeuttaako nvme",
-  "last_intro_hash": "6cb772835164c8a8fcc0981ab315966147d86272a139e13b6bd8944df6f12a4e",
+  "last_post": "content/posts/2026-06-11-1015-openclaw-kaytannossa-miksi-dmscope-per-channel-peer-kannattaa-ottaa-kayttoon-ennen-kuin-useampi-ihminen-viestii-agentille.md",
+  "last_title": "OpenClaw käytännössä: miksi `dmScope: \\\"per-channel-peer\\\"` kannattaa ottaa käyttöön ennen kuin useampi ihminen viestii agentille?",
+  "last_title_shape": "openclaw käytännössä miksi dmscope",
+  "last_intro_hash": "1d44b67fe91bfb727277655155906c7e5347cce8d213b5146bcee4c998ec0d55",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com",
-    "nvmexpress.org"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-09T10:18:51+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-10T10:18:47+03:00",
+  "last_topic_family": "openclaw"
 }
