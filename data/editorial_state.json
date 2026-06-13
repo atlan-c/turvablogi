@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-12-1015-ai-rauta-kotilabrassa-kannattaako-gpu-power-limit-saataa-paikalliseen-llm-koneeseen.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako GPU:n power limit säätää paikalliseen LLM-koneeseen?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako gpun",
-  "last_intro_hash": "fcb991f2381f4d977defd741bea40abb1a4556686a390f089838abff6beec246",
+  "last_post": "content/posts/2026-06-13-1015-openclaw-kaytannossa-milloin-pitka-tyo-kannattaa-siirtaa-subagentille-paikallista-mallia-ajettaessa.md",
+  "last_title": "OpenClaw käytännössä: milloin pitkä työ kannattaa siirtää subagentille paikallista mallia ajettaessa?",
+  "last_title_shape": "openclaw käytännössä milloin pitkä",
+  "last_intro_hash": "976182bf01df92afd789318adc04df4ab7fe0d403edfc3cf83f48a8edf3dc02f",
   "last_sources_domains": [
-    "docs.nvidia.com",
-    "docs.ollama.com"
+    "docs.openclaw.ai",
+    "github.com"
   ],
-  "updated_at": "2026-06-11T10:18:26+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-12T10:19:06+03:00",
+  "last_topic_family": "openclaw"
 }
