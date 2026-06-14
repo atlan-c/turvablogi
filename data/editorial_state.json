@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-13-1015-openclaw-kaytannossa-milloin-pitka-tyo-kannattaa-siirtaa-subagentille-paikallista-mallia-ajettaessa.md",
-  "last_title": "OpenClaw käytännössä: milloin pitkä työ kannattaa siirtää subagentille paikallista mallia ajettaessa?",
-  "last_title_shape": "openclaw käytännössä milloin pitkä",
-  "last_intro_hash": "976182bf01df92afd789318adc04df4ab7fe0d403edfc3cf83f48a8edf3dc02f",
+  "last_post": "content/posts/2026-06-14-1015-ai-rauta-kotilabrassa-milloin-kaksi-gpu-ta-on-jarkevampi-kuin-yksi-iso-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: milloin kaksi GPU:ta on järkevämpi kuin yksi iso paikalliselle LLM:lle?",
+  "last_title_shape": "ai-rauta kotilabrassa milloin kaksi",
+  "last_intro_hash": "21a97c76416860db9a8936bb62ad362f8a53843a1da5b2d90a7bbe2babc77f54",
   "last_sources_domains": [
-    "docs.openclaw.ai",
+    "docs.ollama.com",
     "github.com"
   ],
-  "updated_at": "2026-06-12T10:19:06+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-14T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
