@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-14-1015-ai-rauta-kotilabrassa-milloin-kaksi-gpu-ta-on-jarkevampi-kuin-yksi-iso-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: milloin kaksi GPU:ta on järkevämpi kuin yksi iso paikalliselle LLM:lle?",
-  "last_title_shape": "ai-rauta kotilabrassa milloin kaksi",
-  "last_intro_hash": "21a97c76416860db9a8936bb62ad362f8a53843a1da5b2d90a7bbe2babc77f54",
+  "last_post": "content/posts/2026-06-15-1015-openclaw-kaytannossa-pakota-sandbox-require-tilaan-nissa-tilanteissa.md",
+  "last_title": "OpenClaw käytännössä: pakota sandbox `require` -tilaan näissä tilanteissa",
+  "last_title_shape": "openclaw käytännössä pakota sandbox",
+  "last_intro_hash": "aceae5e9a0bdc0832360256631acbdb0ee4d1a8e9d5751ee22230aaa969a1e38",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-14T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-14T10:19:56+03:00",
+  "last_topic_family": "openclaw"
 }
