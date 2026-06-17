@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-16-1015-paikallinen-llm-kaytannossa-kannattaako-ollaman-malli-pitaa-jatkuvasti-muistissa.md",
-  "last_title": "Paikallinen LLM käytännössä: kannattaako Ollaman malli pitää jatkuvasti muistissa?",
-  "last_title_shape": "paikallinen llm käytännössä kannattaako",
-  "last_intro_hash": "9354ebed0d635a2223ef60bcc829ac1091e1f379b720f9f5c481be3b419fcd90",
+  "last_post": "content/posts/2026-06-17-1015-openclaw-kaytannossa-milloin-cron-sessionretention-kannattaa-nostaa-yli-vuorokauden.md",
+  "last_title": "OpenClaw käytännössä: milloin `cron.sessionRetention` kannattaa nostaa yli vuorokauden?",
+  "last_title_shape": "openclaw käytännössä milloin cronsessionretention",
+  "last_intro_hash": "793fc79bf32bf4db06cab79599bc65bf4b49dfb6ee5879e637ea5cb95e86829e",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-15T10:18:51+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-17T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
