@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-06-17-1015-openclaw-kaytannossa-milloin-cron-sessionretention-kannattaa-nostaa-yli-vuorokauden.md",
-  "last_title": "OpenClaw käytännössä: milloin `cron.sessionRetention` kannattaa nostaa yli vuorokauden?",
-  "last_title_shape": "openclaw käytännössä milloin cronsessionretention",
-  "last_intro_hash": "793fc79bf32bf4db06cab79599bc65bf4b49dfb6ee5879e637ea5cb95e86829e",
+  "last_post": "content/posts/2026-06-18-1015-paikallinen-llm-kaytannossa-kannattaako-swap-poistaa-kokonaan.md",
+  "last_title": "Swap paikallisessa LLM-koneessa: milloin se on turvaverkko ja milloin virhe?",
+  "last_title_shape": "swap paikallisessa llm-koneessa milloin",
+  "last_intro_hash": "2cf60133938e75ccd10a01797f018615c420d9360b75a3920169bb3a04af85c7",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.kernel.org",
+    "docs.ollama.com",
+    "github.com"
   ],
-  "updated_at": "2026-06-17T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-18T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
