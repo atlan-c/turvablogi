@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-18-1015-paikallinen-llm-kaytannossa-kannattaako-swap-poistaa-kokonaan.md",
-  "last_title": "Swap paikallisessa LLM-koneessa: milloin se on turvaverkko ja milloin virhe?",
-  "last_title_shape": "swap paikallisessa llm-koneessa milloin",
-  "last_intro_hash": "2cf60133938e75ccd10a01797f018615c420d9360b75a3920169bb3a04af85c7",
+  "last_post": "content/posts/2026-06-19-1015-openclaw-kaytannossa-yksi-heartbeat-vai-kolme-cron-jobia.md",
+  "last_title": "OpenClaw käytännössä: yksi heartbeat vai kolme cron-jobia?",
+  "last_title_shape": "openclaw käytännössä yksi heartbeat",
+  "last_intro_hash": "feaa837181d83c5af50dde3b5c1360541d7c0dfd40e7c41d87bb89333cb6eb98",
   "last_sources_domains": [
-    "docs.kernel.org",
-    "docs.ollama.com",
-    "github.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-18T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-18T10:21:23+03:00",
+  "last_topic_family": "openclaw"
 }
