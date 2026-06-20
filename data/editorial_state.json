@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-19-1015-openclaw-kaytannossa-yksi-heartbeat-vai-kolme-cron-jobia.md",
-  "last_title": "OpenClaw käytännössä: yksi heartbeat vai kolme cron-jobia?",
-  "last_title_shape": "openclaw käytännössä yksi heartbeat",
-  "last_intro_hash": "feaa837181d83c5af50dde3b5c1360541d7c0dfd40e7c41d87bb89333cb6eb98",
+  "last_post": "content/posts/2026-06-20-1015-paikallinen-llm-kaytannossa-miksi-128k-konteksti-ei-ole-ilmainen.md",
+  "last_title": "Paikallinen LLM käytännössä: miksi 128k konteksti ei ole ilmainen",
+  "last_title_shape": "paikallinen llm käytännössä miksi",
+  "last_intro_hash": "a8cb1d44b343f8c056cd63a66879be87c2e31cd3e58c2d948d23bd120064e5f6",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "docs.vllm.ai"
   ],
-  "updated_at": "2026-06-18T10:21:23+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-19T10:18:48+03:00",
+  "last_topic_family": "llm-hardware"
 }
