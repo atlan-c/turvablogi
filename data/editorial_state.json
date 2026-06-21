@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-20-1015-paikallinen-llm-kaytannossa-miksi-128k-konteksti-ei-ole-ilmainen.md",
-  "last_title": "Paikallinen LLM käytännössä: miksi 128k konteksti ei ole ilmainen",
-  "last_title_shape": "paikallinen llm käytännössä miksi",
-  "last_intro_hash": "a8cb1d44b343f8c056cd63a66879be87c2e31cd3e58c2d948d23bd120064e5f6",
+  "last_post": "content/posts/2026-06-21-1015-openclaw-kaytannossa-spawn-agent-vai-sessions-spawn.md",
+  "last_title": "OpenClaw käytännössä: `spawn_agent` vai `sessions_spawn`?",
+  "last_title_shape": "openclaw käytännössä spawnagent vai",
+  "last_intro_hash": "36c9defa6ad53635514e34d0e603fea6e63bc8102a198a6b1ffaba94c0828d97",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "docs.vllm.ai"
+    "developers.openai.com",
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-19T10:18:48+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-20T10:19:32+03:00",
+  "last_topic_family": "openclaw"
 }
