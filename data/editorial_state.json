@@ -1,12 +1,14 @@
 {
-  "last_post": "content/posts/2026-06-21-1015-openclaw-kaytannossa-spawn-agent-vai-sessions-spawn.md",
-  "last_title": "OpenClaw käytännössä: `spawn_agent` vai `sessions_spawn`?",
-  "last_title_shape": "openclaw käytännössä spawnagent vai",
-  "last_intro_hash": "36c9defa6ad53635514e34d0e603fea6e63bc8102a198a6b1ffaba94c0828d97",
+  "last_post": "content/posts/2026-06-22-1015-ai-rauta-kotilabrassa-pitaako-resizable-bar-ottaa-kayttoon-paikalliselle-llm-koneelle.md",
+  "last_title": "AI-rauta kotilabrassa: pitääkö Resizable BAR ottaa käyttöön paikalliselle LLM-koneelle?",
+  "last_title_shape": "ai-rauta kotilabrassa pitääkö resizable",
+  "last_intro_hash": "0a89e096e3275f95215043bb4937fcbf5ce3af438738db0b970ef4a240048efe",
   "last_sources_domains": [
-    "developers.openai.com",
-    "docs.openclaw.ai"
+    "github.com",
+    "www.amd.com",
+    "www.intel.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-06-20T10:19:32+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-21T10:19:02+03:00",
+  "last_topic_family": "llm-hardware"
 }
