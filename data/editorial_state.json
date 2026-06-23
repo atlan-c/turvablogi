@@ -1,14 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-22-1015-ai-rauta-kotilabrassa-pitaako-resizable-bar-ottaa-kayttoon-paikalliselle-llm-koneelle.md",
-  "last_title": "AI-rauta kotilabrassa: pitääkö Resizable BAR ottaa käyttöön paikalliselle LLM-koneelle?",
-  "last_title_shape": "ai-rauta kotilabrassa pitääkö resizable",
-  "last_intro_hash": "0a89e096e3275f95215043bb4937fcbf5ce3af438738db0b970ef4a240048efe",
+  "last_post": "content/posts/2026-06-23-1015-openclaw-kaytannossa-tee-tasta-skilli-ala-paisuta-agents-mdta.md",
+  "last_title": "OpenClaw käytännössä: tee tästä skilli, älä paisuta AGENTS.md:tä",
+  "last_title_shape": "openclaw käytännössä tee tästä",
+  "last_intro_hash": "2bfc8a60bf3906de7987e952ff14b15799c1ff38cbdda3e189b64cf335759c2c",
   "last_sources_domains": [
-    "github.com",
-    "www.amd.com",
-    "www.intel.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-06-21T10:19:02+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-22T10:18:17+03:00",
+  "last_topic_family": "openclaw"
 }
