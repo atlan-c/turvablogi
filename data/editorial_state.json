@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-06-23-1015-openclaw-kaytannossa-tee-tasta-skilli-ala-paisuta-agents-mdta.md",
-  "last_title": "OpenClaw käytännössä: tee tästä skilli, älä paisuta AGENTS.md:tä",
-  "last_title_shape": "openclaw käytännössä tee tästä",
-  "last_intro_hash": "2bfc8a60bf3906de7987e952ff14b15799c1ff38cbdda3e189b64cf335759c2c",
+  "last_post": "content/posts/2026-06-24-1015-ai-rauta-kotilabrassa-pitaako-biosin-above-4g-decoding-ottaa-kayttoon-paikalliselle-llm-koneelle.md",
+  "last_title": "AI-rauta kotilabrassa: pitääkö BIOSin Above 4G Decoding ottaa käyttöön paikalliselle LLM-koneelle?",
+  "last_title_shape": "ai-rauta kotilabrassa pitääkö biosin",
+  "last_intro_hash": "47f70605ca5113a5794b22d7a6063d5c712ba98e1e06c33750d0a949a783c571",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.kernel.org",
+    "docs.nvidia.com",
+    "rocm.docs.amd.com"
   ],
-  "updated_at": "2026-06-22T10:18:17+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-23T10:19:17+03:00",
+  "last_topic_family": "llm-hardware"
 }
