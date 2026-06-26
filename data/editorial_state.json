@@ -1,11 +1,14 @@
 {
-  "last_post": "content/posts/2026-06-25-1015-openclaw-kaytannossa-hillitse-tyokalutulvaa-tool-searchilla-jos-paikallinen-malli-alkaa-seota.md",
-  "last_title": "OpenClaw käytännössä: hillitse työkalutulvaa `tool_search`illa, jos paikallinen malli alkaa seota",
-  "last_title_shape": "openclaw käytännössä hillitse työkalutulvaa",
-  "last_intro_hash": "4e1199655ff7970f244922607626016c1a4d7efc599f9761e0d817aebef5c407",
+  "last_post": "content/posts/2026-06-26-1015-ai-rauta-kotilabrassa-kannattaako-ecc-muisti-paikalliseen-llm-koneeseen.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako ECC-muisti paikalliseen LLM-koneeseen?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako ecc-muisti",
+  "last_intro_hash": "7b7d0f98055d455a3f65268d1cfa62d57a41c5745719a7152da809cf20c52f18",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.kernel.org",
+    "docs.nvidia.com",
+    "ollama.com",
+    "www.kingston.com"
   ],
-  "updated_at": "2026-06-24T10:18:42+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-25T10:19:13+03:00",
+  "last_topic_family": "llm-hardware"
 }
