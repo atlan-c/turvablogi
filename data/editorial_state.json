@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-06-27-1015-openclaw-kaytannossa-kannattaako-tools-experimental-plantool-laittaa-paalle-kaikkialle.md",
-  "last_title": "OpenClaw käytännössä: kannattaako `tools.experimental.planTool` laittaa päälle kaikkialle?",
-  "last_title_shape": "openclaw käytännössä kannattaako toolsexperimentalplantool",
-  "last_intro_hash": "cc2f7041f5d13a89c84aade1abd72fbc8f598e90b4319332f8d24e30cec99dda",
+  "last_post": "content/posts/2026-06-28-1015-ai-rauta-kotilabrassa-tarkista-ajurituki-ennen-kuin-ostat-kaytetyn-gpu-n-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: tarkista ajurituki ennen kuin ostat käytetyn GPU:n paikalliselle LLM:lle",
+  "last_title_shape": "ai-rauta kotilabrassa tarkista ajurituki",
+  "last_intro_hash": "1ab94c67d9235cf8679820414fe78cf0d77dc3d31ca989b231bd71da66d7a8a3",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "developer.nvidia.com",
+    "docs.ollama.com",
+    "rocm.docs.amd.com"
   ],
-  "updated_at": "2026-06-26T10:19:30+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-27T10:19:16+03:00",
+  "last_topic_family": "llm-hardware"
 }
