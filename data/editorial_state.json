@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-06-29-1015-openclaw-kaytannossa-miksi-cron-ja-heartbeat-eivat-pida-sessiota-tuoreena-puolestasi.md",
-  "last_title": "OpenClaw käytännössä: miksi cron ja heartbeat eivät pidä sessiota tuoreena puolestasi?",
-  "last_title_shape": "openclaw käytännössä miksi cron",
-  "last_intro_hash": "e1f2c802025fb232d2cae058ee5dd27670353c34c889e14b7e94463fe721809e",
+  "last_post": "content/posts/2026-06-30-1015-ai-rauta-kotilabrassa-paljonko-vapaata-vramia-kannattaa-jattaa-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: paljonko vapaata VRAMia kannattaa jättää paikalliselle LLM:lle?",
+  "last_title_shape": "ai-rauta kotilabrassa paljonko vapaata",
+  "last_intro_hash": "b12d5f1acee3aaccb97f4f88c7be01d65a6f39518bf7f229e1c006ec23241708",
   "last_sources_domains": [
-    "docs.openclaw.ai",
-    "github.com"
+    "docs.ollama.com"
   ],
-  "updated_at": "2026-06-28T10:18:18+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-06-29T10:19:04+03:00",
+  "last_topic_family": "llm-hardware"
 }
