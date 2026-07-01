@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-06-30-1015-ai-rauta-kotilabrassa-paljonko-vapaata-vramia-kannattaa-jattaa-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: paljonko vapaata VRAMia kannattaa jättää paikalliselle LLM:lle?",
-  "last_title_shape": "ai-rauta kotilabrassa paljonko vapaata",
-  "last_intro_hash": "b12d5f1acee3aaccb97f4f88c7be01d65a6f39518bf7f229e1c006ec23241708",
+  "last_post": "content/posts/2026-07-01-1015-openclaw-kaytannossa-pida-isolated-cron-yksivaiheisena-jos-et-oikeasti-tarvitse-subagentteja.md",
+  "last_title": "OpenClaw käytännössä: pidä isolated cron yksivaiheisena, jos et oikeasti tarvitse subagentteja",
+  "last_title_shape": "openclaw käytännössä pidä isolated",
+  "last_intro_hash": "fbfe6ded95f580c81830ea51f874480c72ed4e58f60352aad96aed315521e952",
   "last_sources_domains": [
-    "docs.ollama.com"
+    "docs.openclaw.ai",
+    "github.com"
   ],
-  "updated_at": "2026-06-29T10:19:04+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-06-30T10:19:41+03:00",
+  "last_topic_family": "openclaw"
 }
