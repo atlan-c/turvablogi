@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-02-1015-ai-rauta-kotilabrassa-riittaako-24-gt-unified-memory-mac-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: riittääkö 24 Gt unified memory Mac paikalliselle LLM:lle?",
-  "last_title_shape": "ai-rauta kotilabrassa riittääkö gt",
-  "last_intro_hash": "dbe495b23d5438be0e8983cb5dc7db6c62a507db2694ba2e5ec833276321ad3a",
+  "last_post": "content/posts/2026-07-03-1015-openclaw-kaytannossa-milloin-isolated-heartbeat-kannattaa-ottaa-kayttoon.md",
+  "last_title": "OpenClaw käytännössä: milloin isolated heartbeat kannattaa ottaa käyttöön?",
+  "last_title_shape": "openclaw käytännössä milloin isolated",
+  "last_intro_hash": "8c4cf2a7c481bf0936ee2e7b0c1b15e47db125dc8692baf1239d608147b06da3",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "support.apple.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-01T10:21:31+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-03T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
