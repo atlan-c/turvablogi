@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-03-1015-openclaw-kaytannossa-milloin-isolated-heartbeat-kannattaa-ottaa-kayttoon.md",
-  "last_title": "OpenClaw käytännössä: milloin isolated heartbeat kannattaa ottaa käyttöön?",
-  "last_title_shape": "openclaw käytännössä milloin isolated",
-  "last_intro_hash": "8c4cf2a7c481bf0936ee2e7b0c1b15e47db125dc8692baf1239d608147b06da3",
+  "last_post": "content/posts/2026-07-04-1015-ai-rauta-kotilabrassa-onko-8-gt-vram-enaa-jarkeva-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: onko 8 Gt VRAM enää järkevä paikalliselle LLM:lle?",
+  "last_title_shape": "rauta kotilabrassa onko gt",
+  "last_intro_hash": "d07a817a435cdc8d4b836ef309738903c6acf3b0b5dea25df5dc8cddabbd2775",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-07-03T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-04T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
