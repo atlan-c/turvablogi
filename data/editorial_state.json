@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-04-1015-ai-rauta-kotilabrassa-onko-8-gt-vram-enaa-jarkeva-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: onko 8 Gt VRAM enää järkevä paikalliselle LLM:lle?",
-  "last_title_shape": "rauta kotilabrassa onko gt",
-  "last_intro_hash": "d07a817a435cdc8d4b836ef309738903c6acf3b0b5dea25df5dc8cddabbd2775",
+  "last_post": "content/posts/2026-07-05-1015-openclaw-kaytannossa-jos-paikallinen-malli-hajoaa-agenttiajossa-kokeile-ensin-localmodelleania.md",
+  "last_title": "OpenClaw käytännössä: jos paikallinen malli hajoaa agenttiajossa, kokeile ensin `localModelLean`ia",
+  "last_title_shape": "openclaw käytännössä jos paikallinen",
+  "last_intro_hash": "42c31f12ea9f091e1801909e54607c4b751e513e6f271312747d04ebe05ae9e4",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-04T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-04T10:18:54+03:00",
+  "last_topic_family": "openclaw"
 }
