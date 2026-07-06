@@ -1,11 +1,14 @@
 {
-  "last_post": "content/posts/2026-07-05-1015-openclaw-kaytannossa-jos-paikallinen-malli-hajoaa-agenttiajossa-kokeile-ensin-localmodelleania.md",
-  "last_title": "OpenClaw käytännössä: jos paikallinen malli hajoaa agenttiajossa, kokeile ensin `localModelLean`ia",
-  "last_title_shape": "openclaw käytännössä jos paikallinen",
-  "last_intro_hash": "42c31f12ea9f091e1801909e54607c4b751e513e6f271312747d04ebe05ae9e4",
+  "last_post": "content/posts/2026-07-06-1015-ai-rauta-kotilabrassa-milloin-halpa-kaytetty-workstation-on-parempi-kuin-uusi-pelikone-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: milloin halpa käytetty workstation on parempi kuin uusi pelikone paikalliselle LLM:lle?",
+  "last_title_shape": "airauta kotilabrassa milloin halpa käytetty",
+  "last_intro_hash": "447d6c56593417f9754fe67cf4c15aa9b3564616a10cbb31efd1ed9ae756a7fe",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "i.dell.com",
+    "psref.lenovo.com",
+    "www.dell.com"
   ],
-  "updated_at": "2026-07-04T10:18:54+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-06T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
