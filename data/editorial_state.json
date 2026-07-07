@@ -1,14 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-06-1015-ai-rauta-kotilabrassa-milloin-halpa-kaytetty-workstation-on-parempi-kuin-uusi-pelikone-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: milloin halpa käytetty workstation on parempi kuin uusi pelikone paikalliselle LLM:lle?",
-  "last_title_shape": "airauta kotilabrassa milloin halpa käytetty",
-  "last_intro_hash": "447d6c56593417f9754fe67cf4c15aa9b3564616a10cbb31efd1ed9ae756a7fe",
+  "last_post": "content/posts/2026-07-07-1015-openclaw-kaytannossa-ala-sido-tyothreadia-ilman-idle-ja-max-age-rajoja.md",
+  "last_title": "OpenClaw käytännössä: älä sido työthreadia ilman idle- ja max-age-rajoja",
+  "last_title_shape": "openclaw käytännössä älä sido",
+  "last_intro_hash": "78195ac50ed535aa059d829ad896a931a50454f1938faba6e2ce6f5e576c3081",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "i.dell.com",
-    "psref.lenovo.com",
-    "www.dell.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-06T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-06T10:20:25+03:00",
+  "last_topic_family": "openclaw"
 }
