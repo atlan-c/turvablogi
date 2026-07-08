@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-07-1015-openclaw-kaytannossa-ala-sido-tyothreadia-ilman-idle-ja-max-age-rajoja.md",
-  "last_title": "OpenClaw käytännössä: älä sido työthreadia ilman idle- ja max-age-rajoja",
-  "last_title_shape": "openclaw käytännössä älä sido",
-  "last_intro_hash": "78195ac50ed535aa059d829ad896a931a50454f1938faba6e2ce6f5e576c3081",
+  "last_post": "content/posts/2026-07-08-1015-mita-avx2-oikeasti-tarkoittaa-paikalliselle-llm-harrastajalle.md",
+  "last_title": "Mitä AVX2 oikeasti tarkoittaa paikalliselle LLM-harrastajalle?",
+  "last_title_shape": "mitä avx oikeasti tarkoittaa",
+  "last_intro_hash": "064427fb1c5a9fa171ad67afec5a388d0c1e6bede9375f2cee1d7ff9b31d5908",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "github.com",
+    "www.intel.com"
   ],
-  "updated_at": "2026-07-06T10:20:25+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-07T10:19:24+03:00",
+  "last_topic_family": "llm-hardware"
 }
