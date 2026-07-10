@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-08-1015-mita-avx2-oikeasti-tarkoittaa-paikalliselle-llm-harrastajalle.md",
-  "last_title": "Mitä AVX2 oikeasti tarkoittaa paikalliselle LLM-harrastajalle?",
-  "last_title_shape": "mitä avx oikeasti tarkoittaa",
-  "last_intro_hash": "064427fb1c5a9fa171ad67afec5a388d0c1e6bede9375f2cee1d7ff9b31d5908",
+  "last_post": "content/posts/2026-07-10-1015-openclaw-kaytannossa-message-tool-on-parempi-kuin-automaattivastaus-vain-tietyissa-ryhmissa.md",
+  "last_title": "OpenClaw käytännössä: `message_tool` on parempi kuin automaattivastaus vain tietyissä ryhmissä",
+  "last_title_shape": "openclaw käytännössä messagetool parempi",
+  "last_intro_hash": "e74d7c57acadf81e9fec60b4eeab43ee000d0a516672a477da169b739f59b262",
   "last_sources_domains": [
-    "github.com",
-    "www.intel.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-07T10:19:24+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-08T10:19:46+03:00",
+  "last_topic_family": "openclaw"
 }
