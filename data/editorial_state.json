@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-11-1015-kannattaako-kaytetty-rtx-3080-10-gt-vai-12-gt-paikalliselle-llm-lle.md",
-  "last_title": "Kannattaako käytetty RTX 3080 10 Gt vai 12 Gt paikalliselle LLM:lle?",
-  "last_title_shape": "kannattaako käytetty rtx gt",
-  "last_intro_hash": "b603a951ee9ba5d2d5f3762cb9c087c8318acf41f7e9b9dea6d2d1a9b7436e19",
+  "last_post": "content/posts/2026-07-12-1015-openclaw-kaytannossa-milloin-heartbeat-md-kannattaa-jattaa-oikeasti-tyhjaksi.md",
+  "last_title": "OpenClaw käytännössä: milloin `HEARTBEAT.md` kannattaa jättää oikeasti tyhjäksi?",
+  "last_title_shape": "openclaw kytnnss milloin heartbeatmd",
+  "last_intro_hash": "e8b71eeb6e11fac9bb4bc75f88b6db366254f12aba7124a97d4b24ee5edbeca4",
   "last_sources_domains": [
-    "github.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai",
+    "github.com"
   ],
-  "updated_at": "2026-07-10T10:18:31+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-12T10:18:31+03:00",
+  "last_topic_family": "openclaw"
 }
