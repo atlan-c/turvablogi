@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-12-1015-openclaw-kaytannossa-milloin-heartbeat-md-kannattaa-jattaa-oikeasti-tyhjaksi.md",
-  "last_title": "OpenClaw käytännössä: milloin `HEARTBEAT.md` kannattaa jättää oikeasti tyhjäksi?",
-  "last_title_shape": "openclaw kytnnss milloin heartbeatmd",
-  "last_intro_hash": "e8b71eeb6e11fac9bb4bc75f88b6db366254f12aba7124a97d4b24ee5edbeca4",
+  "last_post": "content/posts/2026-07-13-1015-ai-rauta-kotilabrassa-16-gt-rtx-5060-ti-vai-kaytetty-rtx-3090-paikalliselle-llm-lle.md",
+  "last_title": "AI-rauta kotilabrassa: 16 Gt RTX 5060 Ti vai käytetty RTX 3090 paikalliselle LLM:lle?",
+  "last_title_shape": "ai-rauta kotilabrassa gt rtx",
+  "last_intro_hash": "28af4b46b2e053b7c4b23bd6e19396dddf8e1ffbc0119db0c2de25f8b221dd9e",
   "last_sources_domains": [
-    "docs.openclaw.ai",
-    "github.com"
+    "docs.ollama.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-07-12T10:18:31+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-12T10:19:18+03:00",
+  "last_topic_family": "llm-hardware"
 }
