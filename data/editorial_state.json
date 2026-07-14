@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-13-1015-ai-rauta-kotilabrassa-16-gt-rtx-5060-ti-vai-kaytetty-rtx-3090-paikalliselle-llm-lle.md",
-  "last_title": "AI-rauta kotilabrassa: 16 Gt RTX 5060 Ti vai käytetty RTX 3090 paikalliselle LLM:lle?",
-  "last_title_shape": "ai-rauta kotilabrassa gt rtx",
-  "last_intro_hash": "28af4b46b2e053b7c4b23bd6e19396dddf8e1ffbc0119db0c2de25f8b221dd9e",
+  "last_post": "content/posts/2026-07-14-1015-kannattaako-task-flow-vai-tavallinen-cron-openclaw-automaatiossa.md",
+  "last_title": "Kannattaako Task Flow vai tavallinen cron OpenClaw-automaatiossa?",
+  "last_title_shape": "kannattaako task flow vai",
+  "last_intro_hash": "1a5d65ae6397a20a2f5fa3ce39423ce257c22a96ac5d56f1d716b79d6b4885a1",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-12T10:19:18+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-14T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
