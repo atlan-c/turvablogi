@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-14-1015-kannattaako-task-flow-vai-tavallinen-cron-openclaw-automaatiossa.md",
-  "last_title": "Kannattaako Task Flow vai tavallinen cron OpenClaw-automaatiossa?",
-  "last_title_shape": "kannattaako task flow vai",
-  "last_intro_hash": "1a5d65ae6397a20a2f5fa3ce39423ce257c22a96ac5d56f1d716b79d6b4885a1",
+  "last_post": "content/posts/2026-07-15-1015-paikallinen-llm-kaytannossa-miksi-24-gt-vram-on-usein-parempi-ostos-kuin-nopeampi-16-gt-kortti.md",
+  "last_title": "Paikallinen LLM käytännössä: miksi 24 Gt VRAM on usein parempi ostos kuin nopeampi 16 Gt kortti?",
+  "last_title_shape": "paikallinen llm käytännössä miksi",
+  "last_intro_hash": "f930de85cc2f6908868b65d5388a9254a38bab0954428a8b6120a0a7a0eae0cb",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com"
   ],
-  "updated_at": "2026-07-14T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-15T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
