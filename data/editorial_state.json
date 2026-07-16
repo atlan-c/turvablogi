@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-15-1015-paikallinen-llm-kaytannossa-miksi-24-gt-vram-on-usein-parempi-ostos-kuin-nopeampi-16-gt-kortti.md",
-  "last_title": "Paikallinen LLM käytännössä: miksi 24 Gt VRAM on usein parempi ostos kuin nopeampi 16 Gt kortti?",
-  "last_title_shape": "paikallinen llm käytännössä miksi",
-  "last_intro_hash": "f930de85cc2f6908868b65d5388a9254a38bab0954428a8b6120a0a7a0eae0cb",
+  "last_post": "content/posts/2026-07-16-1015-tyokalu-skill-vai-plugin-openclawissa-valitse-halvin-toimiva-taso.md",
+  "last_title": "Työkalu, skill vai plugin OpenClawissa: valitse halvin toimiva taso",
+  "last_title_shape": "työkalu skill vai plugin",
+  "last_intro_hash": "0ef7e8fec38e7e232358da6f48f2d4e608fc22fac39ce515952d34741ee73dd4",
   "last_sources_domains": [
-    "docs.ollama.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-15T10:15:00+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-16T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
