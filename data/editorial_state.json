@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-07-16-1015-tyokalu-skill-vai-plugin-openclawissa-valitse-halvin-toimiva-taso.md",
-  "last_title": "Työkalu, skill vai plugin OpenClawissa: valitse halvin toimiva taso",
-  "last_title_shape": "työkalu skill vai plugin",
-  "last_intro_hash": "0ef7e8fec38e7e232358da6f48f2d4e608fc22fac39ce515952d34741ee73dd4",
+  "last_post": "content/posts/2026-07-17-1015-rtx-5070-vai-rtx-5060-ti-16-gt-kumpi-on-jarkevampi-paikalliselle-llm-lle.md",
+  "last_title": "RTX 5070 vai RTX 5060 Ti 16 Gt: kumpi on järkevämpi paikalliselle LLM:lle?",
+  "last_title_shape": "rtx vai rtx ti",
+  "last_intro_hash": "1f52b9c7fa2c56e7f8a97edbbb35f2bce4cf79a370e9341440fe369b77eedb9a",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "ollama.com",
+    "www.nvidia.com"
   ],
-  "updated_at": "2026-07-16T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-16T10:19:10+03:00",
+  "last_topic_family": "llm-hardware"
 }
