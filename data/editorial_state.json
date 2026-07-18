@@ -1,13 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-17-1015-rtx-5070-vai-rtx-5060-ti-16-gt-kumpi-on-jarkevampi-paikalliselle-llm-lle.md",
-  "last_title": "RTX 5070 vai RTX 5060 Ti 16 Gt: kumpi on järkevämpi paikalliselle LLM:lle?",
-  "last_title_shape": "rtx vai rtx ti",
-  "last_intro_hash": "1f52b9c7fa2c56e7f8a97edbbb35f2bce4cf79a370e9341440fe369b77eedb9a",
+  "last_post": "content/posts/2026-07-18-1015-ala-anna-cronin-improvisoida-git-pushia-pysaytysehdot-ennen-julkaisua.md",
+  "last_title": "Älä anna cronin improvisoida git pushia: pysäytysehdot ennen julkaisua",
+  "last_title_shape": "älä anna cronin improvisoida",
+  "last_intro_hash": "60d5051171e1c731c5c0b668a5de742c8d775f2d47adc4ed2d150b07a56e343d",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "ollama.com",
-    "www.nvidia.com"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-16T10:19:10+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-07-18T10:15:00+03:00",
+  "last_topic_family": "openclaw"
 }
