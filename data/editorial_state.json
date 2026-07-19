@@ -1,11 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-18-1015-ala-anna-cronin-improvisoida-git-pushia-pysaytysehdot-ennen-julkaisua.md",
-  "last_title": "Älä anna cronin improvisoida git pushia: pysäytysehdot ennen julkaisua",
-  "last_title_shape": "älä anna cronin improvisoida",
-  "last_intro_hash": "60d5051171e1c731c5c0b668a5de742c8d775f2d47adc4ed2d150b07a56e343d",
+  "last_post": "content/posts/2026-07-19-1015-mita-64k-konteksti-maksaa-16-gt-kortilla-paikallisessa-llm-kaytossa.md",
+  "last_title": "Mitä 64k konteksti maksaa 16 Gt kortilla paikallisessa LLM-käytössä?",
+  "last_title_shape": "mitä k konteksti maksaa",
+  "last_intro_hash": "71e65d1c8b701ce065ef8d61804e932c0bdbda5ede9bde7485044be46d47e2d1",
   "last_sources_domains": [
     "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-18T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-19T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
