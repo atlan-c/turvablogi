@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $archivePosts := where (where .Site.RegularPages "Section" "posts") "Params.phase" "ne" "new-era" }}
+<header class="page-intro">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+</header>
+
+<section class="archive-list">
+  {{ range $archivePosts.GroupByDate "2006-01" }}
+    <section class="archive-group">
+      <div class="archive-heading">
+        <h2>{{ (index .Pages 0).Date.Format "01/2006" }}</h2>
+        <p>{{ len .Pages }} postausta</p>
+      </div>
+      <div class="post-grid">
+        {{ range .Pages }}
+          {{ partial "post_card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</section>
+{{ end }}

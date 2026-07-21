@@ -15,6 +15,7 @@ STATE_PATH = ROOT / "data" / "editorial_state.json"
 
 URL_RE = re.compile(r"https?://[^\s)]+")
 FRONT_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.S)
+ALLOWED_TOPIC_FAMILIES = {"openclaw", "llm-hardware", "ai-models"}
 
 
 @dataclass
@@ -121,8 +122,9 @@ def validate_post(post: ParsedPost) -> list[str]:
     if draft_value not in {"true", "false", "0", "1", "no", "yes"}:
         errors.append("draft pitää olla true tai false")
 
-    if str(fm.get("topic_family", "")) not in {"openclaw", "llm-hardware"}:
-        errors.append("topic_family pitää olla joko 'openclaw' tai 'llm-hardware'")
+    if str(fm.get("topic_family", "")) not in ALLOWED_TOPIC_FAMILIES:
+        allowed = ", ".join(sorted(ALLOWED_TOPIC_FAMILIES))
+        errors.append(f"topic_family pitää olla yksi seuraavista: {allowed}")
 
     tags = fm.get("tags")
     if tags:
@@ -163,6 +165,9 @@ def validate_post(post: ParsedPost) -> list[str]:
             except Exception:
                 continue
             if post_date_day(old_post) == cur_day and not is_draft(old_post):
+                same_day_allowed = str(post.frontmatter.get("allow_same_day", "")).lower() in {"true", "1", "yes"}
+                if same_day_allowed:
+                    break
                 errors.append(
                     f"Kalenteripäivälle {cur_day} on jo olemassa postaus ({old_path.name}); toinen saman päivän julkaisu vaatii erillisen poikkeuksen"
                 )
@@ -203,7 +208,7 @@ def extract_sources_domains(body: str) -> list[str]:
 
 def infer_topic_family(post: ParsedPost) -> str:
     explicit = str(post.frontmatter.get("topic_family", "")).strip()
-    if explicit in {"openclaw", "llm-hardware"}:
+    if explicit in ALLOWED_TOPIC_FAMILIES:
         return explicit
 
     text = " ".join(
@@ -224,6 +229,17 @@ def infer_topic_family(post: ParsedPost) -> str:
     ]
     if any(marker in text for marker in openclaw_markers):
         return "openclaw"
+    ai_models_markers = [
+        "agenttiarkkitehtuuri",
+        "structured output",
+        "tool calling",
+        "function calling",
+        "mcp",
+        "tekoälymalli",
+        "tekoalymalli",
+    ]
+    if any(marker in text for marker in ai_models_markers):
+        return "ai-models"
     return "llm-hardware"
 
 

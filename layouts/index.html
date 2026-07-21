@@ -1,11 +1,30 @@
 {{ define "main" }}
 <section class="page-intro">
-  <h2>Uusimmat ja hyödyllisimmät käytännönmuistiinpanot</h2>
+  <h2>Tekoälymallit ja agentit käytännössä</h2>
   {{ with .Content }}{{ . }}{{ end }}
 </section>
 
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $currentPosts := where $posts "Params.phase" "eq" "new-era" }}
+{{ $archivePosts := where $posts "Params.phase" "ne" "new-era" }}
 {{ $tagTaxonomy := .Site.Taxonomies.tags.Alphabetical }}
+{{ if gt (len $currentPosts) 0 }}
+<section class="home-section">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Uusi vaihe</p>
+      <h2>Ajankohtaiset mallit ja agenttiartikkelit</h2>
+    </div>
+    <a class="section-link" href="{{ "uudet-mallit/" | relLangURL }}">Katso kaikki teemat</a>
+  </div>
+  <div class="post-grid">
+    {{ range $currentPosts.ByDate.Reverse }}
+      {{ partial "post_card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
 <section class="filter-panel" aria-label="Postausten suodatus">
   <label class="search-label" for="post-search">Suodata otsikon, sarjan tai tagin mukaan</label>
   <input id="post-search" type="search" placeholder="Esim. OpenClaw, GPU, PowerShell..." data-post-search>
@@ -17,8 +36,19 @@
   </div>
 </section>
 
+<section class="home-section">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Arkisto</p>
+      <h2>Aikaisemmat aiheet</h2>
+    </div>
+    <a class="section-link" href="{{ "arkisto/" | relLangURL }}">Avaa koko arkisto</a>
+  </div>
+  <p class="section-copy">Aiempi sisältövaihe säilyy mukana kokonaan. Arkistossa näkyvät edelleen OpenClaw-, paikallinen LLM-, AI-rauta- ja kotilabra-artikkelit alkuperäisissä osoitteissaan.</p>
+</section>
+
 <section class="archive-list">
-  {{ range $posts.GroupByDate "2006-01" }}
+  {{ range $archivePosts.GroupByDate "2006-01" }}
     <section class="archive-group" data-post-group>
       <div class="archive-heading">
         <h2>{{ (index .Pages 0).Date.Format "01/2006" }}</h2>

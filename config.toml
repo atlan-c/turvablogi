@@ -10,9 +10,9 @@ summaryLength = 36
   series = "series"
 
 [params]
-  description = "Kevyt, staattinen ja käytännönläheinen blogi paikallisesta AI:sta, OpenClawista, kotilabroista ja tietoturvasta."
+  description = "Kevyt, staattinen ja käytännönläheinen blogi uusista tekoälymalleista, agenttityöskentelystä, integraatioista ja lähdepohjaisesta arvioinnista."
   author = "Atlan"
-  about = "Käytännönläheinen blogi OpenClawista, agenteista, paikallisista LLM:istä, kotilabroista ja tietoturvatietoisesta kokeilusta."
+  about = "Käytännönläheinen blogi uusista tekoälymalleista, agenteista, integraatioista ja siitä, mitä kannattaa oikeasti testata, epäillä tai ottaa käyttöön."
 
 [markup]
   [markup.goldmark]

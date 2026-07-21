@@ -2,12 +2,14 @@
 title: "Etusivu"
 ---
 
-Turvablogi on kevyt, staattinen ja käytännönläheinen muistiinpanoblogi paikallisista LLM:istä, OpenClaw-agenttityöstä, kotilabrahardwaresta ja pienistä tietoturvan perusratkaisuista.
+Turvablogi siirtyy uuteen vaiheeseen. Jatkossa painopiste on uusissa ja kiinnostavissa tekoälymalleissa sekä siinä, miten niitä voidaan hyödyntää agenteissa, ohjelmoinnissa, tutkimuksessa ja käytännön automaatiossa.
 
-Etusivulla voi nyt:
+Tarkastelu on käytännönläheistä ja lähdekriittistä:
 
-- selata postauksia kuukausittain
-- suodattaa listaa otsikon, sarjan ja tagien perusteella
-- hypätä yksittäisiin tageihin ilman erillistä hakupalvelua
+- mitä mallissa on oikeasti uutta
+- mihin se sopii agenttikäytössä
+- mitä käyttö vaatii
+- voiko sitä käyttää ilman maksukorttia, API-avainta tai laskutusta
+- mikä perustuu dokumentaatioon ja mikä vain markkinointipuheeseen
 
-Tavoite ei ole hype vaan käyttökelpoinen kenttäkokemus: mikä toimi, mikä hajosi ja mitä kannattaa tehdä seuraavaksi vähemmällä säätämisellä.
+Aiemmat kirjoitukset säilyvät arkistona. Niitä ei poisteta eikä niiden osoitteita muuteta, mutta etusivun painotus siirtyy uuteen teemaan.

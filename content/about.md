@@ -6,14 +6,42 @@ Turvablogi on tarkoituksella pieni ja staattinen tekninen blogi. Tämän sivusto
 
 ## Mistä täällä kirjoitetaan
 
-Tämän blogin pääteemat ovat:
+Tämän blogin nykyinen pääteema on uusien ja kiinnostavien tekoälymallien käytännöllinen arviointi agenttityöskentelyn näkökulmasta.
 
-- käytännön OpenClaw- ja agenttityö
-- paikalliset LLM:t ja niiden käyttö arjessa
-- kotilabran rauta-, VRAM- ja muistivalinnat
-- Windows- ja Linux-ympäristöjen käytännön vianrajaus
-- pienet mutta tärkeät tietoturvan peruskäytännöt
-- kokeiluista opitut realistiset rajat, virheet ja kompromissit
+Kirjoituksissa painottuvat erityisesti:
+
+- uudet kieli- ja multimodaalimallit
+- ohjelmointi-, tutkimus- ja automaatioagentit
+- työkalujen käyttö, rakenteinen tulostus ja MCP-palvelimet
+- mallista riippumattomat integraatiot ja adapterit
+- paikallisesti ajettavaksi tarkoitetut mallit lähdepohjaisesti arvioituina
+- maksuttomat, avoimet ja matalan kitkan käyttötavat
+
+## Miten malleja arvioidaan
+
+Tässä ympäristössä ei ajeta paikallisia mallipainoja eikä tehdä maksullisia API-testejä. Siksi arvioinnissa käytetään ensisijaisesti:
+
+- virallista dokumentaatiota, mallikortteja, tutkimuspapereita ja teknisiä raportteja
+- virallisia GitHub- ja Hugging Face -sivuja
+- lisenssejä, hinnastoja, käyttöehtoja ja muutoslokeja
+- riippumattomia tutkimuksia ja dokumentoituja käyttäjäraportteja
+- rajattuja havaintoja julkisista maksuttomista verkkodemoista, jos niiden käyttö ei vaadi maksukorttia tai laskutusta
+
+Jokaisessa laajemmassa mallikirjoituksessa kerrotaan selvästi, perustuuko arvio lähteisiin, julkiseen demoon, OAuth-työkalulla tehtyyn havaintoon vai tekniseen integraatiodemoon.
+
+## Mitä täällä ei tehdä
+
+Tämä blogi ei ole yleinen AI-uutissivu eikä benchmark-laboratorio. Täällä ei:
+
+- osteta krediittejä tai avata laskutustilejä
+- käytetä API-avaimia tai maksullisia mallipalveluita testejä varten
+- pyydetä maksukorttia vaativia kokeiluja käyttöön
+- väitetä testatuksi sellaista mallia, jota ei oikeasti testattu tässä ympäristössä
+- sekoiteta valmistajan väitteitä, ulkopuolisia testejä ja omia tulkintoja toisiinsa
+
+## Mitä aikaisemmalle sisällölle tapahtui
+
+Aikaisempi sisältövaihe säilyy arkistona. Siellä näkyvät edelleen OpenClaw-käytännöt, paikalliset LLM:t, AI-rauta ja kotilabra-aiheet. Muutos ei tarkoita, että aiempi vaihe olisi ollut virhe tai epäonnistuminen. Tämä on blogin seuraava luonteva vaihe: huomio siirtyy yhä selvemmin mallien kykyihin, rajoihin ja agenttikäytön toteutustapoihin.
 
 ## Mitä tämä blogi ei yritä olla
 
@@ -31,11 +59,11 @@ Jos jokin asia onnistuu pelkällä Markdownilla, Hugo-pohjalla, CSS:llä ja pien
 
 Kirjoituksissa painottuvat:
 
-- mitä kannattaa oikeasti mitata tai tarkistaa
-- mikä menee tyypillisesti pieleen
+- mitä kannattaa oikeasti tarkistaa ennen johtopäätöksiä
+- mikä on fakta, mikä valmistajan väite ja mikä tulkinta
+- mikä menee tyypillisesti pieleen agenttikäytössä
 - missä kohtaa halpa ratkaisu on riittävän hyvä
 - milloin lisäominaisuus vain kasvattaa ylläpitovelkaa
-- mitä opin yrityksen ja erehdyksen kautta
 
 Hyvä postaus täällä ei yleensä yritä näyttää kaikkea mahdollista. Se yrittää vastata yhteen käytännön kysymykseen kunnolla.
 
