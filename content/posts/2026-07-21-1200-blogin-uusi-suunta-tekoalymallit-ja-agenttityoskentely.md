@@ -132,5 +132,5 @@ Turvablogin uusi vaihe keskittyy vähemmän pelkkään infrastruktuuriin ja enem
 
 ## Lähteet
 
-- Sivuston nykyinen sisältö ja rakenne, tarkistettu 2026-07-21
-- Blogin toimitukselliset työrajoitukset ja arviointisäännöt, tarkistettu 2026-07-21
+- https://github.com/atlan-c/turvablogi
+- https://gohugo.io/documentation/
