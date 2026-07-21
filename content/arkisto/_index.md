@@ -2,13 +2,13 @@
 title: "Arkisto"
 ---
 
-Talle sivulle on koottu blogin aikaisempi sisaltovaihe. Kaikki vanhat kirjoitukset sailyvat saatavilla alkuperaisissa osoitteissaan.
+Tälle sivulle on koottu blogin aikaisempi sisältövaihe. Kaikki vanhat kirjoitukset säilyvät saatavilla alkuperäisissä osoitteissaan.
 
-Arkisto sisaltaa erityisesti:
+Arkisto sisältää erityisesti:
 
-- OpenClaw-kaytannot ja agenttien kayttorutiinit
+- OpenClaw-käytännöt ja agenttien käyttörutiinit
 - paikalliset LLM:t ja niiden arjen kompromissit
 - AI-raudan, VRAMin ja RAMin valintakysymykset
-- kotilabran ja tietoturvatietoisen kokeilun kaytannon muistiinpanot
+- kotilabran ja tietoturvatietoisen kokeilun käytännön muistiinpanot
 
-Uusi vaihe ei korvaa tata sisaltoa, vaan rakentuu sen paalle. Painotus on vain siirtynyt yha selvemmin tekoalymalleihin, arviointitapoihin ja agenttiarkkitehtuureihin.
+Uusi vaihe ei korvaa tätä sisältöä, vaan rakentuu sen päälle. Painotus on vain siirtynyt yhä selvemmin tekoälymalleihin, arviointitapoihin ja agenttiarkkitehtuureihin.
