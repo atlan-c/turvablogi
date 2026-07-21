@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-20-1015-openclaw-kaytannossa-milloin-dm-eristys-pitaa-ottaa-kayttoon.md",
-  "last_title": "OpenClaw käytännössä: milloin DM-eristys pitää ottaa käyttöön?",
-  "last_title_shape": "openclaw käytännössä milloin dm-eristys",
-  "last_intro_hash": "7fc0a9e7c9ca1a9a8bfab2507cd83717c7029de82f6f136fd4f9cf3aa08d85cc",
+  "last_post": "content/posts/2026-07-21-1015-milloin-64-gt-ram-on-oikea-pari-24-gt-llm-naytonohjaimelle.md",
+  "last_title": "Milloin 64 Gt RAM on oikea pari 24 Gt LLM-näytönohjaimelle?",
+  "last_title_shape": "milloin gt ram oikea",
+  "last_intro_hash": "ff92b004b19db994b3287b84655b12dc8dac18d2c5547dcad7dcc00a3fed1d10",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "rocm.docs.amd.com"
   ],
-  "updated_at": "2026-07-19T10:18:56+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-20T10:17:43+03:00",
+  "last_topic_family": "llm-hardware"
 }
