@@ -1,12 +1,11 @@
 {
-  "last_post": "content/posts/2026-07-21-1200-blogin-uusi-suunta-tekoalymallit-ja-agenttityoskentely.md",
-  "last_title": "Blogin uusi suunta: tekoälymallit ja agenttityöskentely",
-  "last_title_shape": "blogin uusi suunta tekoälymallit",
-  "last_intro_hash": "88050d82b48179397a23ee1d6a2ad317cade4a27781b19f9c805972b15c0d2d6",
+  "last_post": "content/posts/2026-07-22-1015-piilotettu-subagentti-vai-nakyva-dashboard-sessio-openclawissa.md",
+  "last_title": "Piilotettu subagentti vai näkyvä dashboard-sessio OpenClawissa?",
+  "last_title_shape": "piilotettu subagentti vai näkyvä",
+  "last_intro_hash": "1ced833b3f113b3be1681a1ad6ab386f0f260159bb6280cb627080ae0817f724",
   "last_sources_domains": [
-    "github.com",
-    "gohugo.io"
+    "docs.openclaw.ai"
   ],
-  "updated_at": "2026-07-21T13:06:49+03:00",
-  "last_topic_family": "ai-models"
+  "updated_at": "2026-07-21T20:19:14+03:00",
+  "last_topic_family": "openclaw"
 }
