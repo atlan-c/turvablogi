@@ -1,11 +1,13 @@
 {
-  "last_post": "content/posts/2026-07-22-1015-piilotettu-subagentti-vai-nakyva-dashboard-sessio-openclawissa.md",
-  "last_title": "Piilotettu subagentti vai näkyvä dashboard-sessio OpenClawissa?",
-  "last_title_shape": "piilotettu subagentti vai näkyvä",
-  "last_intro_hash": "1ced833b3f113b3be1681a1ad6ab386f0f260159bb6280cb627080ae0817f724",
+  "last_post": "content/posts/2026-07-23-1015-riittaako-1-tt-ssd-paikallisten-llm-mallien-varastoksi.md",
+  "last_title": "Riittääkö 1 Tt SSD paikallisten LLM-mallien varastoksi?",
+  "last_title_shape": "riittääkö tt ssd paikallisten",
+  "last_intro_hash": "7291c48129afc724624d44e4998d633862a72d3461ea854f83f05a9505614846",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "docs.ollama.com",
+    "ollama.com",
+    "raw.githubusercontent.com"
   ],
-  "updated_at": "2026-07-21T20:19:14+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-23T10:15:00+03:00",
+  "last_topic_family": "llm-hardware"
 }
