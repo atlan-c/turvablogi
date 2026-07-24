@@ -111,6 +111,10 @@ def is_draft(post: ParsedPost) -> bool:
     return str(post.frontmatter.get("draft", "")).lower() in {"true", "1", "yes"}
 
 
+def post_phase(post: ParsedPost) -> str:
+    return str(post.frontmatter.get("phase", "")).strip()
+
+
 def validate_post(post: ParsedPost) -> list[str]:
     errors: list[str] = []
     fm = post.frontmatter
@@ -152,7 +156,8 @@ def validate_post(post: ParsedPost) -> list[str]:
     last_family = state.get("last_topic_family")
     last_post = state.get("last_post")
     cur_relpath = str(post.path.relative_to(ROOT))
-    if last_family and cur_family == last_family and last_post != cur_relpath:
+    same_family_allowed = post_phase(post) == "new-era"
+    if last_family and cur_family == last_family and last_post != cur_relpath and not same_family_allowed:
         errors.append("Aiheperhe toistaa edellisen postauksen; vuorottelun pitää vaihtua")
 
     cur_day = post_date_day(post)
