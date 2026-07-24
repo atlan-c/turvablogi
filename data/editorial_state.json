@@ -1,11 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-24-1015-openclaw-kaytannossa-kirjoita-cron-ajolle-koko-tehtava-viestiin.md",
-  "last_title": "OpenClaw käytännössä: kirjoita cron-ajolle koko tehtävä viestiin",
-  "last_title_shape": "openclaw käytännössä kirjoita cron-ajolle",
-  "last_intro_hash": "ca4d592070cb7f928414093d1cef1089d346557cf40ef0e5e81909397e69b0b5",
+  "last_post": "content/posts/2026-07-24-1500-miksi-mallista-riippumaton-agenttiadapteri-kannattaa-rakentaa-ensin.md",
+  "last_title": "Miksi mallista riippumaton agenttiadapteri kannattaa rakentaa ensin",
+  "last_title_shape": "miksi mallista riippumaton agenttiadapteri",
+  "last_intro_hash": "09ad69f2844cce36266c0da8629ef6ced761de2f06b304495a364cf12deedfc1",
   "last_sources_domains": [
-    "docs.openclaw.ai"
+    "developers.openai.com",
+    "modelcontextprotocol.io"
   ],
-  "updated_at": "2026-07-24T10:15:00+03:00",
-  "last_topic_family": "openclaw"
+  "updated_at": "2026-07-24T14:00:49+03:00",
+  "last_topic_family": "ai-models"
 }
