@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-24-1500-miksi-mallista-riippumaton-agenttiadapteri-kannattaa-rakentaa-ensin.md",
-  "last_title": "Miksi mallista riippumaton agenttiadapteri kannattaa rakentaa ensin",
-  "last_title_shape": "miksi mallista riippumaton agenttiadapteri",
-  "last_intro_hash": "09ad69f2844cce36266c0da8629ef6ced761de2f06b304495a364cf12deedfc1",
+  "last_post": "content/posts/2026-07-25-1015-paikallinen-agentti-kaytannossa-vaadi-natiivi-tool-calling-ennen-benchmarkkeja.md",
+  "last_title": "Paikallinen agentti käytännössä: vaadi natiivi tool calling ennen benchmarkkeja",
+  "last_title_shape": "paikallinen agentti käytännössä vaadi",
+  "last_intro_hash": "88050d82b48179397a23ee1d6a2ad317cade4a27781b19f9c805972b15c0d2d6",
   "last_sources_domains": [
-    "developers.openai.com",
-    "modelcontextprotocol.io"
+    "github.com",
+    "ollama.com"
   ],
-  "updated_at": "2026-07-24T14:00:49+03:00",
+  "updated_at": "2026-07-25T10:15:00+03:00",
   "last_topic_family": "ai-models"
 }
