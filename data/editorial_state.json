@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-07-25-1015-paikallinen-agentti-kaytannossa-vaadi-natiivi-tool-calling-ennen-benchmarkkeja.md",
-  "last_title": "Paikallinen agentti käytännössä: vaadi natiivi tool calling ennen benchmarkkeja",
-  "last_title_shape": "paikallinen agentti käytännössä vaadi",
-  "last_intro_hash": "88050d82b48179397a23ee1d6a2ad317cade4a27781b19f9c805972b15c0d2d6",
+  "last_post": "content/posts/2026-07-26-1015-miksi-paikallinen-agentti-hajoaa-ennen-kuin-128k-konteksti-tayttyy.md",
+  "last_title": "Miksi paikallinen agentti hajoaa ennen kuin 128k konteksti täyttyy",
+  "last_title_shape": "miksi paikallinen agentti hajoaa",
+  "last_intro_hash": "846b188dba99d8884cb1316c9db2f492c23bf38a9fb5ed52b32da027764c3ce0",
   "last_sources_domains": [
-    "github.com",
-    "ollama.com"
+    "docs.ollama.com",
+    "docs.openwebui.com",
+    "github.com"
   ],
-  "updated_at": "2026-07-25T10:15:00+03:00",
+  "updated_at": "2026-07-26T10:15:00+03:00",
   "last_topic_family": "ai-models"
 }
