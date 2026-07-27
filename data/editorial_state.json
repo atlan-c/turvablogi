@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-07-26-1015-miksi-paikallinen-agentti-hajoaa-ennen-kuin-128k-konteksti-tayttyy.md",
-  "last_title": "Miksi paikallinen agentti hajoaa ennen kuin 128k konteksti täyttyy",
-  "last_title_shape": "miksi paikallinen agentti hajoaa",
-  "last_intro_hash": "846b188dba99d8884cb1316c9db2f492c23bf38a9fb5ed52b32da027764c3ce0",
+  "last_post": "content/posts/2026-07-27-1015-paikallinen-llm-kaytannossa-erota-embedding-malli-chat-mallista-ennen-ragia.md",
+  "last_title": "Paikallinen LLM käytännössä: erota embedding-malli chat-mallista ennen RAGia",
+  "last_title_shape": "paikallinen llm käytännössä erota",
+  "last_intro_hash": "7586ae5624541c4c8cb90f9504e38e44de6f07416d42dc77000db2e1050846d1",
   "last_sources_domains": [
     "docs.ollama.com",
     "docs.openwebui.com",
     "github.com"
   ],
-  "updated_at": "2026-07-26T10:15:00+03:00",
+  "updated_at": "2026-07-27T10:19:47+03:00",
   "last_topic_family": "ai-models"
 }
