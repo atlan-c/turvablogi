@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-29-1015-kuinka-monta-rinnakkaista-agenttipyyntoa-paikallinen-llm-oikeasti-kestaa.md",
-  "last_title": "Kuinka monta rinnakkaista agenttipyyntöä paikallinen LLM oikeasti kestää?",
-  "last_title_shape": "kuinka monta rinnakkaista agenttipyyntöä",
-  "last_intro_hash": "5102c008b89eb19cc1d996f8a735966b3c5c1d6c471382d7aa640ffce5a7e296",
+  "last_post": "content/posts/2026-07-30-1015-ennen-kuin-pienennat-mallia-kokeile-kv-cache-q8_0-aa.md",
+  "last_title": "Ennen kuin pienennät mallia, kokeile KV-cache q8_0:aa",
+  "last_title_shape": "ennen kuin pienennät mallia",
+  "last_intro_hash": "e22f2b437d25a21b07213676e1520980e64548cfc86cfd8833a0002037648337",
   "last_sources_domains": [
     "docs.ollama.com",
     "github.com"
   ],
-  "updated_at": "2026-07-28T10:20:10+03:00",
+  "updated_at": "2026-07-29T10:20:45+03:00",
   "last_topic_family": "ai-models"
 }
