@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-07-30-1015-ennen-kuin-pienennat-mallia-kokeile-kv-cache-q8_0-aa.md",
-  "last_title": "Ennen kuin pienennät mallia, kokeile KV-cache q8_0:aa",
-  "last_title_shape": "ennen kuin pienennät mallia",
-  "last_intro_hash": "e22f2b437d25a21b07213676e1520980e64548cfc86cfd8833a0002037648337",
+  "last_post": "content/posts/2026-07-31-1015-ala-pida-embedding-mallia-turhaan-lampimana-paikallisessa-agentissa.md",
+  "last_title": "Älä pidä embedding-mallia turhaan lämpimänä paikallisessa agentissa",
+  "last_title_shape": "älä pidä embedding-mallia turhaan",
+  "last_intro_hash": "a3719e8cd75688c87c483f881d4c9ab35901919a57973e3c94c3f63ebfb46bfe",
   "last_sources_domains": [
     "docs.ollama.com",
-    "github.com"
+    "docs.openwebui.com"
   ],
-  "updated_at": "2026-07-29T10:20:45+03:00",
+  "updated_at": "2026-07-31T10:15:00+03:00",
   "last_topic_family": "ai-models"
 }
