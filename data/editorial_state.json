@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-07-31-1015-ala-pida-embedding-mallia-turhaan-lampimana-paikallisessa-agentissa.md",
-  "last_title": "Älä pidä embedding-mallia turhaan lämpimänä paikallisessa agentissa",
-  "last_title_shape": "älä pidä embedding-mallia turhaan",
-  "last_intro_hash": "a3719e8cd75688c87c483f881d4c9ab35901919a57973e3c94c3f63ebfb46bfe",
+  "last_post": "content/posts/2026-08-01-1015-ai-rauta-kotilabrassa-kannattaako-toinen-gpu-paikalliseen-agenttikoneeseen.md",
+  "last_title": "AI-rauta kotilabrassa: kannattaako toinen GPU paikalliseen agenttikoneeseen?",
+  "last_title_shape": "ai-rauta kotilabrassa kannattaako toinen",
+  "last_intro_hash": "93c0f7a18bd9f4e6ef3ea1d42d8e6fa61a6f26dc64c806f279701b3e24a8987d",
   "last_sources_domains": [
+    "docs.nvidia.com",
     "docs.ollama.com",
-    "docs.openwebui.com"
+    "github.com"
   ],
-  "updated_at": "2026-07-31T10:15:00+03:00",
+  "updated_at": "2026-08-01T10:15:00+03:00",
   "last_topic_family": "ai-models"
 }
