@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-08-01-1015-ai-rauta-kotilabrassa-kannattaako-toinen-gpu-paikalliseen-agenttikoneeseen.md",
-  "last_title": "AI-rauta kotilabrassa: kannattaako toinen GPU paikalliseen agenttikoneeseen?",
-  "last_title_shape": "ai-rauta kotilabrassa kannattaako toinen",
-  "last_intro_hash": "93c0f7a18bd9f4e6ef3ea1d42d8e6fa61a6f26dc64c806f279701b3e24a8987d",
+  "last_post": "content/posts/2026-08-02-1015-paikallinen-llm-kaytannossa-lukitse-chat-template-ennen-kuin-vertailet-malleja.md",
+  "last_title": "Paikallinen LLM käytännössä: lukitse chat-template ennen kuin vertailet malleja",
+  "last_title_shape": "paikallinen llm käytännössä lukitse",
+  "last_intro_hash": "551da74126d881c01c34c67dc8120edf65d7c4a6e6ba17bce9aef5590d3fb884",
   "last_sources_domains": [
-    "docs.nvidia.com",
     "docs.ollama.com",
-    "github.com"
+    "github.com",
+    "huggingface.co"
   ],
-  "updated_at": "2026-08-01T10:15:00+03:00",
+  "updated_at": "2026-08-01T10:18:40+03:00",
   "last_topic_family": "ai-models"
 }
