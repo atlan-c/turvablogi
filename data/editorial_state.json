@@ -1,13 +1,12 @@
 {
-  "last_post": "content/posts/2026-08-02-1015-paikallinen-llm-kaytannossa-lukitse-chat-template-ennen-kuin-vertailet-malleja.md",
-  "last_title": "Paikallinen LLM käytännössä: lukitse chat-template ennen kuin vertailet malleja",
-  "last_title_shape": "paikallinen llm käytännössä lukitse",
-  "last_intro_hash": "551da74126d881c01c34c67dc8120edf65d7c4a6e6ba17bce9aef5590d3fb884",
+  "last_post": "content/posts/2026-08-04-1015-paikallinen-llm-kaytannossa-ota-flash-attention-kayttoon-ennen-kuin-ostat-lisaa-vramia.md",
+  "last_title": "Paikallinen LLM käytännössä: ota Flash Attention käyttöön ennen kuin ostat lisää VRAMia",
+  "last_title_shape": "paikallinen llm käytännössä ota",
+  "last_intro_hash": "e3040f1a19d0cc65c1391ff66a1d38bd99a70e4c28bd5612306c807d18061c5d",
   "last_sources_domains": [
     "docs.ollama.com",
-    "github.com",
-    "huggingface.co"
+    "github.com"
   ],
-  "updated_at": "2026-08-01T10:18:40+03:00",
+  "updated_at": "2026-08-03T10:18:23+03:00",
   "last_topic_family": "ai-models"
 }
