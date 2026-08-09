@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-08-07-1015-kannattaako-jatkuva-batching-paikallisessa-llm-palvelimessa.md",
-  "last_title": "Kannattaako jatkuva batching paikallisessa LLM-palvelimessa?",
-  "last_title_shape": "kannattaako jatkuva batching paikallisessa",
-  "last_intro_hash": "fb39efc7d369f475050a18e9046a5ba9e04f322545998c31a75c2a5a2319e638",
+  "last_post": "content/posts/2026-08-09-1015-paikallinen-llm-kaytannossa-milloin-structured-output-kannattaa-pakottaa.md",
+  "last_title": "JSON vai vapaa teksti? Structured outputin paikka paikallisessa LLM:ssä",
+  "last_title_shape": "json vai vapaa teksti",
+  "last_intro_hash": "6b0cd29981d1c25cc8d9406ea71532bed3cf9e98aedcaf582d98685dd8ba136f",
   "last_sources_domains": [
-    "docs.sglang.ai",
+    "docs.sglang.io",
     "docs.vllm.ai",
-    "huggingface.co"
+    "github.com"
   ],
-  "updated_at": "2026-08-06T10:18:36+03:00",
+  "updated_at": "2026-08-08T10:18:03+03:00",
   "last_topic_family": "ai-models"
 }
