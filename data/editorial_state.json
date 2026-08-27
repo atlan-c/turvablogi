@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-08-10-1015-mita-pagedattention-oikeasti-korjaa-paikallisessa-llm-palvelimessa.md",
-  "last_title": "Mitä PagedAttention oikeasti korjaa paikallisessa LLM-palvelimessa?",
-  "last_title_shape": "mitä pagedattention oikeasti korjaa",
-  "last_intro_hash": "9c7e3d512e9e43684607b8d49ef66a332c7b2ce5da871e3bfc5b3580dd3c30fc",
+  "last_post": "content/posts/2026-08-27-1015-kv-cache-kvantisointi-saastaa-vramia-vain-jos-konteksti-on-oikeasti-pitka.md",
+  "last_title": "KV-cache-kvantisointi säästää VRAMia vain jos konteksti on oikeasti pitkä",
+  "last_title_shape": "kv-cache-kvantisointi säästää vramia vain",
+  "last_intro_hash": "9bdf231363fed9496d934db968ac40b05736743546247fcd2d3338d666f54009",
   "last_sources_domains": [
-    "docs.sglang.io",
+    "arxiv.org",
     "docs.vllm.ai",
     "huggingface.co"
   ],
-  "updated_at": "2026-08-09T10:20:04+03:00",
+  "updated_at": "2026-08-27T14:11:00+03:00",
   "last_topic_family": "ai-models"
 }
