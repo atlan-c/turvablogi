@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-08-27-1015-kv-cache-kvantisointi-saastaa-vramia-vain-jos-konteksti-on-oikeasti-pitka.md",
-  "last_title": "KV-cache-kvantisointi säästää VRAMia vain jos konteksti on oikeasti pitkä",
-  "last_title_shape": "kv-cache-kvantisointi säästää vramia vain",
-  "last_intro_hash": "9bdf231363fed9496d934db968ac40b05736743546247fcd2d3338d666f54009",
+  "last_post": "content/posts/2026-08-28-1015-tarvitsetko-nvlinkia-kahden-gpu-n-paikalliseen-llm-koneeseen.md",
+  "last_title": "Tarvitsetko NVLinkiä kahden GPU:n paikalliseen LLM-koneeseen?",
+  "last_title_shape": "tarvitsetko nvlinkiä kahden gpun",
+  "last_intro_hash": "09e4d99031899a2795194d42c2be598d1f9a2d978e6a1b30e6520507e850c34a",
   "last_sources_domains": [
-    "arxiv.org",
+    "docs.nvidia.com",
     "docs.vllm.ai",
-    "huggingface.co"
+    "github.com"
   ],
-  "updated_at": "2026-08-27T14:11:00+03:00",
-  "last_topic_family": "ai-models"
+  "updated_at": "2026-08-28T10:19:14+03:00",
+  "last_topic_family": "llm-hardware"
 }
