@@ -1,13 +1,14 @@
 {
-  "last_post": "content/posts/2026-08-28-1015-tarvitsetko-nvlinkia-kahden-gpu-n-paikalliseen-llm-koneeseen.md",
-  "last_title": "Tarvitsetko NVLinkiä kahden GPU:n paikalliseen LLM-koneeseen?",
-  "last_title_shape": "tarvitsetko nvlinkiä kahden gpun",
-  "last_intro_hash": "09e4d99031899a2795194d42c2be598d1f9a2d978e6a1b30e6520507e850c34a",
+  "last_post": "content/posts/2026-08-29-1015-paikallinen-llm-kaytannossa-miksi-json-schema-pitaa-selittaa-myos-promptissa.md",
+  "last_title": "Paikallinen LLM käytännössä: miksi JSON-schema pitää selittää myös promptissa",
+  "last_title_shape": "paikallinen llm käytännössä miksi",
+  "last_intro_hash": "464a6d94dbe6ccbfdc504d64066bd9b3a43d0c48bddcb4cf974e3e9f1ce42339",
   "last_sources_domains": [
-    "docs.nvidia.com",
+    "docs.ollama.com",
     "docs.vllm.ai",
-    "github.com"
+    "github.com",
+    "lmstudio.ai"
   ],
-  "updated_at": "2026-08-28T10:19:14+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-08-29T10:18:45+03:00",
+  "last_topic_family": "ai-models"
 }
