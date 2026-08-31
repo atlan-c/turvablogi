@@ -1,13 +1,13 @@
 {
-  "last_post": "content/posts/2026-08-30-1015-paikallinen-agentti-kaytannossa-ala-jata-thinking-tilaa-paalle-jokaiseen-vaiheeseen.md",
-  "last_title": "Paikallinen agentti käytännössä: älä jätä thinking-tilaa päälle jokaiseen vaiheeseen",
-  "last_title_shape": "paikallinen agentti käytännössä älä",
-  "last_intro_hash": "5d6458e1216106d63bfa8bf4f26b97ef13aa56bd436bb15a3aaf8e4afa5c003d",
+  "last_post": "content/posts/2026-08-31-1015-kannattaako-npu-lapparia-ostaa-paikalliseen-llm-kayttoon.md",
+  "last_title": "Kannattaako NPU-läppäriä ostaa paikalliseen LLM-käyttöön?",
+  "last_title_shape": "kannattaako npu-läppäriä ostaa paikalliseen",
+  "last_intro_hash": "6d254ab8f86cf1c76c956e105d3199b8248fe5f7ce93bf951ace1f8db5409f33",
   "last_sources_domains": [
-    "docs.ollama.com",
-    "docs.vllm.ai",
-    "qwenlm.github.io"
+    "learn.microsoft.com",
+    "onnxruntime.ai",
+    "ryzenai.docs.amd.com"
   ],
-  "updated_at": "2026-08-29T10:19:55+03:00",
+  "updated_at": "2026-08-31T10:18:40+03:00",
   "last_topic_family": "ai-models"
 }
