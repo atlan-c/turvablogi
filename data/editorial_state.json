@@ -1,13 +1,12 @@
 {
-  "last_post": "content/posts/2026-08-31-1015-kannattaako-npu-lapparia-ostaa-paikalliseen-llm-kayttoon.md",
-  "last_title": "Kannattaako NPU-läppäriä ostaa paikalliseen LLM-käyttöön?",
-  "last_title_shape": "kannattaako npu-läppäriä ostaa paikalliseen",
-  "last_intro_hash": "6d254ab8f86cf1c76c956e105d3199b8248fe5f7ce93bf951ace1f8db5409f33",
+  "last_post": "content/posts/2026-09-01-1015-vaihdatko-embedding-mallia-ala-kirjoita-uusia-vektoreita-vanhan-indeksin-paalle.md",
+  "last_title": "Vaihdatko embedding-mallia? Älä kirjoita uusia vektoreita vanhan indeksin päälle",
+  "last_title_shape": "vaihdatko embeddingmallia älä kirjoita uusia",
+  "last_intro_hash": "c685a4b05311abec76a4c27e448debfa934c1c239369582a86a609ec653f6a48",
   "last_sources_domains": [
-    "learn.microsoft.com",
-    "onnxruntime.ai",
-    "ryzenai.docs.amd.com"
+    "qdrant.tech",
+    "www.sbert.net"
   ],
-  "updated_at": "2026-08-31T10:18:40+03:00",
+  "updated_at": "2026-09-01T10:18:27+03:00",
   "last_topic_family": "ai-models"
 }
