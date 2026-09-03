@@ -1,12 +1,12 @@
 {
-  "last_post": "content/posts/2026-09-02-1015-paikallinen-rag-kaytannossa-rerankeri-auttaa-vasta-kun-top-k-on-ensin-kunnossa.md",
-  "last_title": "Paikallinen RAG käytännössä: rerankeri auttaa vasta kun top-k on ensin kunnossa",
-  "last_title_shape": "paikallinen rag käytännössä rerankeri",
-  "last_intro_hash": "56b51de0088af1658fd2f2e45cc2423e3c66306ec02e910d647afb5884825ac3",
+  "last_post": "content/posts/2026-09-03-1015-ai-rauta-kotilabrassa-mita-intel-arc-b580-tarkoittaa-paikalliselle-llm-harrastajalle-vuonna-2026.md",
+  "last_title": "AI-rauta kotilabrassa: mitä Intel Arc B580 tarkoittaa paikalliselle LLM-harrastajalle vuonna 2026",
+  "last_title_shape": "ai-rauta kotilabrassa mitä intel",
+  "last_intro_hash": "97df206994f4987a835313cb39e3fa8210cd99c09b2ae35cf36c4f582037ce93",
   "last_sources_domains": [
-    "qdrant.tech",
-    "www.sbert.net"
+    "github.com",
+    "www.intel.com"
   ],
-  "updated_at": "2026-09-02T10:15:00+03:00",
-  "last_topic_family": "ai-models"
+  "updated_at": "2026-09-02T10:19:33+03:00",
+  "last_topic_family": "llm-hardware"
 }
