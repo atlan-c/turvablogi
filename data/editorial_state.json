@@ -1,12 +1,13 @@
 {
-  "last_post": "content/posts/2026-09-03-1015-ai-rauta-kotilabrassa-mita-intel-arc-b580-tarkoittaa-paikalliselle-llm-harrastajalle-vuonna-2026.md",
-  "last_title": "AI-rauta kotilabrassa: mitä Intel Arc B580 tarkoittaa paikalliselle LLM-harrastajalle vuonna 2026",
-  "last_title_shape": "ai-rauta kotilabrassa mitä intel",
-  "last_intro_hash": "97df206994f4987a835313cb39e3fa8210cd99c09b2ae35cf36c4f582037ce93",
+  "last_post": "content/posts/2026-09-04-1015-kannattaako-spekulatiivinen-dekoodaus-paalle-paikallisessa-llm-pinossa.md",
+  "last_title": "Kannattaako spekulatiivinen dekoodaus laittaa paalle paikallisessa LLM-pinossa?",
+  "last_title_shape": "kannattaako spekulatiivinen dekoodaus laittaa",
+  "last_intro_hash": "0612caf67259fd2ab4fbb5ae55ff4084ed9cfd7e916589deab3218c6a7f1a807",
   "last_sources_domains": [
+    "docs.vllm.ai",
     "github.com",
-    "www.intel.com"
+    "huggingface.co"
   ],
-  "updated_at": "2026-09-02T10:19:33+03:00",
-  "last_topic_family": "llm-hardware"
+  "updated_at": "2026-09-03T10:19:14+03:00",
+  "last_topic_family": "ai-models"
 }
